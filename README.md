@@ -1,17 +1,4 @@
-<!-- Matrix Rain Animation -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff00&height=200&section=header&text=&fontSize=90&animation=fadeIn&fontAlignY=38&desc=ENTER%20THE%20MATRIX&descAlignY=51&descAlign=62" />
-</div>
-
 # <img src="https://media.giphy.com/media/Q7SKqn3G97xpmfSOvG/giphy.gif" width="30"> SYSTEM.INITIALIZE() 
-
-<!-- Matrix Digital Rain GIF -->
-<div align="center">
-  <img src="https://i.imgur.com/nKxFjKh.gif" width="100%">
-  
-  <!-- Alternative Matrix Rain -->
-  <img src="https://media.giphy.com/media/Q7SKqn3G97xpmfSOvG/giphy.gif" width="100%">
-</div>
 
 ```python
 >>> accessing_mainframe...
@@ -24,7 +11,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Wake+up%2C+Neo...;The+Matrix+has+you...;Follow+the+white+rabbit.;Knock%2C+knock%2C+Rishav." alt="Typing SVG" />
 </div>
 
-<!-- Classic Matrix Code Rain -->
 <div align="center">
   <img src="https://media.giphy.com/media/zXmbOaTpbY6mA/giphy.gif" width="100%">
 </div>
@@ -58,9 +44,6 @@
 
 ## 🖥️ OPERATOR.PROFILE
 
-<!-- Matrix Code Rain Background -->
-<div style="background-image: url('https://media.giphy.com/media/Q7SKqn3G97xpmfSOvG/giphy.gif'); background-size: cover;">
-
 ```python
 class TheOne:
     def __init__(self):
@@ -78,8 +61,6 @@ class TheOne:
     def learn_kung_fu(self):
         return "I know kung fu... and Python"
 ```
-
-</div>
 
 <img align="right" src="https://media.giphy.com/media/l2Sq2BM8ZjSD0dZQs/giphy.gif" width="350" height="250"/>
 
@@ -230,16 +211,3 @@ That Python is the only language you need."
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff00&height=120&section=footer&text=&fontSize=14&animation=twinkling" />
 </div>
-
-<!--
-Matrix Code Rain ASCII Art for README viewers:
-
-╔══════════════════════════════════════════════════════════════╗
-║  10110101 01001110 01100101 01101111 00100000               ║
-║  ﾊﾐﾋ ｷｿﾀ ﾂﾃﾄ ﾅﾆﾇ ﾈﾉ ﾊﾋ ﾌﾍﾎ ﾏﾐ ﾑﾒ ﾓﾔﾕ ﾖﾗﾘ ﾙﾚﾛ ﾜﾝ          ║
-║  01010100 01101000 01100101 00100000 01001101 01100001      ║
-║  ｦｧｨｩｪｫｬｭｮｯｰｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉ                    ║
-║  01110100 01110010 01101001 01111000 00100000               ║
-║  ﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝｦｧｨｩｪｫｬｭｮｯｰｱｲ                      ║
-╚══════════════════════════════════════════════════════════════╝
--->
