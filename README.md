@@ -1,13 +1,16 @@
-<!-- Matrix Rain Animation Header -->
+<!-- Matrix Rain Animation -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff00&height=200&section=header&text=&fontSize=90&animation=fadeIn&fontAlignY=38&desc=ENTER%20THE%20MATRIX&descAlignY=51&descAlign=62" />
 </div>
 
-# 💚 SYSTEM.INITIALIZE() 
+# <img src="https://media.giphy.com/media/Q7SKqn3G97xpmfSOvG/giphy.gif" width="30"> SYSTEM.INITIALIZE() 
 
-<!-- Matrix Digital Rain - Falling Effect -->
+<!-- Matrix Digital Rain GIF -->
 <div align="center">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmh2cHE3MHZoOGF0MHB5OWg5ZGt6aWQ5Mzhuc3l0bGV0d2VnOGhtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zXmbOaTpbY6mA/giphy.gif" width="100%">
+  <img src="https://i.imgur.com/nKxFjKh.gif" width="100%">
+  
+  <!-- Alternative Matrix Rain -->
+  <img src="https://media.giphy.com/media/Q7SKqn3G97xpmfSOvG/giphy.gif" width="100%">
 </div>
 
 ```python
@@ -21,9 +24,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Wake+up%2C+Neo...;The+Matrix+has+you...;Follow+the+white+rabbit.;Knock%2C+knock%2C+Rishav." alt="Typing SVG" />
 </div>
 
-<!-- Alternative Matrix Code Rain -->
+<!-- Classic Matrix Code Rain -->
 <div align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGhqZjQ4bmFmZDM2MTN6N3JrNW1sbDlkdWJvZ2t3OWlleGc5cGFtNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q7SKqn3G97xpmfSOvG/giphy.gif" width="100%">
+  <img src="https://media.giphy.com/media/zXmbOaTpbY6mA/giphy.gif" width="100%">
 </div>
 
 ---
