@@ -8,7 +8,7 @@
 ```
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Wake+up%2C+Neo...;The+Matrix+has+you...;Follow+the+white+rabbit.;Knock%2C+knock%2C+Rishav." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Wake+up%2C+Rishav...;The+Matrix+has+you...;Follow+the+white+rabbit.;Knock%2C+knock%2C+Rishav." alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -156,7 +156,7 @@ def connect_to_operator():
 ```
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/m-s-rishav-subhin)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/msrishav-28)
 
 </div>
 
