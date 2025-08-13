@@ -1,4 +1,4 @@
-# <img src="https://media.giphy.com/media/Q7SKqn3G97xpmfSOvG/giphy.gif" width="30"> SYSTEM.INITIALIZE() 
+# SYSTEM.INITIALIZE() 
 
 ```python
 >>> accessing_mainframe...
