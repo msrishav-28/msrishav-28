@@ -12,7 +12,7 @@
 </div>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/zXmbOaTpbY6mA/giphy.gif" width="100%">
+  <img src="https://tenor.com/xViG.gif" width="100%">
 </div>
 
 ---
