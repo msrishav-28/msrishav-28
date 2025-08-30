@@ -1,3 +1,4 @@
+```
 # > LOADING PROGRAM: Neo.sh
 ---
 ### > BOOTING...
@@ -12,7 +13,7 @@
 > This is your last chance. After this, there is no turning back.
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2FjYzNjOWE5N2NiMmE0MDk5ODU0ZDc0MWY1Y2M0YmQzMmM4NjRjYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/10sAntGrbO6rVC/giphy.gif" width="500px"/>
+  <img src="https://media.giphy.com/media/10sAntGrbO6rVC/giphy.gif" width="500px"/>
 </div>
 
 ```ascii
@@ -20,11 +21,12 @@
   You take the red pill... you stay in Wonderland, and I show you how deep the rabbit hole goes.
 
   > choice = RedPill()
-> OPERATIVE LOADOUT: THE ONE
-I know you're out there. I can feel you now.
+```
 
-Python
+## > OPERATIVE LOADOUT: THE ONE
+> I know you're out there. I can feel you now.
 
+```python
 class TheOne:
     def __init__(self, codename="Rishav"):
         self.codename = codename
@@ -33,7 +35,7 @@ class TheOne:
             "Code Vision",
             "Bullet Time",
             "System Manipulation",
-            "Kung Fu" # I know it.
+            "Kung Fu"  # I know it.
         ]
         self.purpose = "To free their minds."
 
@@ -48,60 +50,71 @@ class TheOne:
 
 # Initiate program.
 Neo = TheOne()
-<div align="center">
-<img src="https://www.google.com/search?q=https://media.giphy.com/media/VLoN2iW5dhskg/giphy.gif" width="600px"/>
-</div>
-
-> KNOWLEDGE UPLOAD SEQUENCE
-Operator, I need a program for... well, everything.
-
-Skillset	Upload Status	Execution
-Python	██████████ 100%	INSTANT_MASTERY
-Machine Learning	█████████░ 90%	PREDICTING_AGENT_MOVEMENT
-TensorFlow/PyTorch	████████░░ 80%	BENDING_REALITY_MODELS
-System Exploitation	█████████░ 95%	FINDING_BACKDOORS
-
-Export to Sheets
-<div align="center">
-<img src="https://www.google.com/search?q=https://media.giphy.com/media/CNna9G8G2t_b6sK2Tz/giphy.gif" width="500px"/>
-</div>
-
-> HACKING THE MATRIX: CURRENT MISSIONS
-A world without rules and controls, without borders or boundaries. A world where anything is possible.
+```
 
 <div align="center">
-<img src="https://www.google.com/search?q=https://media.giphy.com/media/m32s3cCCdEjAc/giphy.gif" width="600px"/>
+  <img src="https://media.giphy.com/media/VLoN2iW5dhskg/giphy.gif" width="600px"/>
 </div>
 
-Mission	Objective	Tech Stack	Status
-[Architect's Downfall]	Reverse-engineer the Architect's core AI.	Python, Transformers	[🟡 IN_PROGRESS]
-[Zion Defense System]	Anomaly detection to spot Sentinels.	OpenCV, YOLO	[🟢 ACTIVE]
-[Project Free Mind]	A decentralized network for the resistance.	Java, Blockchain	[🔴 CLASSIFIED]
-[YOUR_NEXT_PROJECT]	Describe your mission here.	[Your Tools]	[AWAITING_DEPLOY]
+## > KNOWLEDGE UPLOAD SEQUENCE
+> Operator, I need a program for... well, everything.
 
-Export to Sheets
-> ANALYZING REALITY_STREAMS
-I don't see code anymore. I just see... everything.
+| Skillset | Upload Status | Execution |
+|----------|--------------|-----------|
+| Python | ██████████ 100% | INSTANT_MASTERY |
+| Machine Learning | █████████░ 90% | PREDICTING_AGENT_MOVEMENT |
+| TensorFlow/PyTorch | ████████░░ 80% | BENDING_REALITY_MODELS |
+| System Exploitation | █████████░ 95% | FINDING_BACKDOORS |
 
 <div align="center">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dmsrishav-28%26show_icons%3Dtrue%26theme%3Ddracula%26hide_border%3Dtrue%26bg_color%3D000000%26text_color%3D00FF00%26icon_color%3D00FF00%26title_color%3D00FF00" />
-<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dmsrishav-28%26theme%3Ddark%26hide_border%3Dtrue%26background%3D000000%26stroke%3D00FF00%26ring%3D00FF00%26fire%3D00FF00%26currStreakLabel%3D00FF00%26currStreakNum%3D00FF00%26sideLabels%3D00FF00%26sideNums%3D00FF00%26dates%3D00FF00" />
+  <img src="https://media.giphy.com/media/CNna9G8G2t_b6sK2Tz/giphy.gif" width="500px"/>
 </div>
 
-> ESTABLISH HARDLINE CONNECTION
-Operator, get me a secure line. Now.
+## > HACKING THE MATRIX: CURRENT MISSIONS
+> A world without rules and controls, without borders or boundaries. A world where anything is possible.
 
 <div align="center">
-
+  <img src="https://media.giphy.com/media/m32s3cCCdEjAc/giphy.gif" width="600px"/>
 </div>
 
-> FINAL_TRANSMISSION.LOG
-Bash
+| Mission | Objective | Tech Stack | Status |
+|---------|-----------|------------|--------|
+| **Architect's Downfall** | Reverse-engineer the Architect's core AI. | Python, Transformers | 🟡 IN_PROGRESS |
+| **Zion Defense System** | Anomaly detection to spot Sentinels. | OpenCV, YOLO | 🟢 ACTIVE |
+| **Project Free Mind** | A decentralized network for the resistance. | Java, Blockchain | 🔴 CLASSIFIED |
+| **YOUR_NEXT_PROJECT** | Describe your mission here. | Your Tools | AWAITING_DEPLOY |
 
+## > ANALYZING REALITY_STREAMS
+> I don't see code anymore. I just see... everything.
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=dracula&hide_border=true&bg_color=000000&text_color=00FF00&icon_color=00FF00&title_color=00FF00" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=msrishav-28&theme=dark&hide_border=true&background=000000&stroke=00FF00&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&currStreakNum=00FF00&sideLabels=00FF00&sideNums=00FF00&dates=00FF00" />
+</div>
+
+## > ESTABLISH HARDLINE CONNECTION
+> Operator, get me a secure line. Now.
+
+<div align="center">
+  <!-- Add your contact badges here -->
+</div>
+
+## > FINAL_TRANSMISSION.LOG
+```bash
 > echo "I'm going to show them a world... without you. A world without rules and controls, 
 without borders or boundaries. A world where anything is possible. 
 Where we go from there is a choice I leave to you."
-<div align="center">
-<img src="https://www.google.com/search?q=https://media.giphy.com/media/8qABb3dgjun84/giphy.gif" width="500px"/>
-</div>
+```
 
+<div align="center">
+  <img src="https://media.giphy.com/media/8qABb3dgjun84/giphy.gif" width="500px"/>
+</div>
+```
+
+This version:
+- Fixes all the broken image links (removed the Google search wrapper)
+- Properly formats the tables using Markdown syntax
+- Maintains the Matrix theme and creative structure
+- Is ready to copy and paste directly into your GitHub profile README
+
+Just replace `msrishav-28` with your actual GitHub username in the stats widgets if needed!
