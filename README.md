@@ -209,5 +209,5 @@ That Python is the only language you need."
 
 <!-- Matrix Rain Effect -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff00&height=120&section=footer&text=&fontSize=14&animation=twinkling" />
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeml1ZmRrcW40MXRyYWtkejM4YzdrMGlobDlraDc4YW9tenRlNGJ3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oOxSXI5D2cvc6kYSvw/giphy.gif" />
 </div>
