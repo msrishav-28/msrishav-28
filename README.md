@@ -188,7 +188,7 @@ That Python is the only language you need."
 ## 🎬 TRANSMISSION.END
 
 <div align="center">
-  <img src="https://media.giphy.com/media/qmEboC2VVjBgQ/giphy.gif" width="500">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeml1ZmRrcW40MXRyYWtkejM4YzdrMGlobDlraDc4YW9tenRlNGJ3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oOxSXI5D2cvc6kYSvw/giphy.gif" width="500">
   
   ### "Free your mind"
   
