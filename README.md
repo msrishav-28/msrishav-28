@@ -8,11 +8,11 @@
 ```
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Wake+up%2C+Rishav...;The+Matrix+has+you...;Follow+the+white+rabbit.;Knock%2C+knock%2C+Rishav." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Times+Romans&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Wake+up%2C+Rishav...;The+Matrix+has+you...;Follow+the+white+rabbit.;Knock%2C+knock%2C+Rishav." alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <img src=""https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTByd3dyc2xyanNyYmM4NGpnZnkxaHUybmNoY2NxZ3gzZWs0YWJxYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yl3XErRq8qmmA/giphy.gif width="100%">
+  <img src=""https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmRueXJpanowbmFmY2E2NGo0cGdoMmR4ZnpnYXBld3l4eTZtd25paCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/po9RznauAcPrHS7oVw/giphy.gif">
 </div>
 
 ---
