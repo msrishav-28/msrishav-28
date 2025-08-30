@@ -1,213 +1,107 @@
-# SYSTEM.INITIALIZE() 
-
-```python
->>> accessing_mainframe...
->>> user_profile = "rishav"
->>> status = "AUTHENTICATED"
->>> reality = None  # There is no spoon
-```
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Times+Romans&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Wake+up%2C+Rishav...;The+Matrix+has+you...;Follow+the+white+rabbit.;Knock%2C+knock%2C+Rishav." alt="Typing SVG" />
-</div>
-
-<div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzQ5Nm9zaDk4bjBmNGt5NThzdTB6eWpsanFoamZzcXhmcXFzN20xeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yl3XErRq8qmmA/giphy.gif">
-</div>
-
+# > LOADING PROGRAM: Neo.sh
 ---
-
-## 🟢 SYSTEM.STATUS
+### > BOOTING...
+### > BYPASSING AGENT_PROTOCOLS... [DONE]
+### > MATRIX KERNEL ACCESS... [GRANTED]
 
 <div align="center">
-
-[![Matrix Rain](https://img.shields.io/badge/STATUS-ONLINE-00ff00?style=for-the-badge&logo=matrix&logoColor=white)](https://github.com/yourusername)
-[![The One](https://img.shields.io/badge/CLASSIFICATION-THE_ONE-00ff00?style=for-the-badge)](https://github.com/yourusername)
-[![Red Pill](https://img.shields.io/badge/CHOICE-RED_PILL-ff0000?style=for-the-badge)](https://github.com/yourusername)
-
+  <img src="https://media.giphy.com/media/yoJC2A5rGv2vPseT5G/giphy.gif" width="700px"/>
 </div>
 
----
+## > MORPHEUS IS CONTACTING YOU...
+> This is your last chance. After this, there is no turning back.
 
-## 💊 CHOOSE YOUR REALITY
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2FjYzNjOWE5N2NiMmE0MDk5ODU0ZDc0MWY1Y2M0YmQzMmM4NjRjYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/10sAntGrbO6rVC/giphy.gif" width="500px"/>
+</div>
 
 ```ascii
-    🔴 Red Pill                     🔵 Blue Pill
-    [Continue]                      [Exit to Normal Life]
-         │                                
-         ▼                                
-    Welcome to the                       
-    Real World...                        
-```
+  You take the blue pill... the story ends, you wake up in your bed and believe whatever you want to believe.
+  You take the red pill... you stay in Wonderland, and I show you how deep the rabbit hole goes.
 
----
+  > choice = RedPill()
+> OPERATIVE LOADOUT: THE ONE
+I know you're out there. I can feel you now.
 
-## 🖥️ OPERATOR.PROFILE
+Python
 
-```python
 class TheOne:
-    def __init__(self):
-        self.name = "Rishav"
-        self.role = "Digital Architect"
-        self.knowledge_base = ["Machine Learning", "Artificial Intelligence", "Reality Manipulation"]
-        self.current_mission = "Building the future, one algorithm at a time"
-        
-    def __str__(self):
-        return "There is no spoon. Only code."
-    
-    def dodge_bullets(self):
-        return "Matrix.time.slow()"
-        
-    def learn_kung_fu(self):
-        return "I know kung fu... and Python"
-```
+    def __init__(self, codename="Rishav"):
+        self.codename = codename
+        self.status = "Awakened"
+        self.abilities = [
+            "Code Vision",
+            "Bullet Time",
+            "System Manipulation",
+            "Kung Fu" # I know it.
+        ]
+        self.purpose = "To free their minds."
 
-<img align="right" src="https://media.giphy.com/media/l2Sq2BM8ZjSD0dZQs/giphy.gif" width="350" height="250"/>
+    def see_the_code(self):
+        # There is no spoon.
+        reality.render(as="code")
+        return "I'm in."
 
-### 📡 TRANSMISSION.LOG
+    def defy_rules(self, rule="gravity"):
+        print(f"Rule '{rule}' no longer applies.")
+        return True
 
-```bash
-> Initializing neural interface...
-> Loading combat training programs...
-> ☕ Coffee injection protocol: ACTIVE
-> 📚 Knowledge download: IN PROGRESS
-> 🌐 Matrix connection: ESTABLISHED
-```
+# Initiate program.
+Neo = TheOne()
+<div align="center">
+<img src="https://www.google.com/search?q=https://media.giphy.com/media/VLoN2iW5dhskg/giphy.gif" width="600px"/>
+</div>
 
-### 🎯 CURRENT.OBJECTIVES
+> KNOWLEDGE UPLOAD SEQUENCE
+Operator, I need a program for... well, everything.
 
-- **[ACTIVE]** Decoding the Matrix through Machine Learning
-- **[ACTIVE]** Training neural networks to see the code
-- **[PENDING]** Achieving sentience in AI systems
-- **[ONGOING]** Converting coffee into code
+Skillset	Upload Status	Execution
+Python	██████████ 100%	INSTANT_MASTERY
+Machine Learning	█████████░ 90%	PREDICTING_AGENT_MOVEMENT
+TensorFlow/PyTorch	████████░░ 80%	BENDING_REALITY_MODELS
+System Exploitation	█████████░ 95%	FINDING_BACKDOORS
 
----
+Export to Sheets
+<div align="center">
+<img src="https://www.google.com/search?q=https://media.giphy.com/media/CNna9G8G2t_b6sK2Tz/giphy.gif" width="500px"/>
+</div>
 
-## ⚡ SKILLS.MATRIX
+> HACKING THE MATRIX: CURRENT MISSIONS
+A world without rules and controls, without borders or boundaries. A world where anything is possible.
+
+<div align="center">
+<img src="https://www.google.com/search?q=https://media.giphy.com/media/m32s3cCCdEjAc/giphy.gif" width="600px"/>
+</div>
+
+Mission	Objective	Tech Stack	Status
+[Architect's Downfall]	Reverse-engineer the Architect's core AI.	Python, Transformers	[🟡 IN_PROGRESS]
+[Zion Defense System]	Anomaly detection to spot Sentinels.	OpenCV, YOLO	[🟢 ACTIVE]
+[Project Free Mind]	A decentralized network for the resistance.	Java, Blockchain	[🔴 CLASSIFIED]
+[YOUR_NEXT_PROJECT]	Describe your mission here.	[Your Tools]	[AWAITING_DEPLOY]
+
+Export to Sheets
+> ANALYZING REALITY_STREAMS
+I don't see code anymore. I just see... everything.
+
+<div align="center">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dmsrishav-28%26show_icons%3Dtrue%26theme%3Ddracula%26hide_border%3Dtrue%26bg_color%3D000000%26text_color%3D00FF00%26icon_color%3D00FF00%26title_color%3D00FF00" />
+<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dmsrishav-28%26theme%3Ddark%26hide_border%3Dtrue%26background%3D000000%26stroke%3D00FF00%26ring%3D00FF00%26fire%3D00FF00%26currStreakLabel%3D00FF00%26currStreakNum%3D00FF00%26sideLabels%3D00FF00%26sideNums%3D00FF00%26dates%3D00FF00" />
+</div>
+
+> ESTABLISH HARDLINE CONNECTION
+Operator, get me a secure line. Now.
 
 <div align="center">
 
-| PROGRAM | PROFICIENCY | STATUS |
-|---------|-------------|--------|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ████████████ 100% | `MASTERED` |
-| ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) | ██████████░░ 85% | `LOADING...` |
-| ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) | █████████░░░ 75% | `TRAINING` |
-| ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | ███████████░ 90% | `OPERATIONAL` |
-| ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) | ████████░░░░ 70% | `UPGRADING` |
-
 </div>
 
-### 🔌 NEURAL.INTERFACES
+> FINAL_TRANSMISSION.LOG
+Bash
 
-```javascript
-const reality = {
-    languages: ["Python", "Java", "HTML", "Matrix Code"],
-    frameworks: {
-        ml: ["TensorFlow", "PyTorch", "Scikit-learn"],
-        data: ["Pandas", "NumPy", "Matplotlib"],
-        deployment: ["Streamlit", "HuggingFace"],
-    },
-    currentlyHacking: "The Matrix of Machine Learning",
-    philosophy: "There is no bug, only features"
-};
-```
-
----
-
-## 🌐 PROJECT.ARCHIVES
-
+> echo "I'm going to show them a world... without you. A world without rules and controls, 
+without borders or boundaries. A world where anything is possible. 
+Where we go from there is a choice I leave to you."
 <div align="center">
-
-### 🔓 DECLASSIFIED OPERATIONS
-
-| Mission | Description | Tech Stack | Status |
-|---------|-------------|------------|---------|
-| **[Nebuchadnezzar v2.0](#)** | Neural network ship navigation system | `Python` `TensorFlow` | 🟢 ONLINE |
-| **[Architect's Vision](#)** | Reality prediction algorithm | `PyTorch` `Transformers` | 🟡 BETA |
-| **[Oracle Protocol](#)** | Future event prediction system | `Scikit-learn` `Pandas` | 🟢 DEPLOYED |
-| **[Agent Smith Detector](#)** | Anomaly detection in the Matrix | `OpenCV` `YOLO` | 🔴 CLASSIFIED |
-
+<img src="https://www.google.com/search?q=https://media.giphy.com/media/8qABb3dgjun84/giphy.gif" width="500px"/>
 </div>
 
----
-
-## 📊 SYSTEM.METRICS
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=matrix&hide_border=true&bg_color=0D1117&text_color=00FF00&icon_color=00FF00&title_color=00FF00" />
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=dark&hide_border=true&background=0D1117&stroke=00FF00&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&currStreakNum=00FF00&sideLabels=00FF00&sideNums=00FF00&dates=00FF00" />
-</div>
-
----
-
-## 🔗 ESTABLISH.CONNECTION
-
-<div align="center">
-
-```python
-def connect_to_operator():
-    channels = {
-        'LinkedIn': 'https://www.linkedin.com/in/m-s-rishav-subhin',
-        'Matrix_Terminal': 'Coming Soon',
-        'Encrypted_Email': 'classified@matrix.io'
-    }
-    return "Connection established. Welcome to Zion."
-```
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/m-s-rishav-subhin)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/msrishav-28)
-
-</div>
-
----
-
-## 💭 PHILOSOPHY.CORE
-
-<div align="center">
-
-```
-"The Matrix is everywhere. It is all around us.
-Even now, in this very repository.
-You can see it when you look at your code.
-You can feel it when you debug.
-When you deploy to production.
-When you pay your AWS bills.
-
-It is the world that has been pulled over your eyes
-to blind you from the truth...
-That Python is the only language you need."
-
-- Morpheus (probably)
-```
-
-</div>
-
----
-
-## 🎬 TRANSMISSION.END
-
-<div align="center">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeml1ZmRrcW40MXRyYWtkejM4YzdrMGlobDlraDc4YW9tenRlNGJ3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oOxSXI5D2cvc6kYSvw/giphy.gif" width="500">
-  
-  ### "Free your mind"
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=System.exit();See+you+in+the+Matrix...;Remember%3A+There+is+no+spoon." alt="Typing SVG" />
-</div>
-
----
-
-<div align="center">
-  
-  **[⬆ JACK IN](#-systeminitialize)**
-  
-  <sub>Built with ☕ and a healthy disregard for the laws of physics</sub>
-  
-  ![Visitor Count](https://profile-counter.glitch.me/yourusername/count.svg)
-  
-</div>
-
-<!-- Matrix Rain Effect -->
-<div align="center">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeml1ZmRrcW40MXRyYWtkejM4YzdrMGlobDlraDc4YW9tenRlNGJ3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oOxSXI5D2cvc6kYSvw/giphy.gif" />
-</div>
