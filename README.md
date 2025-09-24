@@ -21,7 +21,7 @@
 <div align="center">
 
 <div align="center">
-  <img src="[https://media.giphy.com/media/sULKEgDMX8LcI/giphy.gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2VzMTA4MjVucXF6bXlnd2xiOWI4andleDRobXd6M3prZDJlbTcwZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/po9RznauAcPrHS7oVw/giphy.gif)" width="600"/>
+  <img src="[https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjRkcDgycXdtbWs5MzBldDg5dms1dHhlMHdwYmE2cXN4ZnJ2enFvcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VbEloWwOz3QqYBsqIZ/giphy.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjRkcDgycXdtbWs5MzBldDg5dms1dHhlMHdwYmE2cXN4ZnJ2enFvcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VbEloWwOz3QqYBsqIZ/giphy.gif)" width="600"/>
 </div>
   
 **You take the blue pill** - the story ends, you wake up in your bed and believe whatever you want to believe.
