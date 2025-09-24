@@ -97,7 +97,16 @@ class TheOne:
 Neo = TheOne()
 print("Skills loaded successfully. Ready for deployment.")
 ```
+<div align="center">
 
+| **CATEGORY** | **TECHNOLOGIES** |
+|:---:|:---|
+| **🔧 Languages** | ![Python](https://img.shields.io/badge/Python-00ff41?style=flat-square&logo=python&logoColor=black) ![JavaScript](https://img.shields.io/badge/JavaScript-00ff41?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-00ff41?style=flat-square&logo=typescript&logoColor=black) ![Java](https://img.shields.io/badge/Java-00ff41?style=flat-square&logo=java&logoColor=black) ![C](https://img.shields.io/badge/C-00ff41?style=flat-square&logo=c&logoColor=black) |
+| **🧠 AI/ML** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-00ff41?style=flat-square&logo=tensorflow&logoColor=black) ![PyTorch](https://img.shields.io/badge/PyTorch-00ff41?style=flat-square&logo=pytorch&logoColor=black) ![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-00ff41?style=flat-square&logo=scikitlearn&logoColor=black) |
+| **⚡ Frameworks** | ![React](https://img.shields.io/badge/React-00ff41?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-00ff41?style=flat-square&logo=nextdotjs&logoColor=black) ![Flask](https://img.shields.io/badge/Flask-00ff41?style=flat-square&logo=flask&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-00ff41?style=flat-square&logo=fastapi&logoColor=black) |
+| **☁️ Cloud** | ![AWS](https://img.shields.io/badge/AWS-00ff41?style=flat-square&logo=amazonaws&logoColor=black) ![Google Cloud](https://img.shields.io/badge/GCP-00ff41?style=flat-square&logo=googlecloud&logoColor=black) ![Firebase](https://img.shields.io/badge/Firebase-00ff41?style=flat-square&logo=firebase&logoColor=black) |
+
+</div>
 ---
 
 ## > ACTIVE MISSIONS: PROJECT MATRIX
