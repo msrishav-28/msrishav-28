@@ -1,120 +1,214 @@
-```
-# > LOADING PROGRAM: Neo.sh
+# > ACCESSING MATRIX PROTOCOL: NEO.EXE
 ---
-### > BOOTING...
-### > BYPASSING AGENT_PROTOCOLS... [DONE]
-### > MATRIX KERNEL ACCESS... [GRANTED]
 
-<div align="center">
-  <img src="https://media.giphy.com/media/yoJC2A5rGv2vPseT5G/giphy.gif" width="700px"/>
-</div>
-
-## > MORPHEUS IS CONTACTING YOU...
-> This is your last chance. After this, there is no turning back.
-
-<div align="center">
-  <img src="https://media.giphy.com/media/10sAntGrbO6rVC/giphy.gif" width="500px"/>
-</div>
-
-```ascii
-  You take the blue pill... the story ends, you wake up in your bed and believe whatever you want to believe.
-  You take the red pill... you stay in Wonderland, and I show you how deep the rabbit hole goes.
-
-  > choice = RedPill()
+```
+> INITIALIZING...
+> BYPASSING FIREWALL... [DONE]
+> ESTABLISHING SECURE CONNECTION... [DONE]  
+> LOADING PROFILE: M_S_RISHAV_SUBHIN...
 ```
 
-## > OPERATIVE LOADOUT: THE ONE
-> I know you're out there. I can feel you now.
+<div align="center">
+  <img src="https://media.giphy.com/media/sULKEgDMX8LcI/giphy.gif" width="600"/>
+</div>
+
+---
+
+## > MORPHEUS IS CALLING YOU...
+
+> *"This is your last chance. After this, there is no turning back."*
+
+<div align="center">
+  
+**You take the blue pill** - the story ends, you wake up in your bed and believe whatever you want to believe.
+
+**You take the red pill** - you stay in Wonderland, and I show you how deep the rabbit hole goes.
+
+```
+choice = input("Red pill or Blue pill? ")
+if choice.lower() == "red pill":
+    print("Welcome to the real world.")
+    reality.load_matrix_profile()
+```
+
+</div>
+
+---
+
+## > OPERATIVE PROFILE: THE ONE
+
+<div align="center">
+
+### **M S RISHAV SUBHIN** | *Neo.exe*
+**`AI/ML Engineer • Third-Year • Bengaluru Node`**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=green)](https://portfolio-msrishav.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=green)](https://linkedin.com/in/m-s-rishav-subhin)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=green)](https://github.com/msrishav-28)
+
+</div>
+
+---
+
+## > MATRIX CODE ANALYSIS
+
+<div align="center">
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=matrix&hide_border=true&bg_color=0d1117)](https://github.com/msrishav-28)
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=msrishav-28&theme=matrix&hide_border=true&background=0d1117)](https://github.com/msrishav-28)
+
+</div>
+
+---
+
+## > PROGRAMMING MATRIX: SKILL UPLOAD COMPLETE
 
 ```python
 class TheOne:
     def __init__(self, codename="Rishav"):
         self.codename = codename
         self.status = "Awakened"
-        self.abilities = [
-            "Code Vision",
-            "Bullet Time",
-            "System Manipulation",
-            "Kung Fu"  # I know it.
-        ]
-        self.purpose = "To free their minds."
+        self.location = "Bengaluru, India"
+        self.level = "Third Year AI/ML Engineer"
+        
+    def load_skills(self):
+        return {
+            "AI_FRAMEWORKS": ["TensorFlow", "PyTorch", "Scikit-learn", "OpenCV"],
+            "LANGUAGES": ["Python", "Java", "JavaScript", "C++"],
+            "WEB_TECH": ["React", "Node.js", "Firebase", "HTML/CSS"],
+            "DATABASES": ["MongoDB", "MySQL", "Firebase"],
+            "CLOUD": ["Google Cloud", "AWS", "Vercel"],
+            "TOOLS": ["Git", "Docker", "VS Code", "Jupyter"]
+        }
+        
+    def current_mission(self):
+        return "Researching AI defense applications and ceramic armor materials"
 
-    def see_the_code(self):
-        # There is no spoon.
-        reality.render(as="code")
-        return "I'm in."
-
-    def defy_rules(self, rule="gravity"):
-        print(f"Rule '{rule}' no longer applies.")
-        return True
-
-# Initiate program.
 Neo = TheOne()
+print("Skills loaded successfully. Ready for deployment.")
 ```
 
-<div align="center">
-  <img src="https://media.giphy.com/media/VLoN2iW5dhskg/giphy.gif" width="600px"/>
-</div>
+---
 
-## > KNOWLEDGE UPLOAD SEQUENCE
-> Operator, I need a program for... well, everything.
+## > ACTIVE MISSIONS: PROJECT MATRIX
 
-| Skillset | Upload Status | Execution |
-|----------|--------------|-----------|
-| Python | ██████████ 100% | INSTANT_MASTERY |
-| Machine Learning | █████████░ 90% | PREDICTING_AGENT_MOVEMENT |
-| TensorFlow/PyTorch | ████████░░ 80% | BENDING_REALITY_MODELS |
-| System Exploitation | █████████░ 95% | FINDING_BACKDOORS |
+| Mission Codename | Objective | Tech Stack | Status |
+|---|---|---|---|
+| **🌾 Nila-Shoshsho** | Agricultural soil analysis system | Python, ML | 🟢 DEPLOYED |
+| **🎵 VibeMates** | Music collaboration platform | JavaScript, React | 🟢 ACTIVE |
+| **📚 ThinkChrist Notes** | Educational note-sharing platform | React, Firebase | 🟢 OPERATIONAL |
+| **🔄 SkillSwap** | P2P skill exchange platform | Full-stack web | 🟢 LIVE |
+| **📖 Tekshila** | AI-powered code documentation | Python, AI | 🟢 DEPLOYED |
+| **📈 StockSage** | Financial analysis dashboard | Python, Data Science | 🟢 RUNNING |
 
-<div align="center">
-  <img src="https://media.giphy.com/media/CNna9G8G2t_b6sK2Tz/giphy.gif" width="500px"/>
-</div>
+---
 
-## > HACKING THE MATRIX: CURRENT MISSIONS
-> A world without rules and controls, without borders or boundaries. A world where anything is possible.
+## > LANGUAGE DISTRIBUTION: DECODING THE MATRIX
 
 <div align="center">
-  <img src="https://media.giphy.com/media/m32s3cCCdEjAc/giphy.gif" width="600px"/>
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&theme=matrix&hide_border=true&bg_color=0d1117)](https://github.com/msrishav-28)
+
 </div>
 
-| Mission | Objective | Tech Stack | Status |
-|---------|-----------|------------|--------|
-| **Architect's Downfall** | Reverse-engineer the Architect's core AI. | Python, Transformers | 🟡 IN_PROGRESS |
-| **Zion Defense System** | Anomaly detection to spot Sentinels. | OpenCV, YOLO | 🟢 ACTIVE |
-| **Project Free Mind** | A decentralized network for the resistance. | Java, Blockchain | 🔴 CLASSIFIED |
-| **YOUR_NEXT_PROJECT** | Describe your mission here. | Your Tools | AWAITING_DEPLOY |
+---
 
-## > ANALYZING REALITY_STREAMS
-> I don't see code anymore. I just see... everything.
+## > ACHIEVEMENT UNLOCKED: TROPHIES
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=dracula&hide_border=true&bg_color=000000&text_color=00FF00&icon_color=00FF00&title_color=00FF00" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=msrishav-28&theme=dark&hide_border=true&background=000000&stroke=00FF00&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&currStreakNum=00FF00&sideLabels=00FF00&sideNums=00FF00&dates=00FF00" />
+
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&margin-w=15&margin-h=15&column=4)](https://github.com/msrishav-28)
+
 </div>
 
-## > ESTABLISH HARDLINE CONNECTION
-> Operator, get me a secure line. Now.
+---
 
-<div align="center">
-  <!-- Add your contact badges here -->
-</div>
+## > RECENT ACTIVITY: MATRIX OPERATIONS
 
-## > FINAL_TRANSMISSION.LOG
 ```bash
-> echo "I'm going to show them a world... without you. A world without rules and controls, 
-without borders or boundaries. A world where anything is possible. 
-Where we go from there is a choice I leave to you."
+> Accessing recent commits...
+> Scanning for anomalies...
+> All systems operational.
+```
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
+## > CONTACT PROTOCOL: ESTABLISH CONNECTION
+
+> *"I know you're out there. I can feel you now."*
+
+```python
+def establish_contact():
+    contact_methods = {
+        "portfolio": "https://portfolio-msrishav.vercel.app/",
+        "linkedin": "https://linkedin.com/in/m-s-rishav-subhin",
+        "email": "professional.rishav@matrix.node",  # Replace with actual email
+        "location": "Bengaluru, India",
+        "timezone": "UTC +05:30"
+    }
+    
+    print("Choose your communication channel:")
+    for method, link in contact_methods.items():
+        print(f"  {method}: {link}")
+        
+establish_contact()
+```
+
+---
+
+## > MORPHEUS' WISDOM
+
+<div align="center">
+
+*"I'm trying to free your mind, Neo, but I can only show you the door. You're the one that has to walk through it."*
+
+*"There is no spoon."*
+
+*"What is real? How do you define 'real'?"*
+
+</div>
+
+---
+
+## > MATRIX STATISTICS: REAL-TIME FEED
+
+<div align="center">
+
+![Visitor Count](https://komarev.com/ghpvc/?username=msrishav-28&color=green&style=flat-square&label=Matrix+Visitors)
+
+</div>
+
+---
+
+```ascii
+ ╔══════════════════════════════════════════════════════════╗
+ ║                                                          ║
+ ║  "The Matrix is a system, Neo. That system is our       ║
+ ║   enemy. But when you're inside, you look around.       ║
+ ║   What do you see? Businessmen, teachers, lawyers,      ║
+ ║   carpenters. The very minds of the people we are       ║
+ ║   trying to save."                                       ║
+ ║                                     - Morpheus           ║
+ ║                                                          ║
+ ╚══════════════════════════════════════════════════════════╝
 ```
 
 <div align="center">
-  <img src="https://media.giphy.com/media/8qABb3dgjun84/giphy.gif" width="500px"/>
+
+### > END TRANSMISSION
+**Welcome to the real world, Neo.**
+
+---
+
+⚡ *Powered by curiosity and caffeine* ⚡
+
 </div>
-```
 
-This version:
-- Fixes all the broken image links (removed the Google search wrapper)
-- Properly formats the tables using Markdown syntax
-- Maintains the Matrix theme and creative structure
-- Is ready to copy and paste directly into your GitHub profile README
-
-Just replace `msrishav-28` with your actual GitHub username in the stats widgets if needed!
+<!-- 
+Matrix Profile README by M S Rishav Subhin
+"Free your mind" - Morpheus
+-->
