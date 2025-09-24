@@ -7,6 +7,29 @@
 > ESTABLISHING SECURE CONNECTION... [DONE]  
 > LOADING PROFILE: M_S_RISHAV_SUBHIN...
 ```
+<img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&size=25&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=600&lines=Wake+up%2C+Neo...;The+Matrix+has+you...;Follow+the+white+rabbit.;Knock%2C+knock%2C+Neo." alt="Matrix Typing" />
+
+```diff
+@@                                                                                 
+@@         ███╗   ███╗    ███████╗    ██████╗ ██╗███████╗██╗  ██╗ █████╗ ██╗   ██╗
+@@         ████╗ ████║    ██╔════╝    ██╔══██╗██║██╔════╝██║  ██║██╔══██╗██║   ██║
+@@         ██╔████╔██║    ███████╗    ██████╔╝██║███████╗███████║███████║██║   ██║
+@@         ██║╚██╔╝██║    ╚════██║    ██╔══██╗██║╚════██║██╔══██║██╔══██║╚██╗ ██╔╝
+@@         ██║ ╚═╝ ██║    ███████║    ██║  ██║██║███████║██║  ██║██║  ██║ ╚████╔╝ 
+@@         ╚═╝     ╚═╝    ╚══════╝    ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  
+@@                                                                         
+@@                                                                                
+```
+
+<img src="https://img.shields.io/badge/Status-RED%20PILL%20TAKEN-00ff41?style=for-the-badge&labelColor=000000" />
+<img src="https://img.shields.io/badge/Access%20Level-ARCHITECT-00ff41?style=for-the-badge&labelColor=000000" />
+<img src="https://img.shields.io/badge/System-ONLINE-00ff41?style=for-the-badge&labelColor=000000" />
+
+</div>
+
+---
+
+<div align="center">
 
 <div align="center">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2VzMTA4MjVucXF6bXlnd2xiOWI4andleDRobXd6M3prZDJlbTcwZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/po9RznauAcPrHS7oVw/giphy.gif" width="600"/>
@@ -83,17 +106,9 @@ class TheOne:
         
     def load_skills(self):
         return {
-            "AI_FRAMEWORKS": ["TensorFlow", "PyTorch", "Scikit-learn", "OpenCV"],
-            "LANGUAGES": ["Python", "Java", "JavaScript", "C++"],
-            "WEB_TECH": ["React", "Node.js", "Firebase", "HTML/CSS"],
-            "DATABASES": ["MongoDB", "MySQL", "Firebase"],
-            "CLOUD": ["Google Cloud", "AWS", "Vercel"],
-            "TOOLS": ["Git", "Docker", "VS Code", "Jupyter"]
+
         }
         
-    def current_mission(self):
-        return "Researching AI defense applications and ceramic armor materials"
-
 Neo = TheOne()
 print("Skills loaded successfully. Ready for deployment.")
 ```
@@ -101,10 +116,10 @@ print("Skills loaded successfully. Ready for deployment.")
 
 | **CATEGORY** | **TECHNOLOGIES** |
 |:---:|:---|
-| **🔧 Languages** | ![Python](https://img.shields.io/badge/Python-00ff41?style=flat-square&logo=python&logoColor=black) ![JavaScript](https://img.shields.io/badge/JavaScript-00ff41?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-00ff41?style=flat-square&logo=typescript&logoColor=black) ![Java](https://img.shields.io/badge/Java-00ff41?style=flat-square&logo=java&logoColor=black) ![C](https://img.shields.io/badge/C-00ff41?style=flat-square&logo=c&logoColor=black) |
-| **🧠 AI/ML** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-00ff41?style=flat-square&logo=tensorflow&logoColor=black) ![PyTorch](https://img.shields.io/badge/PyTorch-00ff41?style=flat-square&logo=pytorch&logoColor=black) ![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-00ff41?style=flat-square&logo=scikitlearn&logoColor=black) |
-| **⚡ Frameworks** | ![React](https://img.shields.io/badge/React-00ff41?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-00ff41?style=flat-square&logo=nextdotjs&logoColor=black) ![Flask](https://img.shields.io/badge/Flask-00ff41?style=flat-square&logo=flask&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-00ff41?style=flat-square&logo=fastapi&logoColor=black) |
-| **☁️ Cloud** | ![AWS](https://img.shields.io/badge/AWS-00ff41?style=flat-square&logo=amazonaws&logoColor=black) ![Google Cloud](https://img.shields.io/badge/GCP-00ff41?style=flat-square&logo=googlecloud&logoColor=black) ![Firebase](https://img.shields.io/badge/Firebase-00ff41?style=flat-square&logo=firebase&logoColor=black) |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-00ff41?style=flat-square&logo=python&logoColor=black) ![JavaScript](https://img.shields.io/badge/JavaScript-00ff41?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-00ff41?style=flat-square&logo=typescript&logoColor=black) ![Java](https://img.shields.io/badge/Java-00ff41?style=flat-square&logo=java&logoColor=black) ![C](https://img.shields.io/badge/C-00ff41?style=flat-square&logo=c&logoColor=black) |
+| **AI/ML** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-00ff41?style=flat-square&logo=tensorflow&logoColor=black) ![PyTorch](https://img.shields.io/badge/PyTorch-00ff41?style=flat-square&logo=pytorch&logoColor=black) ![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-00ff41?style=flat-square&logo=scikitlearn&logoColor=black) |
+| **Frameworks** | ![React](https://img.shields.io/badge/React-00ff41?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-00ff41?style=flat-square&logo=nextdotjs&logoColor=black) ![Flask](https://img.shields.io/badge/Flask-00ff41?style=flat-square&logo=flask&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-00ff41?style=flat-square&logo=fastapi&logoColor=black) |
+| **Cloud** | ![AWS](https://img.shields.io/badge/AWS-00ff41?style=flat-square&logo=amazonaws&logoColor=black) ![Google Cloud](https://img.shields.io/badge/GCP-00ff41?style=flat-square&logo=googlecloud&logoColor=black) ![Firebase](https://img.shields.io/badge/Firebase-00ff41?style=flat-square&logo=firebase&logoColor=black) |
 
 </div>
 ---
@@ -113,12 +128,12 @@ print("Skills loaded successfully. Ready for deployment.")
 
 | Mission Codename | Objective | Tech Stack | Status |
 |---|---|---|---|
-| ** Nila-Shoshsho** | Agricultural soil analysis system | Python, ML | 🟢 DEPLOYED |
-| ** VibeMates** | Music collaboration platform | JavaScript, React | 🟢 ACTIVE |
-| ** ThinkChrist Notes** | Educational note-sharing platform | React, Firebase | 🟢 OPERATIONAL |
-| ** SkillSwap** | P2P skill exchange platform | Full-stack web | 🟢 LIVE |
-| ** Tekshila** | AI-powered code documentation | Python, AI | 🟢 DEPLOYED |
-| ** StockSage** | Financial analysis dashboard | Python, Data Science | 🟢 RUNNING |
+| **Nila-Shoshsho** | Agricultural soil analysis system | Python, ML | 🟢 DEPLOYED |
+| **VibeMates** | Music collaboration platform | JavaScript, React | 🟢 ACTIVE |
+| **ThinkChrist Notes** | Educational note-sharing platform | React, Firebase | 🟢 OPERATIONAL |
+| **SkillSwap** | P2P skill exchange platform | Full-stack web | 🟢 LIVE |
+| **Tekshila** | AI-powered code documentation | Python, AI | 🟢 DEPLOYED |
+| **StockSage** | Financial analysis dashboard | Python, Data Science | 🟢 RUNNING |
 
 ---
 
