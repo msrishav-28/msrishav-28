@@ -65,7 +65,7 @@ if choice.lower() == "red pill":
 ## > OPERATIVE PROFILE: THE ONE
 
 <div align="center">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2VzMTA4MjVucXF6bXlnd2xiOWI4andleDRobXd6M3prZDJlbTcwZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/po9RznauAcPrHS7oVw/giphy.gif" width="600"/>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3A0dzN6eHNnZXQ2Nms4NzkzZmtoNXdmczNxc2UxZGI2aDV0b3JwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uvoECTG2uCTrG/giphy.gif" width="600"/>
 </div>
 
 
