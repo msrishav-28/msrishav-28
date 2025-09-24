@@ -9,7 +9,7 @@
 ```
 
 <div align="center">
-  <img src="https://media.giphy.com/media/sULKEgDMX8LcI/giphy.gif" width="600"/>
+  <img src="[https://media.giphy.com/media/sULKEgDMX8LcI/giphy.gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2VzMTA4MjVucXF6bXlnd2xiOWI4andleDRobXd6M3prZDJlbTcwZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/po9RznauAcPrHS7oVw/giphy.gif)" width="600"/>
 </div>
 
 ---
@@ -19,6 +19,10 @@
 > *"This is your last chance. After this, there is no turning back."*
 
 <div align="center">
+
+<div align="center">
+  <img src="[https://media.giphy.com/media/sULKEgDMX8LcI/giphy.gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2VzMTA4MjVucXF6bXlnd2xiOWI4andleDRobXd6M3prZDJlbTcwZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/po9RznauAcPrHS7oVw/giphy.gif)" width="600"/>
+</div>
   
 **You take the blue pill** - the story ends, you wake up in your bed and believe whatever you want to believe.
 
@@ -95,12 +99,12 @@ print("Skills loaded successfully. Ready for deployment.")
 
 | Mission Codename | Objective | Tech Stack | Status |
 |---|---|---|---|
-| **🌾 Nila-Shoshsho** | Agricultural soil analysis system | Python, ML | 🟢 DEPLOYED |
-| **🎵 VibeMates** | Music collaboration platform | JavaScript, React | 🟢 ACTIVE |
-| **📚 ThinkChrist Notes** | Educational note-sharing platform | React, Firebase | 🟢 OPERATIONAL |
-| **🔄 SkillSwap** | P2P skill exchange platform | Full-stack web | 🟢 LIVE |
-| **📖 Tekshila** | AI-powered code documentation | Python, AI | 🟢 DEPLOYED |
-| **📈 StockSage** | Financial analysis dashboard | Python, Data Science | 🟢 RUNNING |
+| ** Nila-Shoshsho** | Agricultural soil analysis system | Python, ML | 🟢 DEPLOYED |
+| ** VibeMates** | Music collaboration platform | JavaScript, React | 🟢 ACTIVE |
+| ** ThinkChrist Notes** | Educational note-sharing platform | React, Firebase | 🟢 OPERATIONAL |
+| ** SkillSwap** | P2P skill exchange platform | Full-stack web | 🟢 LIVE |
+| ** Tekshila** | AI-powered code documentation | Python, AI | 🟢 DEPLOYED |
+| ** StockSage** | Financial analysis dashboard | Python, Data Science | 🟢 RUNNING |
 
 ---
 
@@ -161,6 +165,10 @@ establish_contact()
 ---
 
 ## > MORPHEUS' WISDOM
+
+<div align="center">
+  <img src="https://media.giphy.com/media/sULKEgDMX8LcI/giphy.gif" width="600"/>
+</div>
 
 <div align="center">
 
