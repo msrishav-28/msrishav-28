@@ -65,7 +65,7 @@ if choice.lower() == "red pill":
 ## > OPERATIVE PROFILE: THE ONE
 
 <div align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3A0dzN6eHNnZXQ2Nms4NzkzZmtoNXdmczNxc2UxZGI2aDV0b3JwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uvoECTG2uCTrG/giphy.gif" width="600"/>
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHB0OTNwOG8ydHpqdTNrYXoyMzN0NXdkZWJxcTdtejNsNGZvYW90dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MC6eSuC3yypCU/giphy.gif" width="600"/>
 </div>
 
 
@@ -224,10 +224,10 @@ establish_contact()
 ```ascii
  ╔══════════════════════════════════════════════════════════╗
  ║                                                          ║
- ║  "The Matrix is a system, Neo. That system is our       ║
- ║   enemy. But when you're inside, you look around.       ║
- ║   What do you see? Businessmen, teachers, lawyers,      ║
- ║   carpenters. The very minds of the people we are       ║
+ ║  "The Matrix is a system, Neo. That system is our        ║
+ ║   enemy. But when you're inside, you look around.        ║
+ ║   What do you see? Businessmen, teachers, lawyers,       ║
+ ║   carpenters. The very minds of the people we are        ║
  ║   trying to save."                                       ║
  ║                                     - Morpheus           ║
  ║                                                          ║
@@ -240,8 +240,6 @@ establish_contact()
 **Welcome to the real world, Neo.**
 
 ---
-
-⚡ *Powered by curiosity and caffeine* ⚡
 
 </div>
 
