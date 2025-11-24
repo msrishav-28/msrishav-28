@@ -38,10 +38,7 @@
 <div align="center">
 
 
-<video autoplay loop muted playsinline>
-  <source src="[https://github.com/your-username/repo/assets/video-url.mp4](https://github.com/user-attachments/assets/e888f342-f2bc-4b2f-b2e6-7a6dd3de55a2)" type="video/mp4">
-</video>
-
+<video src="https://github.com/user-attachments/assets/e888f342-f2bc-4b2f-b2e6-7a6dd3de55a2" autoplay loop muted playsinline></video>
 
 
 </div>
