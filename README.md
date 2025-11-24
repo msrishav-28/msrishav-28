@@ -36,8 +36,12 @@
 ---
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/e888f342-f2bc-4b2f-b2e6-7a6dd3de55a2" controls loop width="600"></video>
+  <video src="https://github.com/user-attachments/assets/37c33622-be66-4089-b497-0218de3de26d" controls loop width="600"></video>
 </div>
+
+
+
+
 
 
 ---
@@ -49,8 +53,11 @@
 <div align="center">
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/dcd16b1b-3de7-472c-8d24-6059074e299c" controls loop width="600"></video>
+  <video src="https://github.com/user-attachments/assets/b6283c52-6690-4a8b-8f0d-992ec79378e6" controls loop width="600"></video>
 </div>
+
+
+
 
 
 **You take the blue pill** - the story ends, you wake up in your bed and believe whatever you want to believe.
