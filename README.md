@@ -51,9 +51,6 @@
 <div align="center">
   <video src="https://github.com/user-attachments/assets/dcd16b1b-3de7-472c-8d24-6059074e299c" controls loop width="600"></video>
 </div>
-  
-
-https://github.com/user-attachments/assets/dcd16b1b-3de7-472c-8d24-6059074e299c
 
 
 **You take the blue pill** - the story ends, you wake up in your bed and believe whatever you want to believe.
