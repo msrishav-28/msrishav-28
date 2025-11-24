@@ -48,8 +48,11 @@
 
 <div align="center">
 
+
+
+
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MWk1aXNyY29oOGJqcGptMDhyY2txenNibGJxZTZ4M3F2OXVuYmMzMCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/1CNsm9ZkHF0m4/giphy.gif" width="600"/>
+  <video src="https://github.com/user-attachments/assets/e888f342-f2bc-4b2f-b2e6-7a6dd3de55a2" controls loop width="600"></video>
 </div>
   
 **You take the blue pill** - the story ends, you wake up in your bed and believe whatever you want to believe.
