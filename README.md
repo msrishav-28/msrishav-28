@@ -36,12 +36,9 @@
 ---
 
 <div align="center">
-
-
-<video src="https://github.com/user-attachments/assets/e888f342-f2bc-4b2f-b2e6-7a6dd3de55a2" autoplay loop muted playsinline></video>
-
-
+  <video src="https://github.com/user-attachments/assets/e888f342-f2bc-4b2f-b2e6-7a6dd3de55a2" controls loop width="600"></video>
 </div>
+
 
 ---
 
