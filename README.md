@@ -231,7 +231,7 @@ establish_contact()
 
 <div align="center">
 
-![Visitor Count](https://komarev.com/ghpvc/?username=msrishav-28&color=green&style=flat-square&label=Matrix+Visitors)
+![Visitor Count](https://komarev.com/ghpvc/?username=msrishav-28&color=00ff41&style=for-the-badge&label=Matrix+Visitors)
 
 </div>
 
