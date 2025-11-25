@@ -101,7 +101,7 @@ if choice.lower() == "red pill":
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=matrix&hide_border=true&bg_color=0d1117)](https://github.com/msrishav-28)
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=msrishav-28&theme=matrix&hide_border=true&background=0d1117)](https://github.com/msrishav-28)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=msrishav-28&theme=matrix&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41)](https://github.com/msrishav-28)
 
 </div>
 
