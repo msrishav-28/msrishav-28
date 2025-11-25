@@ -112,32 +112,16 @@ if choice.lower() == "red pill":
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github_dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github">
-  <img alt="Profile Details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github_dark">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=radical">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=default">
+  <img alt="Profile Details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=radical">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=6&custom_title=Matrix%20Languages&border_radius=10">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=ffffff&title_color=008000&text_color=008000&langs_count=6&custom_title=Matrix%20Languages&border_radius=10">
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=6&custom_title=Matrix%20Languages&border_radius=10">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github_dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github">
-  <img alt="Most Commit Language" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github_dark">
-</picture>
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=8&custom_title=Matrix%20Languages&border_radius=10&theme=dark)](https://github.com/msrishav-28)
+[![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=radical)](https://github.com/msrishav-28)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github_dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github">
-  <img alt="Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github_dark">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github_dark&utcOffset=5.5">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github&utcOffset=5.5">
-  <img alt="Productive Time" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github_dark&utcOffset=5.5">
-</picture>
+[![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=radical)](https://github.com/msrishav-28)
+[![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=radical&utcOffset=5.5)](https://github.com/msrishav-28)
 
 </div>
 
