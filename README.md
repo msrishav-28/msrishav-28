@@ -279,7 +279,7 @@ Alternative versions available:
 ```
 
 <!--START_SECTION:activity-->
-1. 🔄 *Activity data loading... Check back soon!*
+1. ❌ Reopened PR [#7](undefined) in [msrishav-28/msrishav-28](https://github.com/msrishav-28/msrishav-28)
 <!--END_SECTION:activity-->
 
 ---
