@@ -174,6 +174,7 @@ print("Skills loaded successfully. Ready for deployment.")
 
 <div align="center">
 
+<!-- TODO: Replace YOUR_SPOTIFY_USER_ID below with your actual Spotify user ID -->
 [![Spotify](https://spotify-github-readme.vercel.app/api/spotify?background_color=0d1117&border_color=00ff41)](https://open.spotify.com/user/YOUR_SPOTIFY_USER_ID)
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_USER_ID&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=true&bar_color=00ff41&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_USER_ID&redirect=true)
