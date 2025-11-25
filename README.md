@@ -103,13 +103,13 @@ if choice.lower() == "red pill":
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=msrishav-28&theme=matrix&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41)](https://github.com/msrishav-28)
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=transparent&ring_color=00ff41&title_color=00ff41&text_color=00ff41&icon_color=00ff41)](https://github.com/msrishav-28)
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=msrishav-28&theme=transparent&ring_color=00ff41&title_color=00ff41&text_color=00ff41&icon_color=00ff41)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=transparent&ring_color=00ff41&title_color=00ff41&text_color=00ff41&icon_color=00ff41)](https://github.com/msrishav-28)
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github_dark&utcOffset=5.5)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=transparent&ring_color=00ff41&title_color=00ff41&text_color=00ff41&icon_color=00ff41)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=transparent&ring_color=00ff41&title_color=00ff41&text_color=00ff41&icon_color=00ff41&utcOffset=5.5)](https://github.com/msrishav-28)
 
 </div>
 
@@ -151,6 +151,44 @@ print("Skills loaded successfully. Ready for deployment.")
 | **Tools** | ![VS Code](https://img.shields.io/badge/VS_Code-00ff41?style=flat-square&logo=visualstudiocode&logoColor=black) ![Jupyter](https://img.shields.io/badge/Jupyter-00ff41?style=flat-square&logo=jupyter&logoColor=black) ![Postman](https://img.shields.io/badge/Postman-00ff41?style=flat-square&logo=postman&logoColor=black) ![Figma](https://img.shields.io/badge/Figma-00ff41?style=flat-square&logo=figma&logoColor=black) ![Linux](https://img.shields.io/badge/Linux-00ff41?style=flat-square&logo=linux&logoColor=black) |
 
 </div>
+
+---
+
+## > CODING ACTIVITY: WAKATIME MATRIX
+
+<div align="center">
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+</div>
+
+<!-- 
+To enable WakaTime stats:
+1. Sign up at https://wakatime.com
+2. Get your API key from https://wakatime.com/settings/account
+3. Add it as a repository secret named WAKATIME_API_KEY
+4. Install WakaTime plugin in your IDE
+-->
+
+---
+
+## > CURRENTLY IN THE MATRIX: SPOTIFY
+
+<div align="center">
+
+[![Spotify](https://novatorem-msrishav28.vercel.app/api/spotify)](https://open.spotify.com/user/msrishav28)
+
+</div>
+
+<!-- 
+To enable Spotify now playing:
+1. Fork https://github.com/novatorem/novatorem
+2. Deploy to Vercel
+3. Connect your Spotify account
+4. Update the URL above with your Vercel deployment
+-->
+
 ---
 
 ## > ACTIVE MISSIONS: PROJECT MATRIX
@@ -192,6 +230,11 @@ print("Skills loaded successfully. Ready for deployment.")
 
 ![3D Contribution](./profile-3d-contrib/profile-night-green.svg)
 
+<!-- 
+Note: The 3D contribution graph is generated automatically daily at midnight UTC.
+If the image doesn't appear, trigger the "Generate 3D Contribution Graph" workflow manually.
+-->
+
 </div>
 
 ---
@@ -200,7 +243,15 @@ print("Skills loaded successfully. Ready for deployment.")
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/msrishav-28/msrishav-28/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/msrishav-28/msrishav-28/output/github-contribution-grid-snake-matrix.svg)
+
+<!-- 
+Note: Snake animation updates every 6 hours with Matrix green theme.
+Alternative versions available:
+- github-contribution-grid-snake.svg (default)
+- github-contribution-grid-snake-dark.svg (dark mode)
+- github-contribution-grid-snake-matrix.svg (Matrix theme)
+-->
 
 </div>
 

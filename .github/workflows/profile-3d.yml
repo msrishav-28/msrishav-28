@@ -1,8 +1,8 @@
-name: GitHub-Profile-3D-Contrib
+name: Generate 3D Contribution Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'  # Daily at midnight UTC
   workflow_dispatch:
 
 permissions:
@@ -11,26 +11,37 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
+    name: Generate 3D Profile
     steps:
       - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+          USERNAME: msrishav-28
         with:
+          USERNAME: msrishav-28
           SETTING_JSON: |
             {
+              "type": "normal",
               "backgroundColor": "#0d1117",
               "foregroundColor": "#00ff41",
               "strongColor": "#00ff41",
-              "weakColor": "#003300",
+              "weakColor": "#006622",
               "radarColor": "#00ff41",
-              "growingAnimation": true
+              "growingAnimation": true,
+              "contribColors": [
+                "#0d1117",
+                "#003311",
+                "#005522",
+                "#007733",
+                "#00aa44",
+                "#00ff41"
+              ]
             }
-      - name: Commit & Push
+      - name: Commit changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git diff --quiet && git diff --staged --quiet || (git commit -m "generated 3d contribution" && git push)
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add profile-3d-contrib/
+          git diff --quiet && git diff --staged --quiet || git commit -m "🎨 Update 3D contribution graph"
+          git push
