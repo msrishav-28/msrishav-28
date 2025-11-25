@@ -181,10 +181,6 @@ print("Skills loaded successfully. Ready for deployment.")
 
 ```
 
-</div>
-
----
-
 ## > ACTIVE MISSIONS: PROJECT MATRIX
 
 | Mission Codename | Objective | Tech Stack | Status |
