@@ -154,40 +154,32 @@ print("Skills loaded successfully. Ready for deployment.")
 
 ---
 
-## > CODING ACTIVITY: WAKATIME MATRIX
+## > WAKATIME CODING STATS: REAL-TIME METRICS
 
 <div align="center">
 
 <!--START_SECTION:waka-->
+```text
+
+```
 <!--END_SECTION:waka-->
 
-</div>
+[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=msrishav28&theme=matrix&hide_border=true&bg_color=0d1117&text_color=00ff41&title_color=00ff41&icon_color=00ff41&layout=compact&custom_title=Matrix%20Coding%20Time)](https://wakatime.com/@msrishav28)
 
-<!-- 
-To enable WakaTime stats:
-1. Sign up at https://wakatime.com
-2. Get your API key from https://wakatime.com/settings/account
-3. Add it as a repository secret named WAKATIME_API_KEY
-4. Install WakaTime plugin in your IDE
--->
+</div>
 
 ---
 
-## > CURRENTLY IN THE MATRIX: SPOTIFY
+## > MATRIX SOUNDTRACK: NOW PLAYING
 
 <div align="center">
 
-[![Spotify](https://novatorem-msrishav28.vercel.app/api/spotify)](https://open.spotify.com/user/msrishav28)
+<!-- TODO: Replace YOUR_SPOTIFY_USER_ID below with your actual Spotify user ID -->
+[![Spotify](https://spotify-github-readme.vercel.app/api/spotify?background_color=0d1117&border_color=00ff41)](https://open.spotify.com/user/YOUR_SPOTIFY_USER_ID)
+
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_USER_ID&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=true&bar_color=00ff41&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_USER_ID&redirect=true)
 
 </div>
-
-<!-- 
-To enable Spotify now playing:
-1. Fork https://github.com/novatorem/novatorem
-2. Deploy to Vercel
-3. Connect your Spotify account
-4. Update the URL above with your Vercel deployment
--->
 
 ---
 
@@ -261,7 +253,7 @@ Alternative versions available:
 
 <div align="center">
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7)](https://github.com/msrishav-28)
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C)](https://github.com/msrishav-28)
 
 </div>
 
@@ -348,6 +340,28 @@ establish_contact()
 ![Visitor Count](https://komarev.com/ghpvc/?username=msrishav-28&color=00ff41&style=for-the-badge&label=Matrix+Visitors)
 ![GitHub followers](https://img.shields.io/github/followers/msrishav-28?style=for-the-badge&color=00ff41&labelColor=000000&logo=github)
 ![GitHub User's stars](https://img.shields.io/github/stars/msrishav-28?style=for-the-badge&color=00ff41&labelColor=000000&logo=github)
+
+</div>
+
+---
+
+## > SETUP INSTRUCTIONS: CONFIGURE INTEGRATIONS
+
+<div align="center">
+
+### 🔧 **WakaTime Setup**
+1. Sign up at [WakaTime](https://wakatime.com/)
+2. Install WakaTime plugin for your IDE (VS Code, PyCharm, etc.)
+3. Get your API key from [WakaTime Settings](https://wakatime.com/settings/api-key)
+4. Add `WAKATIME_API_KEY` to GitHub repository secrets
+5. The workflow will auto-update daily
+
+### 🎵 **Spotify Setup**
+1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
+2. Create a new app
+3. Get your Spotify User ID from [Account Settings](https://www.spotify.com/account/overview/)
+4. Replace `YOUR_SPOTIFY_USER_ID` in the README with your actual user ID
+5. Widget updates automatically when you play music
 
 </div>
 

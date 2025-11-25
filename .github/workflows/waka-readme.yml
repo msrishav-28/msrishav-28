@@ -1,23 +1,25 @@
-name: WakaTime Readme
+name: WakaTime Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
+    - cron: '0 0 * * *'  # Runs at 00:00 UTC daily
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   update-readme:
+    name: Update WakaTime Stats
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: athul/waka-readme@master
+      
+      - name: Update WakaTime Stats
+        uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
           TIME_RANGE: last_7_days
           SHOW_TIME: true
-          SHOW_MASKED_TIME: true
+          SHOW_TOTAL: true
