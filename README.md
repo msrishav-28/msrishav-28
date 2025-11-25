@@ -99,17 +99,17 @@ if choice.lower() == "red pill":
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=matrix&hide_border=true&bg_color=0d1117)](https://github.com/msrishav-28)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=matrix&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&icon_color=00ff41)](https://github.com/msrishav-28)
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=msrishav-28&theme=matrix&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41)](https://github.com/msrishav-28)
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=transparent&ring_color=00ff41&title_color=00ff41&text_color=00ff41&icon_color=00ff41)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=msrishav-28&theme=transparent&ring_color=00ff41&title_color=00ff41&text_color=00ff41&icon_color=00ff41)](https://github.com/msrishav-28)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=transparent&ring_color=00ff41&title_color=00ff41&text_color=00ff41&icon_color=00ff41)](https://github.com/msrishav-28)
+[![Top Languages Pie](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=6)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=transparent&ring_color=00ff41&title_color=00ff41&text_color=00ff41&icon_color=00ff41)](https://github.com/msrishav-28)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=transparent&ring_color=00ff41&title_color=00ff41&text_color=00ff41&icon_color=00ff41&utcOffset=5.5)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github_dark&utcOffset=5.5)](https://github.com/msrishav-28)
 
 </div>
 
@@ -200,7 +200,7 @@ print("Skills loaded successfully. Ready for deployment.")
 
 <div align="center">
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&theme=matrix&hide_border=true&bg_color=0d1117)](https://github.com/msrishav-28)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&theme=matrix&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41)](https://github.com/msrishav-28)
 
 </div>
 
@@ -317,7 +317,7 @@ establish_contact()
 
 <div align="center">
 
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/msrishav-28)
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote_color=00ff41&bg_color=0d1117)](https://github.com/msrishav-28)
 
 </div>
 
@@ -327,7 +327,7 @@ establish_contact()
 
 <div align="center">
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/msrishav28?theme=dark&font=Ubuntu&ext=heatmap)](https://leetcode.com/msrishav28)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/msrishav28?theme=dark&font=Ubuntu&ext=heatmap&border=0&radius=20&bg=0d1117&color=00ff41&ring_color=00ff41)](https://leetcode.com/msrishav28)
 
 </div>
 
