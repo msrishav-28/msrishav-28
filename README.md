@@ -182,9 +182,6 @@ print("Skills loaded successfully. Ready for deployment.")
 
 ---
 
-```
-<div>
-
 ## > ACTIVE MISSIONS: PROJECT MATRIX
 
 | Mission Codename | Objective | Tech Stack | Status |
@@ -297,7 +294,6 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 ```
 
 <!--START_SECTION:activity-->
-1. ❌ Reopened PR [#7](undefined) in [msrishav-28/msrishav-28](https://github.com/msrishav-28/msrishav-28)
 <!--END_SECTION:activity-->
 
 ---
