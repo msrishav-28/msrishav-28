@@ -2,10 +2,7 @@ name: Update README with Recent Activity
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Runs every 6 hours
-  push:
-    branches:
-      - main
+    - cron: '*/30 * * * *'  # Every 30 minutes
   workflow_dispatch:  # Allows manual trigger
 
 permissions:
@@ -18,22 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - uses: jamesgeorge007/github-activity-readme@v1.4.0
+      - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          COMMIT_MSG: 'chore: Update README with recent activity'
-          MAX_LINES: 5
-
-  update-stats:
-    runs-on: ubuntu-latest
-    name: Update GitHub Stats Cache
-    steps:
-      - name: Trigger stats refresh
-        run: |
-          # Ping stats services to ensure fresh data
-          curl -s "https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=matrix" > /dev/null || true
-          curl -s "https://streak-stats.demolab.com/?user=msrishav-28&theme=matrix" > /dev/null || true
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&theme=matrix" > /dev/null || true
-          curl -s "https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix" > /dev/null || true
-          echo "Stats services pinged for cache refresh"
+          COMMIT_MSG: '⚡ Update activity in Matrix'
+          MAX_LINES: 10
