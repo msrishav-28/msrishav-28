@@ -103,13 +103,13 @@ if choice.lower() == "red pill":
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=msrishav-28&theme=matrix&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41)](https://github.com/msrishav-28)
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=transparent)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
 
-[![Top Languages Pie](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=6&custom_title=Matrix%20Languages)](https://github.com/msrishav-28)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=transparent)](https://github.com/msrishav-28)
+[![Top Languages Pie](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=6&custom_title=Matrix%20Languages&color_0=00ff41&color_1=00cc33&color_2=009929&color_3=33ff66&color_4=66ff8c&color_5=99ffb3)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=transparent)](https://github.com/msrishav-28)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=transparent&utcOffset=5.5)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github_dark&utcOffset=5.5)](https://github.com/msrishav-28)
 
 </div>
 
@@ -184,7 +184,7 @@ print("Skills loaded successfully. Ready for deployment.")
 
 <div align="center">
 
-[![Rishav's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=msrishav-28&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=00ff41&hide_border=true&custom_title=Matrix%20Activity%20Graph)](https://github.com/msrishav-28)
+[![Rishav's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=msrishav-28&bg_color=0d1117&color=00ff41&line=00ff41&point=00ff41&area=true&area_color=00ff41&hide_border=true&custom_title=Matrix%20Activity%20Graph&theme=github-dark)](https://github.com/msrishav-28)
 
 </div>
 
@@ -194,11 +194,12 @@ print("Skills loaded successfully. Ready for deployment.")
 
 <div align="center">
 
-![3D Contribution](./profile-3d-contrib/profile-night-green.svg)
+![3D Contribution](https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/profile-3d-contrib/profile-night-green.svg)
 
 <!-- 
 Note: The 3D contribution graph is generated automatically daily at midnight UTC.
-If the image doesn't appear, trigger the "Generate 3D Contribution Graph" workflow manually.
+Generated using yoshi389111/github-profile-3d-contrib with Matrix green theme.
+If the image doesn't appear, trigger the workflow manually or check GitHub Actions.
 -->
 
 </div>
@@ -209,14 +210,17 @@ If the image doesn't appear, trigger the "Generate 3D Contribution Graph" workfl
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/msrishav-28/msrishav-28/output/github-contribution-grid-snake-matrix.svg)
+![Snake animation](https://raw.githubusercontent.com/msrishav-28/msrishav-28/output/github-contribution-grid-snake-dark.svg)
 
 <!-- 
-Note: Snake animation updates every 6 hours with Matrix green theme.
-Alternative versions available:
-- github-contribution-grid-snake.svg (default)
-- github-contribution-grid-snake-dark.svg (dark mode)
-- github-contribution-grid-snake-matrix.svg (Matrix theme)
+Note: Snake animation updates every 12 hours with Matrix green theme.
+Generated using Platane/snk with custom Matrix green color palette:
+- Level 0 (empty): #0d1117 (dark background)
+- Level 1: #00661a (dark green)
+- Level 2: #009929 (medium dark green)
+- Level 3: #00cc33 (medium green)
+- Level 4: #00ff41 (bright Matrix green)
+If the animation doesn't appear, check GitHub Actions workflow status.
 -->
 
 </div>
@@ -298,16 +302,6 @@ establish_contact()
 
 ---
 
-## > LEETCODE MATRIX: PROBLEM SOLVING
-
-<div align="center">
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/msrishav28?theme=dark&font=Ubuntu&ext=heatmap&border=0&radius=20&bg=0d1117&color=00ff41&ring_color=00ff41)](https://leetcode.com/msrishav28)
-
-</div>
-
----
-
 ## > MATRIX STATISTICS: REAL-TIME FEED
 
 <div align="center">
@@ -315,28 +309,6 @@ establish_contact()
 ![Visitor Count](https://komarev.com/ghpvc/?username=msrishav-28&color=00ff41&style=for-the-badge&label=Matrix+Visitors)
 ![GitHub followers](https://img.shields.io/github/followers/msrishav-28?style=for-the-badge&color=00ff41&labelColor=000000&logo=github)
 ![GitHub User's stars](https://img.shields.io/github/stars/msrishav-28?style=for-the-badge&color=00ff41&labelColor=000000&logo=github)
-
-</div>
-
----
-
-## > SETUP INSTRUCTIONS: CONFIGURE INTEGRATIONS
-
-<div align="center">
-
-### 🔧 **WakaTime Setup**
-1. Sign up at [WakaTime](https://wakatime.com/)
-2. Install WakaTime plugin for your IDE (VS Code, PyCharm, etc.)
-3. Get your API key from [WakaTime Settings](https://wakatime.com/settings/api-key)
-4. Add `WAKATIME_API_KEY` to GitHub repository secrets
-5. The workflow will auto-update daily
-
-### 🎵 **Spotify Setup**
-1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
-2. Create a new app
-3. Get your Spotify User ID from [Account Settings](https://www.spotify.com/account/overview/)
-4. Replace `YOUR_SPOTIFY_USER_ID` in the README with your actual user ID
-5. Widget updates automatically when you play music
 
 </div>
 

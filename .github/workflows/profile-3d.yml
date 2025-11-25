@@ -23,16 +23,16 @@ jobs:
               "type": "normal",
               "backgroundColor": "#0d1117",
               "foregroundColor": "#00ff41",
-              "strongColor": "#39ff14",
-              "weakColor": "#1a3a1a",
+              "strongColor": "#00ff41",
+              "weakColor": "#00661a",
               "radarColor": "#00ff41",
               "growingAnimation": true,
               "contribColors": [
                 "#0d1117",
-                "#1a3a1a",
-                "#2d5a2d",
-                "#00ff41",
-                "#39ff14"
+                "#00661a",
+                "#009929",
+                "#00cc33",
+                "#00ff41"
               ]
             }
       - name: Commit & Push
