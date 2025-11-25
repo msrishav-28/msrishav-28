@@ -220,6 +220,54 @@ def generate_stats_card_svg(stats):
     
     return svg
 
+def generate_profile_summary_svg():
+    """Generate custom Matrix green profile summary card"""
+    
+    svg = f'''<svg width="900" height="250" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="profileGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:{COLORS['green_1']};stop-opacity:0.2" />
+            <stop offset="50%" style="stop-color:{COLORS['green_3']};stop-opacity:0.1" />
+            <stop offset="100%" style="stop-color:{COLORS['green_1']};stop-opacity:0.2" />
+        </linearGradient>
+    </defs>
+    
+    <rect width="900" height="250" fill="{COLORS['bg_dark']}" rx="10"/>
+    <rect width="900" height="250" fill="url(#profileGradient)" rx="10"/>
+    
+    <!-- Title -->
+    <text x="450" y="35" font-family="'Courier New', monospace" font-size="20" fill="{COLORS['text']}" text-anchor="middle" font-weight="bold">
+        &gt; MATRIX PROFILE SUMMARY
+    </text>
+    
+    <!-- Contribution Graph Bars (decorative) -->
+'''
+    
+    # Add decorative contribution bars
+    import random
+    random.seed(42)  # For consistent output
+    bar_x = 50
+    for week in range(52):
+        for day in range(7):
+            height = random.randint(2, 12)
+            opacity = random.choice([0.2, 0.4, 0.6, 0.8, 1.0])
+            color = random.choice([COLORS['green_0'], COLORS['green_1'], COLORS['green_2'], COLORS['green_3']])
+            svg += f'''    <rect x="{bar_x + week * 15}" y="{60 + day * 15}" width="12" height="12" fill="{color}" opacity="{opacity}" rx="2"/>
+'''
+    
+    svg += f'''    
+    <!-- Summary Text -->
+    <text x="450" y="200" font-family="'Courier New', monospace" font-size="14" fill="{COLORS['text']}" text-anchor="middle">
+        Matrix operations active • All systems green • Contributions flowing
+    </text>
+    
+    <text x="450" y="230" font-family="'Courier New', monospace" font-size="11" fill="{COLORS['text_dim']}" text-anchor="middle">
+        The Matrix has you, Neo. Follow the white rabbit.
+    </text>
+</svg>'''
+    
+    return svg
+
 def main():
     """Main function to generate all custom cards"""
     print("🟢 Generating Matrix Green Statistics...")
@@ -243,6 +291,12 @@ def main():
         with open('assets/matrix-languages.svg', 'w') as f:
             f.write(lang_svg)
         print("✅ Generated matrix-languages.svg")
+    
+    # Generate profile summary
+    profile_svg = generate_profile_summary_svg()
+    with open('assets/matrix-profile-summary.svg', 'w') as f:
+        f.write(profile_svg)
+    print("✅ Generated matrix-profile-summary.svg")
     
     print("🎉 All Matrix green visualizations generated!")
 
