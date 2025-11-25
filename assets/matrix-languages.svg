@@ -1,0 +1,55 @@
+<svg width="450" height="300" xmlns="http://www.w3.org/2000/svg">
+    <rect width="450" height="300" fill="#0d1117" rx="10"/>
+    
+    <!-- Title -->
+    <text x="225" y="30" font-family="'Courier New', monospace" font-size="18" fill="#00ff41" text-anchor="middle" font-weight="bold">
+        MATRIX LANGUAGES
+    </text>
+    
+    <!-- Pie Chart -->
+    <path d="M 150 150 L 150.00013267948967 50.00000000008802 A 100 100 0 0 1 211.1174324652029 229.14960169742716 Z" 
+              fill="#00ff41" opacity="0.9"/>
+    <path d="M 150 150 L 211.1174324652029 229.14960169742716 A 100 100 0 0 1 50.06672474207528 153.65246440418696 Z" 
+              fill="#00cc33" opacity="0.9"/>
+    <path d="M 150 150 L 50.06672474207528 153.65246440418696 A 100 100 0 0 1 107.55400323534676 59.45532948508209 Z" 
+              fill="#009929" opacity="0.9"/>
+    <path d="M 150 150 L 107.55400323534676 59.45532948508209 A 100 100 0 0 1 135.43950164063935 51.06571935104064 Z" 
+              fill="#33ff66" opacity="0.9"/>
+    <path d="M 150 150 L 135.43950164063935 51.06571935104064 A 100 100 0 0 1 149.99960196153094 50.000000000792184 Z" 
+              fill="#00661a" opacity="0.9"/>
+    <rect x="310" y="60" width="15" height="15" fill="#00ff41" rx="2"/>
+    <text x="332" y="72" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
+        Python
+    </text>
+    <text x="410" y="72" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
+        39.5%
+    </text>
+    <rect x="310" y="95" width="15" height="15" fill="#00cc33" rx="2"/>
+    <text x="332" y="107" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
+        TypeScript
+    </text>
+    <text x="410" y="107" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
+        34.9%
+    </text>
+    <rect x="310" y="130" width="15" height="15" fill="#009929" rx="2"/>
+    <text x="332" y="142" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
+        JavaScript
+    </text>
+    <text x="410" y="142" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
+        18.6%
+    </text>
+    <rect x="310" y="165" width="15" height="15" fill="#33ff66" rx="2"/>
+    <text x="332" y="177" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
+        HTML
+    </text>
+    <text x="410" y="177" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
+        4.7%
+    </text>
+    <rect x="310" y="200" width="15" height="15" fill="#00661a" rx="2"/>
+    <text x="332" y="212" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
+        Jupyter Notebook
+    </text>
+    <text x="410" y="212" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
+        2.3%
+    </text>
+</svg>
