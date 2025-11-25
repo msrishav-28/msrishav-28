@@ -154,33 +154,6 @@ print("Skills loaded successfully. Ready for deployment.")
 
 ---
 
-## > WAKATIME CODING STATS: REAL-TIME METRICS
-
-<div align="center">
-
-<!--START_SECTION:waka-->
-```text
-⏳ WakaTime stats will appear here once configured.
-   See setup instructions below for configuration steps.
-```
-<!--END_SECTION:waka-->
-
-[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=msrishav28&theme=matrix&hide_border=true&bg_color=0d1117&text_color=00ff41&title_color=00ff41&icon_color=00ff41&layout=compact&custom_title=Matrix%20Coding%20Time)](https://wakatime.com/@msrishav28)
-
-</div>
-
----
-
-## > MATRIX SOUNDTRACK: NOW PLAYING
-
-<div align="center">
-
-[![Spotify](https://img.shields.io/badge/Spotify-Listen%20Now-00ff41?style=for-the-badge&logo=spotify&logoColor=000000)](https://open.spotify.com/user/4825dcfda81f453c8d545f7c9f4aeb15)
-
-**Currently Listening on Spotify** 🎵
-
-</div>
-
 ```
 <div>
 
