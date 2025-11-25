@@ -99,17 +99,45 @@ if choice.lower() == "red pill":
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=matrix&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&icon_color=00ff41)](https://github.com/msrishav-28)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&icon_color=00ff41&border_radius=10">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=008000&text_color=008000&icon_color=00cc33&border_radius=10">
+  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&icon_color=00ff41&border_radius=10">
+</picture>
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=msrishav-28&theme=matrix&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41)](https://github.com/msrishav-28)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=msrishav-28&theme=dark&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41&border_radius=10">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=msrishav-28&theme=default&hide_border=true&background=ffffff&fire=00cc33&currStreakNum=008000&sideNums=008000&currStreakLabel=00cc33&sideLabels=00cc33&dates=008000&ring=00cc33&border_radius=10">
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=msrishav-28&theme=dark&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41&border_radius=10">
+</picture>
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github_dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github">
+  <img alt="Profile Details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github_dark">
+</picture>
 
-[![Top Languages Pie](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=6&custom_title=Matrix%20Languages&color_0=00ff41&color_1=00cc33&color_2=009929&color_3=33ff66&color_4=66ff8c&color_5=99ffb3)](https://github.com/msrishav-28)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=6&custom_title=Matrix%20Languages&border_radius=10">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=ffffff&title_color=008000&text_color=008000&langs_count=6&custom_title=Matrix%20Languages&border_radius=10">
+  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=6&custom_title=Matrix%20Languages&border_radius=10">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github_dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github">
+  <img alt="Most Commit Language" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github_dark">
+</picture>
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github_dark&utcOffset=5.5)](https://github.com/msrishav-28)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github_dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github">
+  <img alt="Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github_dark">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github_dark&utcOffset=5.5">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github&utcOffset=5.5">
+  <img alt="Productive Time" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github_dark&utcOffset=5.5">
+</picture>
 
 </div>
 
@@ -174,7 +202,11 @@ print("Skills loaded successfully. Ready for deployment.")
 
 <div align="center">
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&theme=matrix&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41)](https://github.com/msrishav-28)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&border_radius=10">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=008000&text_color=008000&border_radius=10">
+  <img alt="Top Languages Compact" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&border_radius=10">
+</picture>
 
 </div>
 
@@ -184,7 +216,11 @@ print("Skills loaded successfully. Ready for deployment.")
 
 <div align="center">
 
-[![Rishav's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=msrishav-28&bg_color=0d1117&color=00ff41&line=00ff41&point=00ff41&area=true&area_color=00ff41&hide_border=true&custom_title=Matrix%20Activity%20Graph&theme=github-dark)](https://github.com/msrishav-28)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=msrishav-28&bg_color=0d1117&color=00ff41&line=00ff41&point=00ff41&area=true&area_color=00ff41&hide_border=true&custom_title=Matrix%20Activity%20Graph&theme=github-dark&radius=10">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=msrishav-28&bg_color=ffffff&color=008000&line=00cc33&point=00cc33&area=true&area_color=99ffb3&hide_border=true&custom_title=Matrix%20Activity%20Graph&theme=github-light&radius=10">
+  <img alt="GitHub Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=msrishav-28&bg_color=0d1117&color=00ff41&line=00ff41&point=00ff41&area=true&area_color=00ff41&hide_border=true&custom_title=Matrix%20Activity%20Graph&theme=github-dark&radius=10">
+</picture>
 
 </div>
 
@@ -194,11 +230,14 @@ print("Skills loaded successfully. Ready for deployment.")
 
 <div align="center">
 
-![3D Contribution](https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/profile-3d-contrib/profile-night-green.svg)
+![3D Contribution](./profile-3d-contrib/profile-night-green.svg#gh-dark-mode-only)
+![3D Contribution](./profile-3d-contrib/profile-green-animate.svg#gh-light-mode-only)
 
 <!-- 
 Note: The 3D contribution graph is generated automatically daily at midnight UTC.
 Generated using yoshi389111/github-profile-3d-contrib with Matrix green theme.
+Supports both light and dark modes automatically using GitHub's theme-aware image syntax.
+Dark mode: profile-night-green.svg | Light mode: profile-green-animate.svg
 If the image doesn't appear, trigger the workflow manually or check GitHub Actions.
 -->
 
@@ -210,16 +249,24 @@ If the image doesn't appear, trigger the workflow manually or check GitHub Actio
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/msrishav-28/msrishav-28/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/msrishav-28/msrishav-28/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![Snake animation](https://raw.githubusercontent.com/msrishav-28/msrishav-28/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
 <!-- 
 Note: Snake animation updates every 12 hours with Matrix green theme.
-Generated using Platane/snk with custom Matrix green color palette:
-- Level 0 (empty): #0d1117 (dark background)
-- Level 1: #00661a (dark green)
-- Level 2: #009929 (medium dark green)
-- Level 3: #00cc33 (medium green)
-- Level 4: #00ff41 (bright Matrix green)
+Generated using Platane/snk with custom Matrix green color palette.
+Supports both light and dark modes automatically using GitHub's theme-aware image syntax.
+
+Dark Mode:
+- Background: #0d1117
+- Levels: #00661a → #009929 → #00cc33 → #00ff41
+- Snake: #00ff41
+
+Light Mode:
+- Background: #ebedf0
+- Levels: #99ffb3 → #33ff66 → #00cc33 → #008000
+- Snake: #008000
+
 If the animation doesn't appear, check GitHub Actions workflow status.
 -->
 
@@ -231,7 +278,11 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 
 <div align="center">
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C)](https://github.com/msrishav-28)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=flat&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C">
+  <img alt="GitHub Trophies" src="https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C">
+</picture>
 
 </div>
 
