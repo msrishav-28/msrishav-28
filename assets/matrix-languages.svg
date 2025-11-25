@@ -6,6 +6,48 @@
         MATRIX LANGUAGES
     </text>
     
+    <!-- Mini Octocat in corner -->
+    <g transform="translate(410, 270) scale(0.5)">
+        <g id="green-octocat">
+    <!-- Octocat Head -->
+    <circle cx="0" cy="0" r="28" fill="#00ff41" opacity="0.9"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-18" cy="-15" rx="8" ry="10" fill="#00ff41" opacity="0.9"/>
+    <ellipse cx="18" cy="-15" rx="8" ry="10" fill="#00ff41" opacity="0.9"/>
+    
+    <!-- Eyes -->
+    <ellipse cx="-10" cy="-3" rx="5" ry="8" fill="#0d1117"/>
+    <ellipse cx="10" cy="-3" rx="5" ry="8" fill="#0d1117"/>
+    
+    <!-- Pupils with glow -->
+    <circle cx="-10" cy="-2" r="3" fill="#00ff41">
+        <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="10" cy="-2" r="3" fill="#00ff41">
+        <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Nose -->
+    <ellipse cx="0" cy="5" rx="3" ry="2" fill="#00cc33"/>
+    
+    <!-- Smile -->
+    <path d="M -8 10 Q 0 15 8 10" stroke="#0d1117" stroke-width="2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Whiskers -->
+    <line x1="-28" y1="2" x2="-15" y2="3" stroke="#00cc33" stroke-width="1.5"/>
+    <line x1="-28" y1="8" x2="-15" y2="7" stroke="#00cc33" stroke-width="1.5"/>
+    <line x1="28" y1="2" x2="15" y2="3" stroke="#00cc33" stroke-width="1.5"/>
+    <line x1="28" y1="8" x2="15" y2="7" stroke="#00cc33" stroke-width="1.5"/>
+    
+    <!-- Glow effect -->
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.3">
+        <animate attributeName="r" values="30;32;30" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;0.1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+</g>
+    </g>
+    
     <!-- Pie Chart -->
     <path d="M 150 150 L 150.00013267948967 50.00000000008802 A 100 100 0 0 1 211.1174324652029 229.14960169742716 Z" 
               fill="#00ff41" opacity="0.9"/>
