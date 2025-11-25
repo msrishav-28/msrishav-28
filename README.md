@@ -175,14 +175,6 @@ print("Skills loaded successfully. Ready for deployment.")
 
 <div align="center">
 
-## > MATRIX SOUNDTRACK: NOW PLAYING
-
-<div align="center">
-
-## > MATRIX SOUNDTRACK: NOW PLAYING
-
-<div align="center">
-
 [![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=4825dcfda81f453c8d545f7c9f4aeb15&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=true&bar_color=00ff41&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=4825dcfda81f453c8d545f7c9f4aeb15&redirect=true)
 
 </div>
