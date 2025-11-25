@@ -111,17 +111,13 @@ if choice.lower() == "red pill":
   <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=msrishav-28&theme=dark&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41&border_radius=10">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=radical">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=default">
-  <img alt="Profile Details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=radical">
-</picture>
+[![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=matrix)](https://github.com/msrishav-28)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=8&custom_title=Matrix%20Languages&border_radius=10&theme=dark)](https://github.com/msrishav-28)
-[![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=radical)](https://github.com/msrishav-28)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=8&custom_title=Matrix%20Languages&border_radius=10&theme=dark)](https://github.com/msrishav-28)
+[![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=matrix)](https://github.com/msrishav-28)
 
-[![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=radical)](https://github.com/msrishav-28)
-[![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=radical&utcOffset=5.5)](https://github.com/msrishav-28)
+[![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=matrix)](https://github.com/msrishav-28)
+[![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=matrix&utcOffset=5.5)](https://github.com/msrishav-28)
 
 </div>
 
@@ -259,11 +255,7 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=flat&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C">
-  <img alt="GitHub Trophies" src="https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C">
-</picture>
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C)](https://github.com/msrishav-28)
 
 </div>
 
