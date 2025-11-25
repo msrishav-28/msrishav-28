@@ -103,6 +103,14 @@ if choice.lower() == "red pill":
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=msrishav-28&theme=matrix&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41)](https://github.com/msrishav-28)
 
+[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+
+[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+
+[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github_dark&utcOffset=5.5)](https://github.com/msrishav-28)
+
 </div>
 
 ---
@@ -119,23 +127,28 @@ class TheOne:
         
     def load_skills(self):
         return {
-            "Languages": ["Python", "JavaScript", "TypeScript", "Java", "C"],
-            "AI/ML": ["TensorFlow", "PyTorch", "Scikit-Learn"],
-            "Frameworks": ["React", "Next.js", "Flask", "FastAPI"],
-            "Cloud": ["AWS", "GCP", "Firebase"]
+            "Languages": ["Python", "JavaScript", "TypeScript", "Java", "C", "C++", "SQL", "HTML", "CSS"],
+            "AI/ML": ["TensorFlow", "PyTorch", "Scikit-Learn", "Keras", "OpenCV", "Pandas", "NumPy", "Matplotlib"],
+            "Frameworks": ["React", "Next.js", "Flask", "FastAPI", "Node.js", "Express.js", "Django"],
+            "Databases": ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Redis"],
+            "Cloud & DevOps": ["AWS", "GCP", "Docker", "Git", "GitHub Actions", "Vercel", "Netlify"],
+            "Tools": ["VS Code", "Jupyter", "Postman", "Figma", "Linux"]
         }
         
 Neo = TheOne()
 print("Skills loaded successfully. Ready for deployment.")
 ```
+
 <div align="center">
 
 | **CATEGORY** | **TECHNOLOGIES** |
 |:---:|:---|
-| **Languages** | ![Python](https://img.shields.io/badge/Python-00ff41?style=flat-square&logo=python&logoColor=black) ![JavaScript](https://img.shields.io/badge/JavaScript-00ff41?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-00ff41?style=flat-square&logo=typescript&logoColor=black) ![Java](https://img.shields.io/badge/Java-00ff41?style=flat-square&logo=java&logoColor=black) ![C](https://img.shields.io/badge/C-00ff41?style=flat-square&logo=c&logoColor=black) |
-| **AI/ML** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-00ff41?style=flat-square&logo=tensorflow&logoColor=black) ![PyTorch](https://img.shields.io/badge/PyTorch-00ff41?style=flat-square&logo=pytorch&logoColor=black) ![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-00ff41?style=flat-square&logo=scikitlearn&logoColor=black) |
-| **Frameworks** | ![React](https://img.shields.io/badge/React-00ff41?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-00ff41?style=flat-square&logo=nextdotjs&logoColor=black) ![Flask](https://img.shields.io/badge/Flask-00ff41?style=flat-square&logo=flask&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-00ff41?style=flat-square&logo=fastapi&logoColor=black) |
-| **Cloud** | ![AWS](https://img.shields.io/badge/AWS-00ff41?style=flat-square&logo=amazonaws&logoColor=black) ![Google Cloud](https://img.shields.io/badge/GCP-00ff41?style=flat-square&logo=googlecloud&logoColor=black) ![Firebase](https://img.shields.io/badge/Firebase-00ff41?style=flat-square&logo=firebase&logoColor=black) |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-00ff41?style=flat-square&logo=python&logoColor=black) ![JavaScript](https://img.shields.io/badge/JavaScript-00ff41?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-00ff41?style=flat-square&logo=typescript&logoColor=black) ![Java](https://img.shields.io/badge/Java-00ff41?style=flat-square&logo=openjdk&logoColor=black) ![C](https://img.shields.io/badge/C-00ff41?style=flat-square&logo=c&logoColor=black) ![C++](https://img.shields.io/badge/C++-00ff41?style=flat-square&logo=cplusplus&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-00ff41?style=flat-square&logo=mysql&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-00ff41?style=flat-square&logo=html5&logoColor=black) ![CSS3](https://img.shields.io/badge/CSS3-00ff41?style=flat-square&logo=css3&logoColor=black) |
+| **AI/ML** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-00ff41?style=flat-square&logo=tensorflow&logoColor=black) ![PyTorch](https://img.shields.io/badge/PyTorch-00ff41?style=flat-square&logo=pytorch&logoColor=black) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-00ff41?style=flat-square&logo=scikitlearn&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-00ff41?style=flat-square&logo=keras&logoColor=black) ![OpenCV](https://img.shields.io/badge/OpenCV-00ff41?style=flat-square&logo=opencv&logoColor=black) ![Pandas](https://img.shields.io/badge/Pandas-00ff41?style=flat-square&logo=pandas&logoColor=black) ![NumPy](https://img.shields.io/badge/NumPy-00ff41?style=flat-square&logo=numpy&logoColor=black) |
+| **Frameworks** | ![React](https://img.shields.io/badge/React-00ff41?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-00ff41?style=flat-square&logo=nextdotjs&logoColor=black) ![Flask](https://img.shields.io/badge/Flask-00ff41?style=flat-square&logo=flask&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-00ff41?style=flat-square&logo=fastapi&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-00ff41?style=flat-square&logo=nodedotjs&logoColor=black) ![Express.js](https://img.shields.io/badge/Express.js-00ff41?style=flat-square&logo=express&logoColor=black) ![Django](https://img.shields.io/badge/Django-00ff41?style=flat-square&logo=django&logoColor=black) |
+| **Databases** | ![MongoDB](https://img.shields.io/badge/MongoDB-00ff41?style=flat-square&logo=mongodb&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-00ff41?style=flat-square&logo=postgresql&logoColor=black) ![MySQL](https://img.shields.io/badge/MySQL-00ff41?style=flat-square&logo=mysql&logoColor=black) ![Firebase](https://img.shields.io/badge/Firebase-00ff41?style=flat-square&logo=firebase&logoColor=black) ![Redis](https://img.shields.io/badge/Redis-00ff41?style=flat-square&logo=redis&logoColor=black) |
+| **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-00ff41?style=flat-square&logo=amazonaws&logoColor=black) ![Google Cloud](https://img.shields.io/badge/GCP-00ff41?style=flat-square&logo=googlecloud&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-00ff41?style=flat-square&logo=docker&logoColor=black) ![Git](https://img.shields.io/badge/Git-00ff41?style=flat-square&logo=git&logoColor=black) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-00ff41?style=flat-square&logo=githubactions&logoColor=black) ![Vercel](https://img.shields.io/badge/Vercel-00ff41?style=flat-square&logo=vercel&logoColor=black) |
+| **Tools** | ![VS Code](https://img.shields.io/badge/VS_Code-00ff41?style=flat-square&logo=visualstudiocode&logoColor=black) ![Jupyter](https://img.shields.io/badge/Jupyter-00ff41?style=flat-square&logo=jupyter&logoColor=black) ![Postman](https://img.shields.io/badge/Postman-00ff41?style=flat-square&logo=postman&logoColor=black) ![Figma](https://img.shields.io/badge/Figma-00ff41?style=flat-square&logo=figma&logoColor=black) ![Linux](https://img.shields.io/badge/Linux-00ff41?style=flat-square&logo=linux&logoColor=black) |
 
 </div>
 ---
@@ -163,11 +176,41 @@ print("Skills loaded successfully. Ready for deployment.")
 
 ---
 
+## > CONTRIBUTION MATRIX: ACTIVITY GRAPH
+
+<div align="center">
+
+[![Rishav's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=msrishav-28&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=00ff41&hide_border=true&custom_title=Matrix%20Activity%20Graph)](https://github.com/msrishav-28)
+
+</div>
+
+---
+
+## > 3D CONTRIBUTION MATRIX
+
+<div align="center">
+
+![3D Contribution](./profile-3d-contrib/profile-night-green.svg)
+
+</div>
+
+---
+
+## > SNAKE CONSUMING CONTRIBUTIONS
+
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/msrishav-28/msrishav-28/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+---
+
 ## > ACHIEVEMENT UNLOCKED: TROPHIES
 
 <div align="center">
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&margin-w=15&margin-h=15&column=4)](https://github.com/msrishav-28)
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7)](https://github.com/msrishav-28)
 
 </div>
 
@@ -227,11 +270,33 @@ establish_contact()
 
 ---
 
+## > RANDOM DEV WISDOM FROM THE MATRIX
+
+<div align="center">
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/msrishav-28)
+
+</div>
+
+---
+
+## > LEETCODE MATRIX: PROBLEM SOLVING
+
+<div align="center">
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/msrishav28?theme=dark&font=Ubuntu&ext=heatmap)](https://leetcode.com/msrishav28)
+
+</div>
+
+---
+
 ## > MATRIX STATISTICS: REAL-TIME FEED
 
 <div align="center">
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=msrishav-28&color=00ff41&style=for-the-badge&label=Matrix+Visitors)
+![GitHub followers](https://img.shields.io/github/followers/msrishav-28?style=for-the-badge&color=00ff41&labelColor=000000&logo=github)
+![GitHub User's stars](https://img.shields.io/github/stars/msrishav-28?style=for-the-badge&color=00ff41&labelColor=000000&logo=github)
 
 </div>
 
