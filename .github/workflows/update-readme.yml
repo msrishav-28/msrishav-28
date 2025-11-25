@@ -1,25 +1,20 @@
-name: Update README with Recent Activity
+name: Update README
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Every 6 hours instead of 30 mins
-  workflow_dispatch:  # Allows manual trigger
-  push:
-    branches: [main]
-
-permissions:
-  contents: write
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  build:
     runs-on: ubuntu-latest
-    name: Update README with Recent Activity
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
-      
-      - uses: jamesgeorge007/github-activity-readme@master
+      - uses: jamesgeorge007/github-activity-readme@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          COMMIT_MSG: '⚡ Update activity in Matrix'
+          COMMIT_MSG: 'Update activity'
           MAX_LINES: 5
