@@ -103,13 +103,13 @@ if choice.lower() == "red pill":
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=msrishav-28&theme=matrix&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41)](https://github.com/msrishav-28)
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=transparent)](https://github.com/msrishav-28)
 
-[![Top Languages Pie](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=6)](https://github.com/msrishav-28)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
+[![Top Languages Pie](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=donut&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=6&custom_title=Matrix%20Languages)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=transparent)](https://github.com/msrishav-28)
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github_dark&utcOffset=5.5)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=transparent)](https://github.com/msrishav-28)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=transparent&utcOffset=5.5)](https://github.com/msrishav-28)
 
 </div>
 
@@ -160,7 +160,8 @@ print("Skills loaded successfully. Ready for deployment.")
 
 <!--START_SECTION:waka-->
 ```text
-
+⏳ WakaTime stats will appear here once configured.
+   See setup instructions below for configuration steps.
 ```
 <!--END_SECTION:waka-->
 
@@ -174,10 +175,20 @@ print("Skills loaded successfully. Ready for deployment.")
 
 <div align="center">
 
-<!-- TODO: Replace YOUR_SPOTIFY_USER_ID below with your actual Spotify user ID -->
-[![Spotify](https://spotify-github-readme.vercel.app/api/spotify?background_color=0d1117&border_color=00ff41)](https://open.spotify.com/user/YOUR_SPOTIFY_USER_ID)
+<!-- 
+🎵 Spotify Integration - Setup Required
+Replace YOUR_SPOTIFY_USER_ID with your actual Spotify user ID from https://www.spotify.com/account/overview/
+-->
 
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_USER_ID&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=true&bar_color=00ff41&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_USER_ID&redirect=true)
+> **🎵 Spotify Integration**: *Setup required - see instructions in the Setup section below*
+
+```python
+# Matrix Soundtrack Status
+spotify_status = {
+    "integration": "Pending Setup",
+    "instructions": "See Setup Instructions section below"
+}
+```
 
 </div>
 
@@ -268,6 +279,7 @@ Alternative versions available:
 ```
 
 <!--START_SECTION:activity-->
+1. 🔄 *Activity data loading... Check back soon!*
 <!--END_SECTION:activity-->
 
 ---
