@@ -20,7 +20,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install requests pillow
+          pip install requests
       
       - name: Generate Matrix Green Stats
         run: |
@@ -34,5 +34,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git commit -m "Generated custom Matrix green stats" || echo "No changes to commit"
+          git commit -m "Generated custom Matrix green stats [skip ci]" || echo "No changes to commit"
           git push
