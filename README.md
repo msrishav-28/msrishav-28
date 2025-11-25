@@ -111,13 +111,13 @@ if choice.lower() == "red pill":
   <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=msrishav-28&theme=dark&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41&border_radius=10">
 </picture>
 
-[![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=matrix)](https://github.com/msrishav-28)
+[![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=radical)](https://github.com/msrishav-28)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=8&custom_title=Matrix%20Languages&border_radius=10&theme=dark)](https://github.com/msrishav-28)
-[![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=matrix)](https://github.com/msrishav-28)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&langs_count=8&custom_title=Matrix%20Languages&border_radius=10)](https://github.com/msrishav-28)
+[![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=msrishav-28&theme=radical)](https://github.com/msrishav-28)
 
-[![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=matrix)](https://github.com/msrishav-28)
-[![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=matrix&utcOffset=5.5)](https://github.com/msrishav-28)
+[![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=msrishav-28&theme=radical)](https://github.com/msrishav-28)
+[![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=radical&utcOffset=5.5)](https://github.com/msrishav-28)
 
 </div>
 
