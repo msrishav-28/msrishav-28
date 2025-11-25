@@ -87,9 +87,9 @@ if choice.lower() == "red pill":
 ### **M S RISHAV SUBHIN** | *Neo.exe*
 **`AI/ML Engineer • Third-Year • Bengaluru Node`**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=green)](https://portfolio-msrishav.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=green)](https://linkedin.com/in/m-s-rishav-subhin)
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=green)](https://github.com/msrishav-28)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=00FF41)](https://portfolio-msrishav.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://linkedin.com/in/m-s-rishav-subhin)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/msrishav-28)
 
 </div>
 
