@@ -119,7 +119,10 @@ class TheOne:
         
     def load_skills(self):
         return {
-
+            "Languages": ["Python", "JavaScript", "TypeScript", "Java", "C"],
+            "AI/ML": ["TensorFlow", "PyTorch", "Scikit-Learn"],
+            "Frameworks": ["React", "Next.js", "Flask", "FastAPI"],
+            "Cloud": ["AWS", "GCP", "Firebase"]
         }
         
 Neo = TheOne()
