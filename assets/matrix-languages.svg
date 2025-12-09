@@ -49,43 +49,43 @@
     </g>
     
     <!-- Pie Chart -->
-    <path d="M 150 150 L 150.00013267948967 50.00000000008802 A 100 100 0 0 1 217.07852535540718 224.16516322468385 Z" 
+    <path d="M 150 150 L 150.00013267948967 50.00000000008802 A 100 100 0 0 1 210.8762043035217 229.3352869131756 Z" 
               fill="#00ff41" opacity="0.9"/>
-    <path d="M 150 150 L 217.07852535540718 224.16516322468385 A 100 100 0 0 1 54.48982137158147 179.627787267489 Z" 
+    <path d="M 150 150 L 210.8762043035217 229.3352869131756 A 100 100 0 0 1 53.40748032800677 175.88213946750926 Z" 
               fill="#00cc33" opacity="0.9"/>
-    <path d="M 150 150 L 54.48982137158147 179.627787267489 A 100 100 0 0 1 88.02474303326017 71.5202731662083 Z" 
+    <path d="M 150 150 L 53.40748032800677 175.88213946750926 A 100 100 0 0 1 89.12358517338504 70.66487462757814 Z" 
               fill="#009929" opacity="0.9"/>
-    <path d="M 150 150 L 88.02474303326017 71.5202731662083 A 100 100 0 0 1 136.67092116687536 50.892302733539665 Z" 
+    <path d="M 150 150 L 89.12358517338504 70.66487462757814 A 100 100 0 0 1 136.94699710693104 50.855564374628 Z" 
               fill="#33ff66" opacity="0.9"/>
-    <path d="M 150 150 L 136.67092116687536 50.892302733539665 A 100 100 0 0 1 149.99960196153094 50.000000000792184 Z" 
+    <path d="M 150 150 L 136.94699710693104 50.855564374628 A 100 100 0 0 1 149.99960196153094 50.000000000792184 Z" 
               fill="#00661a" opacity="0.9"/>
     <rect x="310" y="60" width="15" height="15" fill="#00ff41" rx="2"/>
     <text x="332" y="72" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
         Python
     </text>
     <text x="410" y="72" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        38.3%
+        39.6%
     </text>
     <rect x="310" y="95" width="15" height="15" fill="#00cc33" rx="2"/>
     <text x="332" y="107" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
         TypeScript
     </text>
     <text x="410" y="107" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        31.9%
+        31.2%
     </text>
     <rect x="310" y="130" width="15" height="15" fill="#009929" rx="2"/>
     <text x="332" y="142" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
         JavaScript
     </text>
     <text x="410" y="142" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        19.1%
+        18.8%
     </text>
     <rect x="310" y="165" width="15" height="15" fill="#33ff66" rx="2"/>
     <text x="332" y="177" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
         HTML
     </text>
     <text x="410" y="177" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        8.5%
+        8.3%
     </text>
     <rect x="310" y="200" width="15" height="15" fill="#00661a" rx="2"/>
     <text x="332" y="212" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
