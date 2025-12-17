@@ -49,49 +49,58 @@
     </g>
     
     <!-- Pie Chart -->
-    <path d="M 150 150 L 150.00013267948967 50.00000000008802 A 100 100 0 0 1 204.55356047022264 233.8087646969084 Z" 
+    <path d="M 150 150 L 150.00013267948967 50.00000000008802 A 100 100 0 0 1 208.77858963320585 230.90165264524074 Z" 
               fill="#00ff41" opacity="0.9"/>
-    <path d="M 150 150 L 204.55356047022264 233.8087646969084 A 100 100 0 0 1 52.50726361233238 172.25233362244845 Z" 
+    <path d="M 150 150 L 208.77858963320585 230.90165264524074 A 100 100 0 0 1 54.89442217114667 180.90192657165443 Z" 
               fill="#00cc33" opacity="0.9"/>
-    <path d="M 150 150 L 52.50726361233238 172.25233362244845 A 100 100 0 0 1 90.18867135825059 69.85884349406575 Z" 
+    <path d="M 150 150 L 54.89442217114667 180.90192657165443 A 100 100 0 0 1 81.54504567516638 77.10336613817519 Z" 
               fill="#009929" opacity="0.9"/>
-    <path d="M 150 150 L 90.18867135825059 69.85884349406575 A 100 100 0 0 1 137.2118998031233 50.82104813341371 Z" 
+    <path d="M 150 150 L 81.54504567516638 77.10336613817519 A 100 100 0 0 1 125.13064631211164 53.141777596598885 Z" 
               fill="#33ff66" opacity="0.9"/>
-    <path d="M 150 150 L 137.2118998031233 50.82104813341371 A 100 100 0 0 1 149.99960196153114 50.000000000792184 Z" 
+    <path d="M 150 150 L 125.13064631211164 53.141777596598885 A 100 100 0 0 1 137.46629227450865 50.78857842641324 Z" 
               fill="#00661a" opacity="0.9"/>
+    <path d="M 150 150 L 137.46629227450865 50.78857842641324 A 100 100 0 0 1 149.99960196153094 50.000000000792184 Z" 
+              fill="#66ff8c" opacity="0.9"/>
     <rect x="310" y="60" width="15" height="15" fill="#00ff41" rx="2"/>
     <text x="332" y="72" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
         Python
     </text>
     <text x="410" y="72" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        40.8%
+        40.0%
     </text>
     <rect x="310" y="95" width="15" height="15" fill="#00cc33" rx="2"/>
     <text x="332" y="107" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
         TypeScript
     </text>
     <text x="410" y="107" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        30.6%
+        30.0%
     </text>
     <rect x="310" y="130" width="15" height="15" fill="#009929" rx="2"/>
     <text x="332" y="142" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
         JavaScript
     </text>
     <text x="410" y="142" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        18.4%
+        18.0%
     </text>
     <rect x="310" y="165" width="15" height="15" fill="#33ff66" rx="2"/>
     <text x="332" y="177" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
         HTML
     </text>
     <text x="410" y="177" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        8.2%
+        8.0%
     </text>
     <rect x="310" y="200" width="15" height="15" fill="#00661a" rx="2"/>
     <text x="332" y="212" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
-        Jupyter Notebook
+        Kotlin
     </text>
     <text x="410" y="212" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
+        2.0%
+    </text>
+    <rect x="310" y="235" width="15" height="15" fill="#66ff8c" rx="2"/>
+    <text x="332" y="247" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
+        Jupyter Notebook
+    </text>
+    <text x="410" y="247" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
         2.0%
     </text>
 </svg>
