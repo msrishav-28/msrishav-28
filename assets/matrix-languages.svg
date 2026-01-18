@@ -49,49 +49,49 @@
     </g>
     
     <!-- Pie Chart -->
-    <path d="M 150 150 L 150.00013267948967 50.00000000008802 A 100 100 0 0 1 198.94186281339228 237.20489702049474 Z" 
+    <path d="M 150 150 L 150.00013267948967 50.00000000008802 A 100 100 0 0 1 206.33207366940061 232.6238311633225 Z" 
               fill="#00ff41" opacity="0.9"/>
-    <path d="M 150 150 L 198.94186281339228 237.20489702049474 A 100 100 0 0 1 57.965264585757964 110.88980341099698 Z" 
+    <path d="M 150 150 L 206.33207366940061 232.6238311633225 A 100 100 0 0 1 56.91251664821611 113.46617398586127 Z" 
               fill="#00cc33" opacity="0.9"/>
-    <path d="M 150 150 L 57.965264585757964 110.88980341099698 A 100 100 0 0 1 121.18973253974622 54.24004757275283 Z" 
+    <path d="M 150 150 L 56.91251664821611 113.46617398586127 A 100 100 0 0 1 120.52412635388491 54.44282929681175 Z" 
               fill="#009929" opacity="0.9"/>
-    <path d="M 150 150 L 121.18973253974622 54.24004757275283 A 100 100 0 0 1 135.43950164063918 51.065719351040656 Z" 
+    <path d="M 150 150 L 120.52412635388491 54.44282929681175 A 100 100 0 0 1 135.0953922847917 51.11697481945775 Z" 
               fill="#33ff66" opacity="0.9"/>
-    <path d="M 150 150 L 135.43950164063918 51.065719351040656 A 100 100 0 0 1 149.99960196153094 50.000000000792184 Z" 
+    <path d="M 150 150 L 135.0953922847917 51.11697481945775 A 100 100 0 0 1 149.99960196153094 50.000000000792184 Z" 
               fill="#00661a" opacity="0.9"/>
     <rect x="310" y="60" width="15" height="15" fill="#00ff41" rx="2"/>
     <text x="332" y="72" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
-        TypeScript
+        Python
     </text>
     <text x="410" y="72" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        41.9%
+        40.5%
     </text>
     <rect x="310" y="95" width="15" height="15" fill="#00cc33" rx="2"/>
     <text x="332" y="107" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
-        Python
+        TypeScript
     </text>
     <text x="410" y="107" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        39.5%
+        40.5%
     </text>
     <rect x="310" y="130" width="15" height="15" fill="#009929" rx="2"/>
     <text x="332" y="142" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
         JavaScript
     </text>
     <text x="410" y="142" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        14.0%
+        14.3%
     </text>
     <rect x="310" y="165" width="15" height="15" fill="#33ff66" rx="2"/>
     <text x="332" y="177" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
         Kotlin
     </text>
     <text x="410" y="177" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        2.3%
+        2.4%
     </text>
     <rect x="310" y="200" width="15" height="15" fill="#00661a" rx="2"/>
     <text x="332" y="212" font-family="'Courier New', monospace" font-size="12" fill="#00ff41">
         HTML
     </text>
     <text x="410" y="212" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="end">
-        2.3%
+        2.4%
     </text>
 </svg>
