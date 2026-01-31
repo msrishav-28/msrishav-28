@@ -25,6 +25,7 @@ jobs:
       - name: Generate Matrix Green Stats
         run: |
           python .github/scripts/generate_green_stats.py
+          python .github/scripts/generate_matrix_achievements.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: msrishav-28

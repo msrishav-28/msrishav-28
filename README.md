@@ -219,7 +219,7 @@ If the image doesn't appear, trigger the workflow manually or check GitHub Actio
 
 ---
 
-## > SNAKE CONSUMING CONTRIBUTIONS
+## > MATRIX CONTRIBUTIONS
 
 <div align="center">
 
@@ -251,7 +251,7 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 
 <div align="center">
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=4)](https://github.com/msrishav-28)
+![Matrix Achievements](./assets/matrix-achievements.svg)
 
 </div>
 
