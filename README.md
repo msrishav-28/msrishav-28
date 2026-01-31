@@ -1,8 +1,15 @@
-# > ACCESSING MATRIX PROTOCOL: RISHAV.EXE
+# > ACCESSING MATRIX PROTOCOL: ARCHITECT.EXE
 ---
 
 ![Terminal Header](./assets/terminal-header.svg)
-<img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&size=25&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=600&lines=Wake+up%2C+Rishav...;The+Matrix+has+you...;Follow+the+white+rabbit.;Knock%2C+knock%2C+Rishav." alt="Matrix Typing" />
+![Matrix Quotes](./assets/matrix-quotes.svg)
+
+<div align="center">
+  <br>
+  <code>[ SYSTEM ANOMALY DETECTED ]</code>
+  <br>
+  <code>⚠️ MATRIX INTEGRITY: UNSTABLE ⚠️</code>
+</div>
 
 ```diff
 +                                                                                 
@@ -43,7 +50,7 @@
 
 ## > MORPHEUS IS CALLING YOU...
 
-> *"This is your last chance. After this, there is no turning back."*
+![Morpheus Quote](./assets/morpheus-quote.svg)
 
 <div align="center">
 
@@ -55,9 +62,7 @@
 
 
 
-**You take the blue pill** - the story ends, you wake up in your bed and believe whatever you want to believe.
-
-**You take the red pill** - you stay in Wonderland, and I show you how deep the rabbit hole goes.
+![Red/Blue Pill Choice](./assets/matrix-pills.svg)
 
 ```
 choice = input("Red pill or Blue pill? ")

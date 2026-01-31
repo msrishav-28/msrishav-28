@@ -1,0 +1,69 @@
+<svg width="800" height="100" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&amp;display=swap');
+        
+        .pill-text {
+            font-family: 'Courier Prime', 'Courier New', monospace;
+            font-size: 18px;
+            font-weight: bold;
+            white-space: pre;
+        }
+        .blue-glow { fill: #0080FF; filter: drop-shadow(0 0 2px #0080FF); }
+        .red-glow { fill: #FF0040; filter: drop-shadow(0 0 2px #FF0040); }
+        
+        
+        /* Line 0 */
+        #mask-rect-0 {
+            animation: type-0 1.65s steps(55, end) forwards;
+            animation-delay: 0.5s;
+            width: 0;
+        }
+        @keyframes type-0 { 
+            0% { width: 0; } 
+            100% { width: 100%; } 
+        }
+        
+        #text-0 {
+            animation: fade-in-0 0.1s forwards;
+            animation-delay: 0.5s;
+            opacity: 0;
+        }
+        @keyframes fade-in-0 { to { opacity: 1; } }
+
+        /* Line 1 */
+        #mask-rect-1 {
+            animation: type-1 2.46s steps(82, end) forwards;
+            animation-delay: 2.65s;
+            width: 0;
+        }
+        @keyframes type-1 { 
+            0% { width: 0; } 
+            100% { width: 100%; } 
+        }
+        
+        #text-1 {
+            animation: fade-in-1 0.1s forwards;
+            animation-delay: 2.65s;
+            opacity: 0;
+        }
+        @keyframes fade-in-1 { to { opacity: 1; } }
+
+    </style>
+    
+    <rect width="100%" height="100%" fill="#00000000"/>
+    
+    <defs>
+        <mask id="mask-0">
+            <rect id="mask-rect-0" x="0" y="15" height="30" fill="white"/>
+        </mask>
+    </defs>
+    <text id="text-0" x="20" y="35" class="pill-text blue-glow" mask="url(#mask-0)">> BLUE PILL: The story ends, you wake up in your bed...</text>
+
+    <defs>
+        <mask id="mask-1">
+            <rect id="mask-rect-1" x="0" y="45" height="30" fill="white"/>
+        </mask>
+    </defs>
+    <text id="text-1" x="20" y="65" class="pill-text red-glow" mask="url(#mask-1)">> RED PILL:  You stay in Wonderland, and I show you how deep the rabbit hole goes.</text>
+
+</svg>

@@ -1,0 +1,291 @@
+<svg width="600" height="50" viewBox="0 0 600 50" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="2" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+        </filter>
+    </defs>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&amp;display=swap');
+        
+        .matrix-text {
+            font-family: 'Courier Prime', 'Courier New', monospace;
+            font-size: 20px;
+            fill: #00FF41;
+            font-weight: bold;
+            filter: url(#glow);
+            white-space: pre;
+            opacity: 0; /* Hidden by default */
+        }
+        
+        .cursor {
+            fill: #00FF41;
+            animation: blink 1s step-end infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
+
+        /* Animation for Quote 0: "Wake up, Rishav..." */
+        #m0-rect {
+            animation: anim-0 41.5s linear infinite;
+        }
+        
+        #q0 {
+            animation: anim-0-os 41.5s step-end infinite;
+        }
+        
+        /* Mask Width Animation (Typing) */
+        @keyframes anim-0 {
+            0%, 0.0% { width: 0; }
+            4.337349397590361%, 9.156626506024097% { width: 100%; }
+            11.325301204819278%, 100% { width: 0; }
+        }
+        
+        /* Opacity/Visibility Animation (Only show during active window) */
+        @keyframes anim-0-os {
+            0%, 0.0% { opacity: 0; }
+            0.0%, 11.325301204819278% { opacity: 1; }
+            11.325301204819278%, 100% { opacity: 0; }
+        }
+
+        /* Animation for Quote 1: "The Matrix has you..." */
+        #m1-rect {
+            animation: anim-1 41.5s linear infinite;
+        }
+        
+        #q1 {
+            animation: anim-1-os 41.5s step-end infinite;
+        }
+        
+        /* Mask Width Animation (Typing) */
+        @keyframes anim-1 {
+            0%, 12.530120481927712% { width: 0; }
+            17.590361445783135%, 22.40963855421687% { width: 100%; }
+            24.939759036144583%, 100% { width: 0; }
+        }
+        
+        /* Opacity/Visibility Animation (Only show during active window) */
+        @keyframes anim-1-os {
+            0%, 12.530120481927712% { opacity: 0; }
+            12.530120481927712%, 24.939759036144583% { opacity: 1; }
+            24.939759036144583%, 100% { opacity: 0; }
+        }
+
+        /* Animation for Quote 2: "Follow the white rabbit." */
+        #m2-rect {
+            animation: anim-2 41.5s linear infinite;
+        }
+        
+        #q2 {
+            animation: anim-2-os 41.5s step-end infinite;
+        }
+        
+        /* Mask Width Animation (Typing) */
+        @keyframes anim-2 {
+            0%, 26.144578313253014% { width: 0; }
+            31.927710843373497%, 36.74698795180723% { width: 100%; }
+            39.638554216867476%, 100% { width: 0; }
+        }
+        
+        /* Opacity/Visibility Animation (Only show during active window) */
+        @keyframes anim-2-os {
+            0%, 26.144578313253014% { opacity: 0; }
+            26.144578313253014%, 39.638554216867476% { opacity: 1; }
+            39.638554216867476%, 100% { opacity: 0; }
+        }
+
+        /* Animation for Quote 3: "Ignorance is bliss." */
+        #m3-rect {
+            animation: anim-3 41.5s linear infinite;
+        }
+        
+        #q3 {
+            animation: anim-3-os 41.5s step-end infinite;
+        }
+        
+        /* Mask Width Animation (Typing) */
+        @keyframes anim-3 {
+            0%, 40.84337349397591% { width: 0; }
+            45.42168674698795%, 50.2409638554217% { width: 100%; }
+            52.53012048192771%, 100% { width: 0; }
+        }
+        
+        /* Opacity/Visibility Animation (Only show during active window) */
+        @keyframes anim-3-os {
+            0%, 40.84337349397591% { opacity: 0; }
+            40.84337349397591%, 52.53012048192771% { opacity: 1; }
+            52.53012048192771%, 100% { opacity: 0; }
+        }
+
+        /* Animation for Quote 4: "I know Kung Fu." */
+        #m4-rect {
+            animation: anim-4 41.5s linear infinite;
+        }
+        
+        #q4 {
+            animation: anim-4-os 41.5s step-end infinite;
+        }
+        
+        /* Mask Width Animation (Typing) */
+        @keyframes anim-4 {
+            0%, 53.73493975903615% { width: 0; }
+            57.34939759036145%, 62.16867469879518% { width: 100%; }
+            63.97590361445783%, 100% { width: 0; }
+        }
+        
+        /* Opacity/Visibility Animation (Only show during active window) */
+        @keyframes anim-4-os {
+            0%, 53.73493975903615% { opacity: 0; }
+            53.73493975903615%, 63.97590361445783% { opacity: 1; }
+            63.97590361445783%, 100% { opacity: 0; }
+        }
+
+        /* Animation for Quote 5: "Choice is an illusion." */
+        #m5-rect {
+            animation: anim-5 41.5s linear infinite;
+        }
+        
+        #q5 {
+            animation: anim-5-os 41.5s step-end infinite;
+        }
+        
+        /* Mask Width Animation (Typing) */
+        @keyframes anim-5 {
+            0%, 65.18072289156626% { width: 0; }
+            70.48192771084338%, 75.30120481927712% { width: 100%; }
+            77.95180722891567%, 100% { width: 0; }
+        }
+        
+        /* Opacity/Visibility Animation (Only show during active window) */
+        @keyframes anim-5-os {
+            0%, 65.18072289156626% { opacity: 0; }
+            65.18072289156626%, 77.95180722891567% { opacity: 1; }
+            77.95180722891567%, 100% { opacity: 0; }
+        }
+
+        /* Animation for Quote 6: "Never send a human to do a machine's job." */
+        #m6-rect {
+            animation: anim-6 41.5s linear infinite;
+        }
+        
+        #q6 {
+            animation: anim-6-os 41.5s step-end infinite;
+        }
+        
+        /* Mask Width Animation (Typing) */
+        @keyframes anim-6 {
+            0%, 79.1566265060241% { width: 0; }
+            89.03614457831326%, 93.855421686747% { width: 100%; }
+            98.79518072289156%, 100% { width: 0; }
+        }
+        
+        /* Opacity/Visibility Animation (Only show during active window) */
+        @keyframes anim-6-os {
+            0%, 79.1566265060241% { opacity: 0; }
+            79.1566265060241%, 98.79518072289156% { opacity: 1; }
+            98.79518072289156%, 100% { opacity: 0; }
+        }
+    </style>
+    
+    <!-- Background (Transparent) -->
+    <rect width="100%" height="100%" fill="#00000000"/>
+    
+    <!-- Centered Container -->
+    <g transform="translate(300.0, 30.0)">
+
+        <defs>
+            <mask id="m0">
+                <!-- The mask needs to cover the centered text. 
+                     Text is at x=0 (centered).
+                     So text spans from -half_w to +half_w.
+                     Mask rect should start at -half_w and grow width.
+                -->
+                <rect id="m0-rect" x="-112.5" y="-20" height="40" fill="white" width="0"/>
+            </mask>
+        </defs>
+        
+        <text id="q0" class="matrix-text" text-anchor="middle" mask="url(#m0)">Wake up, Rishav...</text>
+
+        <defs>
+            <mask id="m1">
+                <!-- The mask needs to cover the centered text. 
+                     Text is at x=0 (centered).
+                     So text spans from -half_w to +half_w.
+                     Mask rect should start at -half_w and grow width.
+                -->
+                <rect id="m1-rect" x="-131.25" y="-20" height="40" fill="white" width="0"/>
+            </mask>
+        </defs>
+        
+        <text id="q1" class="matrix-text" text-anchor="middle" mask="url(#m1)">The Matrix has you...</text>
+
+        <defs>
+            <mask id="m2">
+                <!-- The mask needs to cover the centered text. 
+                     Text is at x=0 (centered).
+                     So text spans from -half_w to +half_w.
+                     Mask rect should start at -half_w and grow width.
+                -->
+                <rect id="m2-rect" x="-150.0" y="-20" height="40" fill="white" width="0"/>
+            </mask>
+        </defs>
+        
+        <text id="q2" class="matrix-text" text-anchor="middle" mask="url(#m2)">Follow the white rabbit.</text>
+
+        <defs>
+            <mask id="m3">
+                <!-- The mask needs to cover the centered text. 
+                     Text is at x=0 (centered).
+                     So text spans from -half_w to +half_w.
+                     Mask rect should start at -half_w and grow width.
+                -->
+                <rect id="m3-rect" x="-118.75" y="-20" height="40" fill="white" width="0"/>
+            </mask>
+        </defs>
+        
+        <text id="q3" class="matrix-text" text-anchor="middle" mask="url(#m3)">Ignorance is bliss.</text>
+
+        <defs>
+            <mask id="m4">
+                <!-- The mask needs to cover the centered text. 
+                     Text is at x=0 (centered).
+                     So text spans from -half_w to +half_w.
+                     Mask rect should start at -half_w and grow width.
+                -->
+                <rect id="m4-rect" x="-93.75" y="-20" height="40" fill="white" width="0"/>
+            </mask>
+        </defs>
+        
+        <text id="q4" class="matrix-text" text-anchor="middle" mask="url(#m4)">I know Kung Fu.</text>
+
+        <defs>
+            <mask id="m5">
+                <!-- The mask needs to cover the centered text. 
+                     Text is at x=0 (centered).
+                     So text spans from -half_w to +half_w.
+                     Mask rect should start at -half_w and grow width.
+                -->
+                <rect id="m5-rect" x="-137.5" y="-20" height="40" fill="white" width="0"/>
+            </mask>
+        </defs>
+        
+        <text id="q5" class="matrix-text" text-anchor="middle" mask="url(#m5)">Choice is an illusion.</text>
+
+        <defs>
+            <mask id="m6">
+                <!-- The mask needs to cover the centered text. 
+                     Text is at x=0 (centered).
+                     So text spans from -half_w to +half_w.
+                     Mask rect should start at -half_w and grow width.
+                -->
+                <rect id="m6-rect" x="-256.25" y="-20" height="40" fill="white" width="0"/>
+            </mask>
+        </defs>
+        
+        <text id="q6" class="matrix-text" text-anchor="middle" mask="url(#m6)">Never send a human to do a machine&#x27;s job.</text>
+
+    </g>
+</svg>

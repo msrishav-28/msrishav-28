@@ -2,7 +2,7 @@
 """
 Custom Matrix Green Statistics Generator
 Generates fully customizable SVG cards with Matrix green theme
-Includes custom Matrix green Octocat integration
+Text-only version (No Octocat)
 """
 
 import os
@@ -25,59 +25,17 @@ COLORS = {
     'text_dim': '#009929',
 }
 
-def create_green_octocat_svg():
-    """Create a Matrix green Octocat SVG"""
-    octocat = f'''<g id="green-octocat">
-    <!-- Octocat Head -->
-    <circle cx="0" cy="0" r="28" fill="{COLORS['green_3']}" opacity="0.9"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-18" cy="-15" rx="8" ry="10" fill="{COLORS['green_3']}" opacity="0.9"/>
-    <ellipse cx="18" cy="-15" rx="8" ry="10" fill="{COLORS['green_3']}" opacity="0.9"/>
-    
-    <!-- Eyes -->
-    <ellipse cx="-10" cy="-3" rx="5" ry="8" fill="{COLORS['bg_dark']}"/>
-    <ellipse cx="10" cy="-3" rx="5" ry="8" fill="{COLORS['bg_dark']}"/>
-    
-    <!-- Pupils with glow -->
-    <circle cx="-10" cy="-2" r="3" fill="{COLORS['green_3']}">
-        <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="10" cy="-2" r="3" fill="{COLORS['green_3']}">
-        <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    
-    <!-- Nose -->
-    <ellipse cx="0" cy="5" rx="3" ry="2" fill="{COLORS['green_2']}"/>
-    
-    <!-- Smile -->
-    <path d="M -8 10 Q 0 15 8 10" stroke="{COLORS['bg_dark']}" stroke-width="2" fill="none" stroke-linecap="round"/>
-    
-    <!-- Whiskers -->
-    <line x1="-28" y1="2" x2="-15" y2="3" stroke="{COLORS['green_2']}" stroke-width="1.5"/>
-    <line x1="-28" y1="8" x2="-15" y2="7" stroke="{COLORS['green_2']}" stroke-width="1.5"/>
-    <line x1="28" y1="2" x2="15" y2="3" stroke="{COLORS['green_2']}" stroke-width="1.5"/>
-    <line x1="28" y1="8" x2="15" y2="7" stroke="{COLORS['green_2']}" stroke-width="1.5"/>
-    
-    <!-- Glow effect -->
-    <circle cx="0" cy="0" r="30" fill="none" stroke="{COLORS['green_3']}" stroke-width="1" opacity="0.3">
-        <animate attributeName="r" values="30;32;30" dur="2s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.3;0.1;0.3" dur="2s" repeatCount="indefinite"/>
-    </circle>
-</g>'''
-    return octocat
-
 def get_github_stats():
     """Fetch GitHub statistics using GitHub API"""
     headers = {'Authorization': f'token {GITHUB_TOKEN}'}
     
     # Get user info
     user_url = f'https://api.github.com/users/{USERNAME}'
-    user_data = requests.get(user_url, headers=headers).json()
+    user_data = requests.get(user_url, headers=headers, verify=False).json()
     
     # Get repos
     repos_url = f'https://api.github.com/users/{USERNAME}/repos?per_page=100'
-    repos_data = requests.get(repos_url, headers=headers).json()
+    repos_data = requests.get(repos_url, headers=headers, verify=False).json()
     
     # Calculate stats
     total_stars = sum(repo.get('stargazers_count', 0) for repo in repos_data)
@@ -137,11 +95,6 @@ def generate_language_pie_svg(languages_data):
     <text x="225" y="30" font-family="'Courier New', monospace" font-size="18" fill="{COLORS['text']}" text-anchor="middle" font-weight="bold">
         MATRIX LANGUAGES
     </text>
-    
-    <!-- Mini Octocat in corner -->
-    <g transform="translate(410, 270) scale(0.5)">
-        {create_green_octocat_svg()}
-    </g>
     
     <!-- Pie Chart -->
 '''
@@ -243,11 +196,6 @@ def generate_stats_card_svg(stats):
         {stats['followers']}
     </text>
     
-    <!-- Matrix Green Octocat with Animation -->
-    <g transform="translate(420, 110)">
-        {create_green_octocat_svg()}
-    </g>
-    
     <!-- Matrix Code Background -->
     <text x="420" y="40" font-family="'Courier New', monospace" font-size="8" fill="{COLORS['green_0']}" opacity="0.3">
         010101
@@ -315,61 +263,29 @@ def generate_profile_summary_svg():
     
     return svg
 
-def generate_standalone_octocat():
-    """Generate standalone Matrix green Octocat SVG"""
-    svg = f'''<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
-    <defs>
-        <radialGradient id="octocatGlow">
-            <stop offset="0%" style="stop-color:{COLORS['green_3']};stop-opacity:0.8" />
-            <stop offset="100%" style="stop-color:{COLORS['green_3']};stop-opacity:0" />
-        </radialGradient>
-    </defs>
-    
-    <!-- Glow background -->
-    <circle cx="0" cy="0" r="45" fill="url(#octocatGlow)"/>
-    
-    <!-- Main Octocat -->
-    <g transform="translate(0, 0)">
-        {create_green_octocat_svg()}
-    </g>
-    
-    <!-- Signature -->
-    <text x="0" y="45" font-family="'Courier New', monospace" font-size="8" fill="{COLORS['text']}" text-anchor="middle" opacity="0.7">
-        MATRIX OCTOCAT
-    </text>
-</svg>'''
-    return svg
-
 def main():
     """Main function to generate all custom cards"""
     print("🟢 Generating Matrix Green Statistics...")
-    print("🐱 Creating Matrix Green Octocat...")
     
     # Create output directory
     os.makedirs('assets', exist_ok=True)
-    
-    # Generate standalone Octocat first
-    octocat_svg = generate_standalone_octocat()
-    with open('assets/green-octocat.svg', 'w') as f:
-        f.write(octocat_svg)
-    print("✅ Generated green-octocat.svg (standalone)")
     
     # Fetch stats
     stats = get_github_stats()
     print(f"✅ Fetched stats: {stats['repos']} repos, {stats['stars']} stars")
     
-    # Generate stats card with Octocat
+    # Generate stats card
     stats_svg = generate_stats_card_svg(stats)
     with open('assets/matrix-stats.svg', 'w') as f:
         f.write(stats_svg)
-    print("✅ Generated matrix-stats.svg (with animated Octocat)")
+    print("✅ Generated matrix-stats.svg")
     
-    # Generate language pie chart with Octocat
+    # Generate language pie chart
     if stats['languages']:
         lang_svg = generate_language_pie_svg(stats['languages'])
         with open('assets/matrix-languages.svg', 'w') as f:
             f.write(lang_svg)
-        print("✅ Generated matrix-languages.svg (with Octocat corner)")
+        print("✅ Generated matrix-languages.svg")
     
     # Generate profile summary
     profile_svg = generate_profile_summary_svg()
@@ -377,8 +293,7 @@ def main():
         f.write(profile_svg)
     print("✅ Generated matrix-profile-summary.svg")
     
-    print("🎉 All Matrix green visualizations generated!")
-    print("🟢 Green Octocat successfully integrated into all cards!")
+    print("🎉 All Matrix green visualizations generated (No Octocat)!")
 
 if __name__ == '__main__':
     main()
