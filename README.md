@@ -251,7 +251,7 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 
 <div align="center">
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C)](https://github.com/msrishav-28)
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=msrishav-28&theme=matrix&no-frame=true&no-bg=true&margin-w=4)](https://github.com/msrishav-28)
 
 </div>
 
