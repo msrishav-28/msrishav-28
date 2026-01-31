@@ -36,7 +36,9 @@ def default_stats():
 
 def get_github_stats():
     """Fetch GitHub statistics using GitHub API"""
-    headers = {'Authorization': f'token {GITHUB_TOKEN}'}
+    headers = {}
+    if GITHUB_TOKEN:
+        headers['Authorization'] = f'token {GITHUB_TOKEN}'
     
     # Get user info
     user_url = f'https://api.github.com/users/{USERNAME}'
