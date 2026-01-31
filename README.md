@@ -1,12 +1,7 @@
-# > ACCESSING MATRIX PROTOCOL: NEO.EXE
+# > ACCESSING MATRIX PROTOCOL: RISHAV.EXE
 ---
 
-```
-> INITIALIZING...
-> BYPASSING FIREWALL... [DONE]
-> ESTABLISHING SECURE CONNECTION... [DONE]  
-> LOADING PROFILE: M_S_RISHAV_SUBHIN...
-```
+![Terminal Header](./assets/terminal-header.svg)
 <img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&size=25&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=600&lines=Wake+up%2C+Rishav...;The+Matrix+has+you...;Follow+the+white+rabbit.;Knock%2C+knock%2C+Rishav." alt="Matrix Typing" />
 
 ```diff

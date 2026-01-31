@@ -1,0 +1,162 @@
+<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&amp;display=swap');
+        
+        .terminal-text {
+            font-family: 'Courier Prime', 'Courier New', monospace;
+            font-size: 14px;
+            fill: #00FF41;
+            font-weight: bold;
+            white-space: pre; 
+        }
+        
+        /* Cursor Animation */
+        .cursor {
+            animation: blink 1s step-end infinite;
+            fill: #00FF41;
+            opacity: 0;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
+
+        @keyframes type-0 {
+            0% { width: 0; }
+            100% { width: 100%; }
+        }
+        
+        #path-0 {
+            animation: type-0 0.8500000000000001s steps(17, end) forwards;
+            animation-delay: 0s;
+            width: 0; /* Hidden initially */
+        }
+        
+        /* Cursor visibility control */
+        #cursor-0 {
+            animation: blink 1s step-end infinite, cursor-vis-0 1.35s forwards;
+            animation-delay: 0s, 0s;
+            opacity: 0;
+        }
+        
+        @keyframes cursor-vis-0 {
+            0% { opacity: 0; } /* Wait */
+            1% { opacity: 1; } /* Start typing */
+            99% { opacity: 1; } /* Typing done */
+            100% { opacity: 0; } /* Hide after done */
+        }
+
+        @keyframes type-1 {
+            0% { width: 0; }
+            100% { width: 100%; }
+        }
+        
+        #path-1 {
+            animation: type-1 1.5s steps(30, end) forwards;
+            animation-delay: 1.35s;
+            width: 0; /* Hidden initially */
+        }
+        
+        /* Cursor visibility control */
+        #cursor-1 {
+            animation: blink 1s step-end infinite, cursor-vis-1 2.0s forwards;
+            animation-delay: 0s, 1.35s;
+            opacity: 0;
+        }
+        
+        @keyframes cursor-vis-1 {
+            0% { opacity: 0; } /* Wait */
+            1% { opacity: 1; } /* Start typing */
+            99% { opacity: 1; } /* Typing done */
+            100% { opacity: 0; } /* Hide after done */
+        }
+
+        @keyframes type-2 {
+            0% { width: 0; }
+            100% { width: 100%; }
+        }
+        
+        #path-2 {
+            animation: type-2 2.1s steps(42, end) forwards;
+            animation-delay: 3.35s;
+            width: 0; /* Hidden initially */
+        }
+        
+        /* Cursor visibility control */
+        #cursor-2 {
+            animation: blink 1s step-end infinite, cursor-vis-2 2.6s forwards;
+            animation-delay: 0s, 3.35s;
+            opacity: 0;
+        }
+        
+        @keyframes cursor-vis-2 {
+            0% { opacity: 0; } /* Wait */
+            1% { opacity: 1; } /* Start typing */
+            99% { opacity: 1; } /* Typing done */
+            100% { opacity: 0; } /* Hide after done */
+        }
+
+        @keyframes type-3 {
+            0% { width: 0; }
+            100% { width: 100%; }
+        }
+        
+        #path-3 {
+            animation: type-3 1.9500000000000002s steps(39, end) forwards;
+            animation-delay: 5.95s;
+            width: 0; /* Hidden initially */
+        }
+        
+        /* Cursor visibility control */
+        #cursor-3 {
+            animation: blink 1s step-end infinite, cursor-vis-3 2.45s forwards;
+            animation-delay: 0s, 5.95s;
+            opacity: 0;
+        }
+        
+        @keyframes cursor-vis-3 {
+            0% { opacity: 0; } /* Wait */
+            1% { opacity: 1; } /* Start typing */
+            99% { opacity: 1; } /* Typing done */
+            100% { opacity: 0; } /* Hide after done */
+        }
+    </style>
+
+    <rect width="100%" height="100%" fill="#00000000"/>
+    
+    
+    <!-- Line 1 -->
+    <defs>
+        <mask id="mask-0">
+            <rect id="path-0" x="0" y="10" height="15" fill="white"/>
+        </mask>
+    </defs>
+    <text x="10" y="20" class="terminal-text" mask="url(#mask-0)">> INITIALIZING...</text>
+    
+    <!-- Line 2 -->
+    <defs>
+        <mask id="mask-1">
+            <rect id="path-1" x="0" y="30" height="15" fill="white"/>
+        </mask>
+    </defs>
+    <text x="10" y="40" class="terminal-text" mask="url(#mask-1)">> BYPASSING FIREWALL... [DONE]</text>
+    
+    <!-- Line 3 -->
+    <defs>
+        <mask id="mask-2">
+            <rect id="path-2" x="0" y="50" height="15" fill="white"/>
+        </mask>
+    </defs>
+    <text x="10" y="60" class="terminal-text" mask="url(#mask-2)">> ESTABLISHING SECURE CONNECTION... [DONE]</text>
+    
+    <!-- Line 4 -->
+    <defs>
+        <mask id="mask-3">
+            <rect id="path-3" x="0" y="70" height="15" fill="white"/>
+        </mask>
+    </defs>
+    <text x="10" y="80" class="terminal-text" mask="url(#mask-3)">> LOADING PROFILE: M_S_RISHAV_SUBHIN...</text>
+    
+    
+</svg>
