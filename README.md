@@ -97,13 +97,7 @@ if choice.lower() == "red pill":
 
 ## > MATRIX CODE ANALYSIS
 
-<div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&icon_color=00ff41&border_radius=10">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=008000&text_color=008000&icon_color=00cc33&border_radius=10">
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=msrishav-28&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&icon_color=00ff41&border_radius=10">
-</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=msrishav-28&theme=dark&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41&border_radius=10">
