@@ -29,9 +29,7 @@
 +                                                                                
 ```
 
-<img src="https://img.shields.io/badge/Status-RED%20PILL%20TAKEN-00ff41?style=for-the-badge&labelColor=000000" />
-<img src="https://img.shields.io/badge/Access%20Level-ARCHITECT-00ff41?style=for-the-badge&labelColor=000000" />
-<img src="https://img.shields.io/badge/System-ONLINE-00ff41?style=for-the-badge&labelColor=000000" />
+<img src="https://img.shields.io/badge/Status-RED%20PILL%20TAKEN-00ff41?style=for-the-badge&labelColor=000000" /> <img src="https://img.shields.io/badge/Access%20Level-ARCHITECT-00ff41?style=for-the-badge&labelColor=000000" /> <img src="https://img.shields.io/badge/System-ONLINE-00ff41?style=for-the-badge&labelColor=000000" />
 
 </div>
 
