@@ -225,8 +225,7 @@ If the image doesn't appear, trigger the workflow manually or check GitHub Actio
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/msrishav-28/msrishav-28/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![Snake animation](https://raw.githubusercontent.com/msrishav-28/msrishav-28/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![Matrix Rain](./assets/matrix-rain.svg)
 
 <!-- 
 Note: Snake animation updates every 12 hours with Matrix green theme.
