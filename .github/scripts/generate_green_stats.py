@@ -25,17 +25,48 @@ COLORS = {
     'text_dim': '#009929',
 }
 
+def default_stats():
+    return {
+        'repos': 0,
+        'stars': 0,
+        'forks': 0,
+        'followers': 0,
+        'languages': {'Python': 1}
+    }
+
 def get_github_stats():
     """Fetch GitHub statistics using GitHub API"""
     headers = {'Authorization': f'token {GITHUB_TOKEN}'}
     
     # Get user info
     user_url = f'https://api.github.com/users/{USERNAME}'
-    user_data = requests.get(user_url, headers=headers, verify=False).json()
+    try:
+        r_user = requests.get(user_url, headers=headers, verify=False)
+        if r_user.status_code != 200:
+            print(f"❌ Error fetching user: {r_user.status_code} - {r_user.text}")
+            return default_stats()
+        user_data = r_user.json()
+    except Exception as e:
+        print(f"❌ Exception fetching user: {e}")
+        return default_stats()
     
     # Get repos
     repos_url = f'https://api.github.com/users/{USERNAME}/repos?per_page=100'
-    repos_data = requests.get(repos_url, headers=headers, verify=False).json()
+    try:
+        r_repos = requests.get(repos_url, headers=headers, verify=False)
+        if r_repos.status_code != 200:
+            print(f"❌ Error fetching repos: {r_repos.status_code} - {r_repos.text}")
+            return default_stats()
+        repos_data = r_repos.json()
+        
+        if not isinstance(repos_data, list):
+            print(f"❌ Error: Repos data is not a list. Got {type(repos_data)}")
+            print(repos_data)
+            return default_stats()
+            
+    except Exception as e:
+        print(f"❌ Exception fetching repos: {e}")
+        return default_stats()
     
     # Calculate stats
     total_stars = sum(repo.get('stargazers_count', 0) for repo in repos_data)

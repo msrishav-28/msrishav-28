@@ -383,7 +383,7 @@
     
     <!-- Summary Text -->
     <text x="450" y="200" font-family="'Courier New', monospace" font-size="14" fill="#00ff41" text-anchor="middle">
-        Matrix operations active â€¢ All systems green â€¢ Contributions flowing
+        Matrix operations active • All systems green • Contributions flowing
     </text>
     
     <text x="450" y="230" font-family="'Courier New', monospace" font-size="11" fill="#009929" text-anchor="middle">

@@ -1,11 +1,11 @@
 import os
 
 def generate_pills_svg():
-    width = 800
+    width = 950
     height = 100
     bg_color = "#00000000"
     font_family = "'Courier Prime', 'Courier New', monospace"
-    font_size = 18
+    font_size = 16
     line_height = 30
     
     # Colors
