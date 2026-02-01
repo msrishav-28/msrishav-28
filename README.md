@@ -333,18 +333,7 @@ establish_contact()
 
 ---
 
-```ascii
- ╔══════════════════════════════════════════════════════════╗
- ║                                                          ║
- ║  "The Matrix is a system, Neo. That system is our        ║
- ║   enemy. But when you're inside, you look around.        ║
- ║   What do you see? Businessmen, teachers, lawyers,       ║
- ║   carpenters. The very minds of the people we are        ║
- ║   trying to save."                                       ║
- ║                                     - Morpheus           ║
- ║                                                          ║
- ╚══════════════════════════════════════════════════════════╝
-```
+![System Shutdown](https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/assets/matrix-footer.svg)
 
 <div align="center">
 
