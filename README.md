@@ -311,15 +311,7 @@ establish_contact()
 
 ---
 
-## > RANDOM DEV WISDOM FROM THE MATRIX
 
-<div align="center">
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote_color=00ff41&bg_color=0d1117)](https://github.com/msrishav-28)
-
-</div>
-
----
 
 ## > MATRIX STATISTICS: REAL-TIME FEED
 
