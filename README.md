@@ -134,13 +134,7 @@
 ## > LANGUAGE DISTRIBUTION: DECODING THE MATRIX
 
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&border_radius=10">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=008000&text_color=008000&border_radius=10">
-  <img alt="Top Languages Compact" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msrishav-28&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&border_radius=10">
-</picture>
-
+  <img src="https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/assets/matrix-languages.svg?v=2" alt="Matrix Skill Spectrum" width="100%" />
 </div>
 
 ---

@@ -6,7 +6,8 @@ import math
 # Configuration
 USERNAME = os.getenv('USERNAME', 'msrishav-28')
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-OUTPUT_FILE = 'assets/matrix-dashboard.svg'
+DASHBOARD_FILE = 'assets/matrix-dashboard.svg'
+LANG_FILE = 'assets/matrix-languages.svg'
 
 # Matrix Colors
 COLORS = {
@@ -16,7 +17,7 @@ COLORS = {
     'text_primary': '#00ff41',
     'text_secondary': '#008f11',
     'text_dim': '#005500',
-    'alert': '#ff0000', # For errors only (Matrix style usually avoids red, but useful for 'Critical')
+    'alert': '#ff0000',
     'bar_fill': '#00ff41',
     'bar_empty': '#003300'
 }
@@ -75,63 +76,41 @@ def fetch_data():
     return run_graphql_query(query)
 
 def calculate_streak(calendar):
-    """Calculates current and longest streak from contribution calendar."""
+    """Calculates current and longest streak."""
     days = []
     for week in calendar['weeks']:
         for day in week['contributionDays']:
-            # GraphQL returns YYYY-MM-DD
             date_obj = datetime.datetime.strptime(day['date'], '%Y-%m-%d').date()
             count = day['contributionCount']
             days.append({'date': date_obj, 'count': count})
     
-    # Sort days just in case
     days.sort(key=lambda x: x['date'])
     
     current_streak = 0
     longest_streak = 0
     temp_streak = 0
-    
     today = datetime.date.today()
     
-    # Iterate through all days to find longest streak
     for day in days:
         if day['count'] > 0:
             temp_streak += 1
         else:
             longest_streak = max(longest_streak, temp_streak)
             temp_streak = 0
-    longest_streak = max(longest_streak, temp_streak) # Final check
+    longest_streak = max(longest_streak, temp_streak)
 
-    # Current Streak (Working backwards from today)
-    # Note: GitHub calendar might not include 'today' immediately if timezone diff, 
-    # but we check the last few entries.
-    
-    # Reverse iterate
     active_streak = 0
-    # Find the index of today or yesterday (latest data)
-    
-    # Simple algorithm: Iterate backwards. 
-    # If today has 0, check yesterday. If yesterday has 0, streak is 0.
-    
-    # We'll just trace backwards from the last available day
-    is_streak_alive = True
+    # Check current streak
     for day in reversed(days):
-        if day['date'] > today:
-            continue # Future?
-        
+        if day['date'] > today: continue
         if day['count'] > 0:
             active_streak += 1
-            is_streak_alive = True
+        elif day['date'] == today:
+             continue # Today empty, but streak might be alive from yesterday
         else:
-            # If it's today and count is 0, streak might still be alive (haven't committed YET)
-            if day['date'] == today:
-                continue 
-            else:
-                break
-    
-    current_streak = active_streak
-    
-    return current_streak, longest_streak
+            break
+            
+    return active_streak, longest_streak
 
 def process_languages(repos):
     """Aggregates language bytes and filters noise."""
@@ -139,23 +118,15 @@ def process_languages(repos):
     total_bytes = 0
     
     for repo in repos:
-        if not repo['languages']['edges']:
-            continue
-        
+        if not repo['languages']['edges']: continue
         for edge in repo['languages']['edges']:
             lang_name = edge['node']['name']
             size = edge['size']
-            
-            if lang_name in IGNORED_LANGUAGES:
-                continue
-                
+            if lang_name in IGNORED_LANGUAGES: continue
             lang_stats[lang_name] = lang_stats.get(lang_name, 0) + size
             total_bytes += size
             
-    # Convert to list and sort
     sorted_langs = sorted(lang_stats.items(), key=lambda item: item[1], reverse=True)
-    
-    # Calculate percentages
     final_stats = []
     for lang, size in sorted_langs[:6]: # Top 6
         pct = (size / total_bytes) * 100 if total_bytes > 0 else 0
@@ -163,25 +134,19 @@ def process_languages(repos):
         
     return final_stats
 
-def generate_svg(data, streaks, languages):
-    """Renders the component as an SVG."""
-    w = 800
-    h = 420
+def generate_dashboard_svg(data, streaks):
+    """Renders Core Metrics + System Log (Without Languages)."""
+    w, h = 800, 320 # Reduced height since languages are gone
     
     user = data['data']['user']
     repos = user['repositories']['nodes']
     
-    # Aggregate Metrics
     total_stars = sum(r['stargazerCount'] for r in repos)
     total_forks = sum(r['forkCount'] for r in repos)
     repo_count = len(repos)
     followers = user['followers']['totalCount']
-    
-    # Access/Contribution Data
-    contrib_calendar = user['contributionsCollection']['contributionCalendar']
-    total_contribs = contrib_calendar['totalContributions']
+    total_contribs = user['contributionsCollection']['contributionCalendar']['totalContributions']
     join_year = user['createdAt'][:4]
-    
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
     svg = f"""<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg">
@@ -192,8 +157,6 @@ def generate_svg(data, streaks, languages):
         .label {{ font-size: 12px; fill: {COLORS['text_secondary']}; }}
         .value {{ font-size: 14px; font-weight: bold; }}
         .panel {{ fill: {COLORS['panel_bg']}; stroke: {COLORS['border']}; stroke-width: 1; }}
-        
-        /* Glitch Effect on Name */
         @keyframes glitch {{
             0% {{ transform: translate(0) }}
             20% {{ transform: translate(-2px, 2px) }}
@@ -212,115 +175,123 @@ def generate_svg(data, streaks, languages):
     <text x="20" y="30" class="text header">[ SYSTEM MONITOR: {USERNAME.upper()} ]</text>
     <text x="{w-20}" y="30" class="text header" text-anchor="end">[ STATUS: CONNECTED ]</text>
     
-    <!-- Panel 1: Core Metrics (Left) -->
-    <rect x="20" y="60" width="370" height="200" class="panel" rx="4"/>
+    <!-- Core Metrics Panel (Full Width) -->
+    <rect x="20" y="60" width="760" height="130" class="panel" rx="4"/>
     <text x="35" y="85" class="text header">&gt; CORE_METRICS</text>
     
-    <!-- Stars -->
-    <text x="35" y="115" class="label">TOTAL STARS</text>
-    <rect x="160" y="105" width="200" height="12" fill="{COLORS['bar_empty']}"/>
-    <rect x="160" y="105" width="{min(total_stars*5, 200)}" height="12" fill="{COLORS['bar_fill']}"/>
-    <text x="375" y="115" class="text value" text-anchor="end">{total_stars}</text>
+    <!-- Layout: 3 Columns -->
+    <!-- Col 1 -->
+    <text x="50" y="115" class="label">TOTAL STARS</text>
+    <rect x="150" y="105" width="150" height="12" fill="{COLORS['bar_empty']}"/>
+    <rect x="150" y="105" width="{min(total_stars*5, 150)}" height="12" fill="{COLORS['bar_fill']}"/>
+    <text x="310" y="115" class="text value">{total_stars}</text>
     
-    <!-- Repos -->
-    <text x="35" y="145" class="label">PUBLIC REPOS</text>
-    <rect x="160" y="135" width="200" height="12" fill="{COLORS['bar_empty']}"/>
-    <rect x="160" y="135" width="{min(repo_count*5, 200)}" height="12" fill="{COLORS['bar_fill']}"/>
-    <text x="375" y="145" class="text value" text-anchor="end">{repo_count}</text>
+    <text x="50" y="145" class="label">PUBLIC REPOS</text>
+    <rect x="150" y="135" width="150" height="12" fill="{COLORS['bar_empty']}"/>
+    <rect x="150" y="135" width="{min(repo_count*5, 150)}" height="12" fill="{COLORS['bar_fill']}"/>
+    <text x="310" y="145" class="text value">{repo_count}</text>
+
+    <!-- Col 2 -->
+    <text x="350" y="115" class="label">FORKS</text>
+    <rect x="420" y="105" width="100" height="12" fill="{COLORS['bar_empty']}"/>
+    <rect x="420" y="105" width="{min(total_forks*10, 100)}" height="12" fill="{COLORS['bar_fill']}"/>
+    <text x="530" y="115" class="text value">{total_forks}</text>
     
-    <!-- Forks -->
-    <text x="35" y="175" class="label">FORKS</text>
-    <rect x="160" y="165" width="200" height="12" fill="{COLORS['bar_empty']}"/>
-    <rect x="160" y="165" width="{min(total_forks*10, 200)}" height="12" fill="{COLORS['bar_fill']}"/>
-    <text x="375" y="175" class="text value" text-anchor="end">{total_forks}</text>
+    <text x="350" y="145" class="label">FOLLOWERS</text>
+    <rect x="420" y="135" width="100" height="12" fill="{COLORS['bar_empty']}"/>
+    <rect x="420" y="135" width="{min(followers*2, 100)}" height="12" fill="{COLORS['bar_fill']}"/>
+    <text x="530" y="145" class="text value">{followers}</text>
+
+     <!-- Col 3: Stats Text -->
+    <text x="600" y="115" class="label">CONTRIBUTIONS</text>
+    <text x="600" y="135" class="text value" font-size="20">{total_contribs}</text>
     
-    <!-- Followers -->
-    <text x="35" y="205" class="label">FOLLOWERS</text>
-    <rect x="160" y="195" width="200" height="12" fill="{COLORS['bar_empty']}"/>
-    <rect x="160" y="195" width="{min(followers*2, 200)}" height="12" fill="{COLORS['bar_fill']}"/>
-    <text x="375" y="205" class="text value" text-anchor="end">{followers}</text>
     
-    <!-- Total Contribs -->
-    <text x="35" y="235" class="label">PACKET_SEND</text>
-    <text x="160" y="235" class="text value">{total_contribs} (Total Contribs)</text>
+    <!-- System Log (Bottom) -->
+    <rect x="20" y="210" width="760" height="90" class="panel" rx="4"/>
+    <text x="35" y="235" class="text header">&gt; SYSTEM_LOG</text>
     
-    <!-- Panel 2: Tech Stack (Right) -->
-    <rect x="410" y="60" width="370" height="200" class="panel" rx="4"/>
-    <text x="425" y="85" class="text header">&gt; SKILL_SPECTRUM</text>
+    <text x="35" y="260" class="text value">User: {USERNAME} | Init: {join_year} | Time: {current_time}</text>
+    <text x="35" y="280" class="text value">Current Streak: {streaks[0]} Days | Longest Streak: {streaks[1]} Days</text>
+    
+    <text x="650" y="270" class="text header glitch" font-size="20">THE ONE</text>
+    
+    </svg>"""
+    return svg
+
+def generate_languages_svg(languages):
+    """Renders specific Language Distribution SVG (Wide)."""
+    w, h = 800, 250
+    
+    svg = f"""<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .text {{ font-family: 'Courier New', Courier, monospace; fill: {COLORS['text_primary']}; }}
+        .header {{ font-weight: bold; font-size: 16px; }}
+        .label {{ font-size: 12px; fill: {COLORS['text_secondary']}; }}
+        .value {{ font-size: 14px; font-weight: bold; }}
+        .panel {{ fill: {COLORS['panel_bg']}; stroke: {COLORS['border']}; stroke-width: 1; }}
+    </style>
+    
+    <rect width="{w}" height="{h}" fill="{COLORS['bg']}" rx="8" />
+    
+    <rect x="20" y="20" width="760" height="210" class="panel" rx="4"/>
+    <text x="35" y="45" class="text header">&gt; SKILL_SPECTRUM_ANALYSIS</text>
     
     """
     
-    # Language Bars
-    y_offset = 115
-    for lang in languages:
+    # Render bars in 2 columns
+    col1_x = 50
+    col2_x = 420
+    y_start = 80
+    row_height = 40
+    
+    for i, lang in enumerate(languages):
         name = lang['name'].upper()
         pct = lang['pct']
-        bar_w = (pct / 100) * 180
+        bar_w = (pct / 100) * 250 # Wider bars
+        
+        x_pos = col1_x if i < 3 else col2_x
+        y_pos = y_start + ((i % 3) * row_height)
         
         svg += f"""
-        <text x="425" y="{y_offset}" class="label">{name}</text>
-        <rect x="520" y="{y_offset-10}" width="180" height="12" fill="{COLORS['bar_empty']}"/>
-        <rect x="520" y="{y_offset-10}" width="{bar_w}" height="12" fill="{COLORS['bar_fill']}"/>
-        <text x="710" y="{y_offset}" class="text value">{pct:.1f}%</text>
+        <text x="{x_pos}" y="{y_pos}" class="label">{name}</text>
+        <rect x="{x_pos+100}" y="{y_pos-10}" width="200" height="14" fill="{COLORS['bar_empty']}"/>
+        <rect x="{x_pos+100}" y="{y_pos-10}" width="{bar_w}" height="14" fill="{COLORS['bar_fill']}"/>
+        <text x="{x_pos+310}" y="{y_pos}" class="text value">{pct:.1f}%</text>
         """
-        y_offset += 30
         
-    svg += f"""
-    
-    <!-- Panel 3: System Log (Bottom) -->
-    <rect x="20" y="280" width="760" height="120" class="panel" rx="4"/>
-    <text x="35" y="305" class="text header">&gt; SYSTEM_LOG</text>
-    
-    <text x="35" y="335" class="text value">User: {USERNAME}</text>
-    <text x="35" y="355" class="text value">Init: {join_year}</text>
-    <text x="35" y="375" class="text value">Time: {current_time}</text>
-    
-    <text x="300" y="335" class="text value">Current Streak: {streaks[0]} Days</text>
-    <text x="300" y="355" class="text value">Longest Streak: {streaks[1]} Days</text>
-    
-    <text x="600" y="350" class="text header glitch" font-size="20">THE ONE</text>
-    
-    </svg>
-    """
+    svg += "</svg>"
     return svg
+
+def generate_fallback_svg(filename, error_msg):
+    w, h = 800, 200
+    svg = f"""<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg">
+        <style>.text {{ font-family: 'Courier New', monospace; fill: #00ff41; }}</style>
+        <rect width="{w}" height="{h}" fill="#0d1117" rx="8" />
+        <text x="50%" y="50%" class="text" text-anchor="middle" font-size="20">SYSTEM OFFLINE: {error_msg}</text>
+    </svg>"""
+    with open(filename, 'w') as f: f.write(svg)
 
 def main():
     try:
         data = fetch_data()
-        
-        # Process Data
         streaks = calculate_streak(data['data']['user']['contributionsCollection']['contributionCalendar'])
         lang_stats = process_languages(data['data']['user']['repositories']['nodes'])
         
-        # Generate SVG
-        svg_content = generate_svg(data, streaks, lang_stats)
+        # 1. Generate Main Dashboard
+        dash_svg = generate_dashboard_svg(data, streaks)
+        with open(DASHBOARD_FILE, 'w', encoding="utf-8") as f: f.write(dash_svg)
+        print(f"✅ Dashboard generated at {DASHBOARD_FILE}")
         
-        # Save
-        os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-        with open(OUTPUT_FILE, 'w', encoding="utf-8") as f:
-            f.write(svg_content)
-            
-        print(f"✅ Dashboard generated at {OUTPUT_FILE}")
+        # 2. Generate Language Matrix
+        lang_svg = generate_languages_svg(lang_stats)
+        with open(LANG_FILE, 'w', encoding="utf-8") as f: f.write(lang_svg)
+        print(f"✅ Languages generated at {LANG_FILE}")
         
     except Exception as e:
         print(f"❌ Error: {e}")
-        # Generate offline/error SVG to prevent broken image
-        error_svg = f"""<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
-            <style>
-                .text {{ font-family: 'Courier New', Courier, monospace; fill: #00ff41; }}
-                .alert {{ fill: #ff0000; font-weight: bold; font-size: 20px; }}
-            </style>
-            <rect width="800" height="420" fill="#0d1117" rx="8" />
-            <rect x="20" y="20" width="760" height="380" fill="#161b22" stroke="#003300" stroke-width="1" rx="4"/>
-            <text x="400" y="200" class="text alert" text-anchor="middle">SYSTEM ERROR: CONNECTION LOST</text>
-            <text x="400" y="230" class="text" text-anchor="middle" font-size="14">Authorization Token Missing or Invalid</text>
-            <text x="400" y="260" class="text" text-anchor="middle" font-size="12">Matrix Link Verified. Retrying via Automation...</text>
-        </svg>"""
-        
-        os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-        with open(OUTPUT_FILE, 'w', encoding="utf-8") as f:
-            f.write(error_svg)
-        print(f"⚠️ Generated Error/Offline Dashboard at {OUTPUT_FILE}")
-        
+        generate_fallback_svg(DASHBOARD_FILE, "API Error")
+        generate_fallback_svg(LANG_FILE, "API Error")
+
 if __name__ == "__main__":
     main()
