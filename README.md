@@ -69,6 +69,10 @@
 ## > OPERATIVE PROFILE: THE ONE
 
 <div align="center">
+  ![Matrix Quote](./assets/matrix-quote.svg)
+</div>
+
+<div align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3Y5cXJyMjQyYzEzbXNucHQ1aGhmaTl0N2JjcTdhdXoybG1oN2dsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oOxSXI5D2cvc6kYSvw/giphy.gif" width="500"/>
 </div>
 
@@ -80,7 +84,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=00FF41)](https://portfolio-msrishav.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://linkedin.com/in/m-s-rishav-subhin)
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/msrishav-28)
+[![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:ms.rishav289@gmail.com)
 
 </div>
 
@@ -225,11 +229,7 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 
 ---
 
-<div align="center">
 
-> *"I know you're out there. I can feel you now."*
-
-</div>
 
 ---
 

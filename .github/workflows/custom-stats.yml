@@ -25,6 +25,7 @@ jobs:
       - name: Generate Matrix Green Stats
         run: |
           python .github/scripts/generate_matrix_dashboard.py
+          python .github/scripts/generate_matrix_quote.py
           python .github/scripts/generate_matrix_achievements.py
           python .github/scripts/generate_matrix_footer.py
         env:
