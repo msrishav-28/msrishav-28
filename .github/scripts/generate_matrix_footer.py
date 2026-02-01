@@ -38,86 +38,34 @@ def generate_footer_svg():
         
         @keyframes blink {{ 50% {{ opacity: 0; }} }}
         
-        @keyframes type {{
-            0% {{ width: 0; opacity: 1; }}
-            100% {{ width: 100%; opacity: 1; }}
+        /* Simple Opacity Reveal Animation */
+        @keyframes reveal {{
+            to {{ opacity: 1; }}
         }}
-        
-        /* Sequential Typing Animation */
     </style>
-    
-    <!-- Background (Optional, keep transparent for footer integration) -->
-    <!-- <rect width="100%" height="100%" fill="#0d1117" /> -->
 '''
     
     y_start = 25
     line_height = 20
-    current_delay = 0
-    type_speed_per_char = 0.04
+    current_delay = 0.5
+    line_delay = 0.8 # Seconds between lines
     
     for i, line in enumerate(lines):
-        duration = len(line) * type_speed_per_char
         y_pos = y_start + (i * line_height)
         
-        # Unique animation for each line
-        anim_name = f"typeline{i}"
+        # Staggered reveal
+        delay = current_delay + (i * line_delay)
         
-        # CSS for this line
         svg += f'''
-    <style>
-        .line-{i} {{
-            overflow: hidden; /* Ensures typing reveal */
-            border-right: 2px solid {text_color}; /* The Cursor */
-            white-space: pre;
-            width: 0;
-            animation: 
-                typing-{i} {duration}s steps({len(line)}, end) forwards,
-                cursor-blink-{i} 0.75s step-end infinite;
-            animation-delay: {current_delay}s;
-        }}
-        
-        @keyframes typing-{i} {{
-            from {{ width: 0; opacity: 1; }}
-            to {{ width: 100%; opacity: 1; }}
-        }}
-        
-        /* Cursor logic: Blink during typing, hide after */
-        @keyframes cursor-blink-{i} {{
-            from, to {{ border-color: transparent; }}
-            50% {{ border-color: {text_color}; }}
-        }}
-        
-        /* Hide cursor after typing is done (except maybe the last one) */
-        .line-{i} {{
-             border-right-color: transparent; /* Default hidden */
-        }}
-        
-        /* We need a specific keyframe to show the cursor ONLY during the duration + delay */
-        /* Actually, simpler approach: Just animate the width/opacity of the text element */
-    </style>
+    <text x="20" y="{y_pos}" class="term-text" style="animation: reveal 0.1s forwards; animation-delay: {delay}s;">{line}</text>
 '''
-        # Simplified Approach: Opacity reveal is easier for pure SVG without complex HTML/CSS mix
-        # But we want the "Typing" effect.
-        # Let's use the Mask trick again, it was reliable.
-        
-        mask_id = f"mask-{i}"
-        svg += f'''
-        <defs>
-            <mask id="{mask_id}">
-                <rect x="0" y="{y_pos-15}" height="20" fill="white">
-                    <animate attributeName="width" from="0" to="600" begin="{current_delay}s" duration="{duration}s" fill="freeze" />
-                </rect>
-            </mask>
-        </defs>
-        <text x="20" y="{y_pos}" class="term-text" mask="url(#{mask_id})" opacity="1">{line}</text>
-'''
-        current_delay += duration + 0.3
 
     # Blinking cursor at the end
     last_y = y_start + (len(lines) * line_height)
+    cursor_appeartime = current_delay + (len(lines) * line_delay)
+    
     svg += f'''
-    <rect x="20" y="{last_y-10}" width="10" height="15" class="cursor">
-        <animate attributeName="opacity" values="0;1;0" dur="1s" begin="{current_delay}s" repeatCount="indefinite" />
+    <rect x="20" y="{last_y-10}" width="10" height="15" class="cursor" opacity="0" style="animation: reveal 0.1s forwards {cursor_appeartime}s, blink 1s step-end infinite {cursor_appeartime}s;">
     </rect>
     
 </svg>'''
