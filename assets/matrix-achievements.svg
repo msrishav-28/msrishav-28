@@ -57,15 +57,15 @@
     </g>
 
     <g transform="translate(195.0, 50)" class="glitch" style="animation-delay: 0.5s">
-        <rect width="110" height="90" class="box" rx="5"/>
-        <text x="55.0" y="35" class="icon" fill="#00661a">操</text>
+        <rect width="110" height="90" class="box unlocked" rx="5"/>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">操</text>
         <text x="55.0" y="60" class="title">OPERATOR</text>
         <text x="55.0" y="75" class="desc">10+ Repos</text>
     </g>
 
     <g transform="translate(315.0, 50)" class="glitch" style="animation-delay: 1.0s">
-        <rect width="110" height="90" class="box" rx="5"/>
-        <text x="55.0" y="35" class="icon" fill="#00661a">築</text>
+        <rect width="110" height="90" class="box unlocked" rx="5"/>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">築</text>
         <text x="55.0" y="60" class="title">ARCHITECT</text>
         <text x="55.0" y="75" class="desc">20+ Repos</text>
     </g>
@@ -78,8 +78,8 @@
     </g>
 
     <g transform="translate(555.0, 50)" class="glitch" style="animation-delay: 2.0s">
-        <rect width="110" height="90" class="box" rx="5"/>
-        <text x="55.0" y="35" class="icon" fill="#00661a">敵</text>
+        <rect width="110" height="90" class="box unlocked" rx="5"/>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">敵</text>
         <text x="55.0" y="60" class="title">AGENT</text>
         <text x="55.0" y="75" class="desc">Networker</text>
     </g>
