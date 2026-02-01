@@ -251,7 +251,7 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 
 <div align="center">
 
-![Matrix Achievements](./assets/matrix-achievements.svg)
+![Matrix Achievements](https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/assets/matrix-achievements.svg)
 
 </div>
 
