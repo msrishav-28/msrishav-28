@@ -90,10 +90,13 @@ if choice.lower() == "red pill":
 [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/msrishav-28)
 
 </div>
+## > MATRIX CODE ANALYSIS
 
----
-
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=msrishav-28&theme=dark&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41&border_radius=10">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=msrishav-28&theme=default&hide_border=true&background=ffffff&fire=00cc33&currStreakNum=008000&sideNums=008000&currStreakLabel=00cc33&sideLabels=00cc33&dates=008000&ring=00cc33&border_radius=10">
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=msrishav-28&theme=dark&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41&border_radius=10">
+</picture>
 
 <!-- Unified Matrix Operator Dashboard -->
 ![Matrix Operator Dashboard](./assets/matrix-dashboard.svg)
@@ -101,28 +104,6 @@ if choice.lower() == "red pill":
 ---
 
 ## > PROGRAMMING MATRIX: SKILL UPLOAD COMPLETE
-
-```python
-class TheOne:
-    def __init__(self, codename="Rishav"):
-        self.codename = codename
-        self.status = "Awakened"
-        self.location = "Bengaluru, India"
-        self.level = "Third Year AI/ML Engineer"
-        
-    def load_skills(self):
-        return {
-            "Languages": ["Python", "JavaScript", "TypeScript", "Java", "C", "C++", "SQL", "HTML", "CSS"],
-            "AI/ML": ["TensorFlow", "PyTorch", "Scikit-Learn", "Keras", "OpenCV", "Pandas", "NumPy", "Matplotlib"],
-            "Frameworks": ["React", "Next.js", "Flask", "FastAPI", "Node.js", "Express.js", "Django"],
-            "Databases": ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Redis"],
-            "Cloud & DevOps": ["AWS", "GCP", "Docker", "Git", "GitHub Actions", "Vercel", "Netlify"],
-            "Tools": ["VS Code", "Jupyter", "Postman", "Figma", "Linux"]
-        }
-        
-Neo = TheOne()
-print("Skills loaded successfully. Ready for deployment.")
-```
 
 <div align="center">
 

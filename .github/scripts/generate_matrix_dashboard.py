@@ -304,7 +304,23 @@ def main():
         
     except Exception as e:
         print(f"❌ Error: {e}")
-        # Optional: Generate a 'System Offline' SVG here fallback
+        # Generate offline/error SVG to prevent broken image
+        error_svg = f"""<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+            <style>
+                .text {{ font-family: 'Courier New', Courier, monospace; fill: #00ff41; }}
+                .alert {{ fill: #ff0000; font-weight: bold; font-size: 20px; }}
+            </style>
+            <rect width="800" height="420" fill="#0d1117" rx="8" />
+            <rect x="20" y="20" width="760" height="380" fill="#161b22" stroke="#003300" stroke-width="1" rx="4"/>
+            <text x="400" y="200" class="text alert" text-anchor="middle">SYSTEM ERROR: CONNECTION LOST</text>
+            <text x="400" y="230" class="text" text-anchor="middle" font-size="14">Authorization Token Missing or Invalid</text>
+            <text x="400" y="260" class="text" text-anchor="middle" font-size="12">Matrix Link Verified. Retrying via Automation...</text>
+        </svg>"""
+        
+        os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+        with open(OUTPUT_FILE, 'w', encoding="utf-8") as f:
+            f.write(error_svg)
+        print(f"⚠️ Generated Error/Offline Dashboard at {OUTPUT_FILE}")
         
 if __name__ == "__main__":
     main()
