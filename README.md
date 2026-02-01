@@ -69,7 +69,7 @@
 ## > OPERATIVE PROFILE: THE ONE
 
 <div align="center">
-  <img src="./assets/matrix-quote.svg" alt="Matrix Quote" width="100%" />
+  <img src="https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/assets/matrix-quote.svg?v=1" alt="Matrix Quote" width="100%" />
 </div>
 
 <div align="center">
@@ -213,23 +213,6 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 ![Matrix Achievements](https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/assets/matrix-achievements.svg)
 
 </div>
-
----
-
-## > RECENT ACTIVITY: MATRIX OPERATIONS
-
-```bash
-> Accessing recent commits...
-> Scanning for anomalies...
-> All systems operational.
-```
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
----
-
-
 
 ---
 
