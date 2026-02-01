@@ -103,13 +103,8 @@ if choice.lower() == "red pill":
   <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=msrishav-28&theme=dark&hide_border=true&background=0d1117&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&ring=00FF41&border_radius=10">
 </picture>
 
-<!-- Custom Matrix Green Stats with Green Octocat -->
-![Matrix Stats](./assets/matrix-stats.svg)
-
-<!-- Custom Matrix Green Language Pie Chart -->
-![Matrix Languages](./assets/matrix-languages.svg)
-
-<!-- Profile Summary Cards removed to reduce clutter and redundancy -->
+<!-- Unified Matrix Operator Dashboard -->
+![Matrix Operator Dashboard](./assets/matrix-dashboard.svg)
 
 ---
 
