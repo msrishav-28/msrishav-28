@@ -69,7 +69,7 @@
 ## > OPERATIVE PROFILE: THE ONE
 
 <div align="center">
-  ![Matrix Quote](./assets/matrix-quote.svg)
+  <img src="./assets/matrix-quote.svg" alt="Matrix Quote" width="100%" />
 </div>
 
 <div align="center">
