@@ -62,13 +62,6 @@
 
 ![Red/Blue Pill Choice](./assets/matrix-pills.svg)
 
-```
-choice = input("Red pill or Blue pill? ")
-if choice.lower() == "red pill":
-    print("Welcome to the real world.")
-    reality.load_matrix_profile()
-```
-
 </div>
 
 ---
@@ -232,26 +225,11 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 
 ---
 
-## > CONTACT PROTOCOL: ESTABLISH CONNECTION
+<div align="center">
 
 > *"I know you're out there. I can feel you now."*
 
-```python
-def establish_contact():
-    contact_methods = {
-        "portfolio": "https://portfolio-msrishav.vercel.app/",
-        "linkedin": "https://linkedin.com/in/m-s-rishav-subhin",
-        "email": "professional.rishav@matrix.node",  # Replace with actual email
-        "location": "Bengaluru, India",
-        "timezone": "UTC +05:30"
-    }
-    
-    print("Choose your communication channel:")
-    for method, link in contact_methods.items():
-        print(f"  {method}: {link}")
-        
-establish_contact()
-```
+</div>
 
 ---
 
