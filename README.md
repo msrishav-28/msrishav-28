@@ -42,7 +42,7 @@
 </div>
 
 <div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3Y5cXJyMjQyYzEzbXNucHQ1aGhmaTl0N2JjcTdhdXoybG1oN2dsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oOxSXI5D2cvc6kYSvw/giphy.gif" width="500"/>
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3Y5cXJyMjQyYzEzbXNucHQ1aGhmaTl0N2JjcTdhdXoybG1oN2dsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oOxSXI5D2cvc6kYSvw/giphy.gif" width="350"/>
 </div>
 
 
@@ -60,13 +60,8 @@
 ---
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/37c33622-be66-4089-b497-0218de3de26d" controls loop width="600"></video>
+  <video src="https://github.com/user-attachments/assets/37c33622-be66-4089-b497-0218de3de26d" controls loop width="450"></video>
 </div>
-
-
-
-
-
 
 ---
 
@@ -77,12 +72,8 @@
 <div align="center">
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/b6283c52-6690-4a8b-8f0d-992ec79378e6" controls loop width="600"></video>
+  <video src="https://github.com/user-attachments/assets/b6283c52-6690-4a8b-8f0d-992ec79378e6" controls loop width="450"></video>
 </div>
-
-
-
-
 
 ![Red/Blue Pill Choice](./assets/matrix-pills.svg)
 
@@ -219,16 +210,8 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 ## > MORPHEUS' WISDOM
 
 <div align="center">
-  <img src="https://media.giphy.com/media/sULKEgDMX8LcI/giphy.gif" width="600"/>
-</div>
 
-<div align="center">
-
-*"I'm trying to free your mind, Neo, but I can only show you the door. You're the one that has to walk through it."*
-
-*"There is no spoon."*
-
-*"What is real? How do you define 'real'?"*
+### *"I'm trying to free your mind, Neo, but I can only show you the door. You're the one that has to walk through it."*
 
 </div>
 
