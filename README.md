@@ -35,6 +35,30 @@
 
 ---
 
+## > OPERATIVE PROFILE: THE ONE
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/assets/matrix-quote.svg?v=1" alt="Matrix Quote" width="100%" />
+</div>
+
+<div align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3Y5cXJyMjQyYzEzbXNucHQ1aGhmaTl0N2JjcTdhdXoybG1oN2dsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oOxSXI5D2cvc6kYSvw/giphy.gif" width="500"/>
+</div>
+
+
+<div align="center">
+
+### **M S RISHAV SUBHIN** | *Neo.exe*
+**`AI/ML Engineer • Third-Year • Bengaluru Node`**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=00FF41)](https://portfolio-msrishav.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://linkedin.com/in/m-s-rishav-subhin)
+[![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:ms.rishav289@gmail.com)
+
+</div>
+
+---
+
 <div align="center">
   <video src="https://github.com/user-attachments/assets/37c33622-be66-4089-b497-0218de3de26d" controls loop width="600"></video>
 </div>
@@ -66,28 +90,6 @@
 
 ---
 
-## > OPERATIVE PROFILE: THE ONE
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/assets/matrix-quote.svg?v=1" alt="Matrix Quote" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3Y5cXJyMjQyYzEzbXNucHQ1aGhmaTl0N2JjcTdhdXoybG1oN2dsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oOxSXI5D2cvc6kYSvw/giphy.gif" width="500"/>
-</div>
-
-
-<div align="center">
-
-### **M S RISHAV SUBHIN** | *Neo.exe*
-**`AI/ML Engineer • Third-Year • Bengaluru Node`**
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=00FF41)](https://portfolio-msrishav.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://linkedin.com/in/m-s-rishav-subhin)
-[![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:ms.rishav289@gmail.com)
-
-</div>
-
 ## > MATRIX CODE ANALYSIS
 
 <picture>
@@ -118,6 +120,14 @@
 
 ---
 
+## > LANGUAGE DISTRIBUTION: DECODING THE MATRIX
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/assets/matrix-languages.svg?v=2" alt="Matrix Skill Spectrum" width="100%" />
+</div>
+
+---
+
 ## > ACTIVE MISSIONS: PROJECT MATRIX
 
 | Mission Codename | Objective | Tech Stack | Status |
@@ -128,14 +138,6 @@
 | **SkillSwap** | P2P skill exchange platform | Full-stack web | 🟢 LIVE |
 | **Tekshila** | AI-powered code documentation | Python, AI | 🟢 DEPLOYED |
 | **StockSage** | Financial analysis dashboard | Python, Data Science | 🟢 RUNNING |
-
----
-
-## > LANGUAGE DISTRIBUTION: DECODING THE MATRIX
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/assets/matrix-languages.svg?v=2" alt="Matrix Skill Spectrum" width="100%" />
-</div>
 
 ---
 
