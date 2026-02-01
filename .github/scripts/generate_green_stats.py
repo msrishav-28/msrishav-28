@@ -31,7 +31,7 @@ def default_stats():
         'stars': 0,
         'forks': 0,
         'followers': 0,
-        'languages': {'Python': 1}
+        'languages': {}
     }
 
 def get_github_stats():
@@ -320,11 +320,11 @@ def main():
             f.write(lang_svg)
         print("✅ Generated matrix-languages.svg")
     
-    # Generate profile summary
-    profile_svg = generate_profile_summary_svg()
-    with open('assets/matrix-profile-summary.svg', 'w') as f:
-        f.write(profile_svg)
-    print("✅ Generated matrix-profile-summary.svg")
+    # Generate profile summary - DEPRECATED due to "Fake Data" feedback
+    # profile_svg = generate_profile_summary_svg()
+    # with open('assets/matrix-profile-summary.svg', 'w') as f:
+    #     f.write(profile_svg)
+    # print("✅ Generated matrix-profile-summary.svg (SKIPPED)")
     
     print("🎉 All Matrix green visualizations generated (No Octocat)!")
 

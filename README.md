@@ -109,14 +109,7 @@ if choice.lower() == "red pill":
 <!-- Custom Matrix Green Language Pie Chart -->
 ![Matrix Languages](./assets/matrix-languages.svg)
 
-<!-- Profile Summary - Green Theme -->
-[![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msrishav-28&theme=github_dark)](https://github.com/msrishav-28)
-
-<!-- Additional Stats - All Green -->
-
-[![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=msrishav-28&theme=github_dark&utcOffset=5.5)](https://github.com/msrishav-28)
-
-</div>
+<!-- Profile Summary Cards removed to reduce clutter and redundancy -->
 
 ---
 
