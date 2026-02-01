@@ -60,7 +60,7 @@
 ---
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/37c33622-be66-4089-b497-0218de3de26d" controls loop width="450"></video>
+  <video src="https://github.com/user-attachments/assets/37c33622-be66-4089-b497-0218de3de26d" controls loop width="400"></video>
 </div>
 
 ---
@@ -72,7 +72,7 @@
 <div align="center">
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/b6283c52-6690-4a8b-8f0d-992ec79378e6" controls loop width="450"></video>
+  <video src="https://github.com/user-attachments/assets/b6283c52-6690-4a8b-8f0d-992ec79378e6" controls loop width="400"></video>
 </div>
 
 ![Red/Blue Pill Choice](./assets/matrix-pills.svg)
