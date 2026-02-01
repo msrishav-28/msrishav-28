@@ -14,12 +14,12 @@ def generate_achievements_svg():
     # Define Achievements logic
     # (Simplified for demo: In a real scenario, we'd fetch specific data)
     achievements = [
-        {"name": "THE ONE", "desc": "Profile Owner", "unlocked": True, "icon": "1"}, 
-        {"name": "OPERATOR", "desc": "10+ Repos", "unlocked": True, "icon": "⚡"},
-        {"name": "ARCHITECT", "desc": "System Builder", "unlocked": True, "icon": "⬡"},
-        {"name": "TRINITY", "desc": "Collaborator", "unlocked": True, "icon": "∞"},
-        {"name": "AGENT", "desc": "Code Reviewer", "unlocked": False, "icon": "🕶️"},
-        {"name": "ORACLE", "desc": "Visionary", "unlocked": True, "icon": "👁️"}
+        {"name": "THE ONE", "desc": "Profile Owner", "unlocked": True, "icon": "救"}, 
+        {"name": "OPERATOR", "desc": "10+ Repos", "unlocked": True, "icon": "操"},
+        {"name": "ARCHITECT", "desc": "System Builder", "unlocked": True, "icon": "築"},
+        {"name": "TRINITY", "desc": "Collaborator", "unlocked": True, "icon": "参"},
+        {"name": "AGENT", "desc": "Code Reviewer", "unlocked": False, "icon": "敵"},
+        {"name": "ORACLE", "desc": "Visionary", "unlocked": True, "icon": "預"}
     ]
     
     svg = f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">

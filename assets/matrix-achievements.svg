@@ -51,42 +51,42 @@
 
     <g transform="translate(75.0, 50)" class="glitch" style="animation-delay: 0.0s">
         <rect width="110" height="90" class="box unlocked" rx="5"/>
-        <text x="55.0" y="35" class="icon" fill="#00ff41">1</text>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">救</text>
         <text x="55.0" y="60" class="title">THE ONE</text>
         <text x="55.0" y="75" class="desc">Profile Owner</text>
     </g>
 
     <g transform="translate(195.0, 50)" class="glitch" style="animation-delay: 0.5s">
         <rect width="110" height="90" class="box unlocked" rx="5"/>
-        <text x="55.0" y="35" class="icon" fill="#00ff41">⚡</text>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">操</text>
         <text x="55.0" y="60" class="title">OPERATOR</text>
         <text x="55.0" y="75" class="desc">10+ Repos</text>
     </g>
 
     <g transform="translate(315.0, 50)" class="glitch" style="animation-delay: 1.0s">
         <rect width="110" height="90" class="box unlocked" rx="5"/>
-        <text x="55.0" y="35" class="icon" fill="#00ff41">⬡</text>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">築</text>
         <text x="55.0" y="60" class="title">ARCHITECT</text>
         <text x="55.0" y="75" class="desc">System Builder</text>
     </g>
 
     <g transform="translate(435.0, 50)" class="glitch" style="animation-delay: 1.5s">
         <rect width="110" height="90" class="box unlocked" rx="5"/>
-        <text x="55.0" y="35" class="icon" fill="#00ff41">∞</text>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">参</text>
         <text x="55.0" y="60" class="title">TRINITY</text>
         <text x="55.0" y="75" class="desc">Collaborator</text>
     </g>
 
     <g transform="translate(555.0, 50)" class="glitch" style="animation-delay: 2.0s">
         <rect width="110" height="90" class="box" rx="5"/>
-        <text x="55.0" y="35" class="icon" fill="#00661a">🕶️</text>
+        <text x="55.0" y="35" class="icon" fill="#00661a">敵</text>
         <text x="55.0" y="60" class="title">AGENT</text>
         <text x="55.0" y="75" class="desc">Code Reviewer</text>
     </g>
 
     <g transform="translate(675.0, 50)" class="glitch" style="animation-delay: 2.5s">
         <rect width="110" height="90" class="box unlocked" rx="5"/>
-        <text x="55.0" y="35" class="icon" fill="#00ff41">👁️</text>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">預</text>
         <text x="55.0" y="60" class="title">ORACLE</text>
         <text x="55.0" y="75" class="desc">Visionary</text>
     </g>
