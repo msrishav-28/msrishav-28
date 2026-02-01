@@ -7,7 +7,7 @@
             font-size: 14px;
             fill: #00ff41;
             font-weight: bold;
-            opacity: 0;
+            opacity: 1; /* Default to visible for robustness */
             white-space: pre;
         }
         
@@ -18,8 +18,9 @@
         
         @keyframes blink { 50% { opacity: 0; } }
         
-        /* Simple Opacity Reveal Animation */
+        /* Fade In Animation - overrides default opacity if supported */
         @keyframes reveal {
+            from { opacity: 0; }
             to { opacity: 1; }
         }
     </style>

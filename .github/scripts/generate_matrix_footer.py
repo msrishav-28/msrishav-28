@@ -27,7 +27,7 @@ def generate_footer_svg():
             font-size: 14px;
             fill: {text_color};
             font-weight: bold;
-            opacity: 0;
+            opacity: 1; /* Default to visible for robustness */
             white-space: pre;
         }}
         
@@ -38,8 +38,9 @@ def generate_footer_svg():
         
         @keyframes blink {{ 50% {{ opacity: 0; }} }}
         
-        /* Simple Opacity Reveal Animation */
+        /* Fade In Animation - overrides default opacity if supported */
         @keyframes reveal {{
+            from {{ opacity: 0; }}
             to {{ opacity: 1; }}
         }}
     </style>

@@ -13,13 +13,34 @@ def generate_achievements_svg():
     
     # Define Achievements logic
     # (Simplified for demo: In a real scenario, we'd fetch specific data)
+    # Fetch real GitHub data
+    user_data = {}
+    try:
+        headers = {}
+        if GITHUB_TOKEN:
+            headers['Authorization'] = f'token {GITHUB_TOKEN}'
+        
+        resp = requests.get(f'https://api.github.com/users/{USERNAME}', headers=headers)
+        if resp.status_code == 200:
+            user_data = resp.json()
+        else:
+            print(f"Error fetching user data: {resp.status_code}")
+    except Exception as e:
+        print(f"Exception fetching user data: {e}")
+
+    # Default Logic using Real Data
+    repo_count = user_data.get('public_repos', 0)
+    followers = user_data.get('followers', 0)
+    following = user_data.get('following', 0)
+    created_at = user_data.get('created_at', '2025')[:4] # Year
+
     achievements = [
         {"name": "THE ONE", "desc": "Profile Owner", "unlocked": True, "icon": "救"}, 
-        {"name": "OPERATOR", "desc": "10+ Repos", "unlocked": True, "icon": "操"},
-        {"name": "ARCHITECT", "desc": "System Builder", "unlocked": True, "icon": "築"},
-        {"name": "TRINITY", "desc": "Collaborator", "unlocked": True, "icon": "参"},
-        {"name": "AGENT", "desc": "Code Reviewer", "unlocked": False, "icon": "敵"},
-        {"name": "ORACLE", "desc": "Visionary", "unlocked": True, "icon": "預"}
+        {"name": "OPERATOR", "desc": "10+ Repos", "unlocked": repo_count >= 10, "icon": "操"},
+        {"name": "ARCHITECT", "desc": "20+ Repos", "unlocked": repo_count >= 20, "icon": "築"},
+        {"name": "TRINITY", "desc": "10+ Followers", "unlocked": followers >= 10, "icon": "参"},
+        {"name": "AGENT", "desc": "Networker", "unlocked": following > 5, "icon": "敵"},
+        {"name": "ORACLE", "desc": "Early Adopter", "unlocked": int(created_at) < 2024, "icon": "預"}
     ]
     
     svg = f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
