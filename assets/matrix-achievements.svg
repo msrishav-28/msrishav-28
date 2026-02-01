@@ -1,0 +1,93 @@
+<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&amp;display=swap');
+        
+        .box {
+            fill: #0d1117;
+            stroke: #00661a;
+            stroke-width: 1;
+        }
+        .box.unlocked {
+            stroke: #00ff41;
+            filter: drop-shadow(0 0 2px #00ff41);
+        }
+        
+        .title {
+            font-family: 'Courier Prime', monospace;
+            font-size: 10px;
+            fill: #00ff41;
+            text-anchor: middle;
+            font-weight: bold;
+        }
+        .desc {
+            font-family: 'Courier Prime', monospace;
+            font-size: 8px;
+            fill: #00661a;
+            text-anchor: middle;
+        }
+        .icon {
+            font-family: 'Courier Prime', monospace;
+            font-size: 20px;
+            fill: #00ff41;
+            text-anchor: middle;
+        }
+        
+        /* Glitch Animation */
+        @keyframes glitch {
+            0% { opacity: 1; }
+            95% { opacity: 1; }
+            96% { opacity: 0.8; transform: translateX(1px); }
+            97% { opacity: 1; transform: translateX(0); }
+            100% { opacity: 1; }
+        }
+        .glitch { animation: glitch 4s infinite alternate; }
+    </style>
+    
+    <rect width="100%" height="100%" fill="#0d1117" rx="5"/>
+    
+    <text x="400.0" y="20" font-family="'Courier Prime', monospace" font-size="14" fill="#00ff41" text-anchor="middle" letter-spacing="2">
+        > SYSTEM UPGRADES UNLOCKED
+    </text>
+
+    <g transform="translate(75.0, 50)" class="glitch" style="animation-delay: 0.0s">
+        <rect width="110" height="90" class="box unlocked" rx="5"/>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">1</text>
+        <text x="55.0" y="60" class="title">THE ONE</text>
+        <text x="55.0" y="75" class="desc">Profile Owner</text>
+    </g>
+
+    <g transform="translate(195.0, 50)" class="glitch" style="animation-delay: 0.5s">
+        <rect width="110" height="90" class="box unlocked" rx="5"/>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">⚡</text>
+        <text x="55.0" y="60" class="title">OPERATOR</text>
+        <text x="55.0" y="75" class="desc">10+ Repos</text>
+    </g>
+
+    <g transform="translate(315.0, 50)" class="glitch" style="animation-delay: 1.0s">
+        <rect width="110" height="90" class="box unlocked" rx="5"/>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">⬡</text>
+        <text x="55.0" y="60" class="title">ARCHITECT</text>
+        <text x="55.0" y="75" class="desc">System Builder</text>
+    </g>
+
+    <g transform="translate(435.0, 50)" class="glitch" style="animation-delay: 1.5s">
+        <rect width="110" height="90" class="box unlocked" rx="5"/>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">∞</text>
+        <text x="55.0" y="60" class="title">TRINITY</text>
+        <text x="55.0" y="75" class="desc">Collaborator</text>
+    </g>
+
+    <g transform="translate(555.0, 50)" class="glitch" style="animation-delay: 2.0s">
+        <rect width="110" height="90" class="box" rx="5"/>
+        <text x="55.0" y="35" class="icon" fill="#00661a">🕶️</text>
+        <text x="55.0" y="60" class="title">AGENT</text>
+        <text x="55.0" y="75" class="desc">Code Reviewer</text>
+    </g>
+
+    <g transform="translate(675.0, 50)" class="glitch" style="animation-delay: 2.5s">
+        <rect width="110" height="90" class="box unlocked" rx="5"/>
+        <text x="55.0" y="35" class="icon" fill="#00ff41">👁️</text>
+        <text x="55.0" y="60" class="title">ORACLE</text>
+        <text x="55.0" y="75" class="desc">Visionary</text>
+    </g>
+</svg>
