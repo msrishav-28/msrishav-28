@@ -15,31 +15,31 @@
     
         <text x="50" y="80" class="label">PYTHON</text>
         <rect x="150" y="70" width="200" height="14" fill="#003300"/>
-        <rect x="150" y="70" width="149.8490421590062" height="14" fill="#00ff41"/>
-        <text x="360" y="80" class="text value">59.9%</text>
+        <rect x="150" y="70" width="147.8321325682367" height="14" fill="#00ff41"/>
+        <text x="360" y="80" class="text value">59.1%</text>
         
         <text x="50" y="120" class="label">TYPESCRIPT</text>
         <rect x="150" y="110" width="200" height="14" fill="#003300"/>
-        <rect x="150" y="110" width="72.08885697854105" height="14" fill="#00ff41"/>
-        <text x="360" y="120" class="text value">28.8%</text>
+        <rect x="150" y="110" width="71.34972849938136" height="14" fill="#00ff41"/>
+        <text x="360" y="120" class="text value">28.5%</text>
         
         <text x="50" y="160" class="label">JAVASCRIPT</text>
         <rect x="150" y="150" width="200" height="14" fill="#003300"/>
-        <rect x="150" y="150" width="20.927269063324548" height="14" fill="#00ff41"/>
-        <text x="360" y="160" class="text value">8.4%</text>
+        <rect x="150" y="150" width="23.392675613082304" height="14" fill="#00ff41"/>
+        <text x="360" y="160" class="text value">9.4%</text>
         
         <text x="420" y="80" class="label">KOTLIN</text>
         <rect x="520" y="70" width="200" height="14" fill="#003300"/>
-        <rect x="520" y="70" width="5.402240601210536" height="14" fill="#00ff41"/>
-        <text x="730" y="80" class="text value">2.2%</text>
+        <rect x="520" y="70" width="5.32952855231626" height="14" fill="#00ff41"/>
+        <text x="730" y="80" class="text value">2.1%</text>
         
         <text x="420" y="120" class="label">PLPGSQL</text>
         <rect x="520" y="110" width="200" height="14" fill="#003300"/>
-        <rect x="520" y="110" width="1.059774164617303" height="14" fill="#00ff41"/>
-        <text x="730" y="120" class="text value">0.4%</text>
+        <rect x="520" y="110" width="1.432173588213312" height="14" fill="#00ff41"/>
+        <text x="730" y="120" class="text value">0.6%</text>
         
         <text x="420" y="160" class="label">BATCHFILE</text>
         <rect x="520" y="150" width="200" height="14" fill="#003300"/>
-        <rect x="520" y="150" width="0.4980179275046598" height="14" fill="#00ff41"/>
+        <rect x="520" y="150" width="0.49131480067857397" height="14" fill="#00ff41"/>
         <text x="730" y="160" class="text value">0.2%</text>
         </svg>
