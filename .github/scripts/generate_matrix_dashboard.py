@@ -100,8 +100,14 @@ def fetch_data():
             break
         cursor = page_info['endCursor']
 
-    user_data['repositories']['nodes'] = repos
-    return {'data': {'user': user_data}}
+    merged_user_data = {
+        **user_data,
+        'repositories': {
+            'nodes': repos,
+            'pageInfo': {'hasNextPage': False, 'endCursor': cursor}
+        }
+    }
+    return {'data': {'user': merged_user_data}}
 
 def calculate_streak(calendar):
     """Calculates current and longest streak."""
