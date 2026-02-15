@@ -4,6 +4,14 @@ import requests
 USERNAME = os.getenv('USERNAME', 'msrishav-28')
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 
+def generate_fallback_svg(width, height, bg_color, text_color):
+    return f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
+    <style>.text {{ font-family: 'Courier New', monospace; fill: {text_color}; }}</style>
+    <rect width="100%" height="100%" fill="{bg_color}" rx="5"/>
+    <text x="50%" y="45%" class="text" text-anchor="middle" font-size="14">&gt; ACHIEVEMENTS DATA OFFLINE</text>
+    <text x="50%" y="62%" class="text" text-anchor="middle" font-size="12">Could not verify live GitHub metrics.</text>
+</svg>'''
+
 def generate_achievements_svg():
     width = 800
     height = 160
@@ -27,6 +35,15 @@ def generate_achievements_svg():
             print(f"Error fetching user data: {resp.status_code}")
     except Exception as e:
         print(f"Exception fetching user data: {e}")
+
+    if not user_data:
+        svg = generate_fallback_svg(width, height, bg_color, text_color)
+        output_path = os.path.join(os.path.dirname(__file__), '../../assets/matrix-achievements.svg')
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(svg)
+        print("Generated fallback achievements SVG due to unavailable live data.")
+        return
 
     # Default Logic using Real Data
     repo_count = user_data.get('public_repos', 0)
