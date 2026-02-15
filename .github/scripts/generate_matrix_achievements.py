@@ -22,7 +22,7 @@ def generate_achievements_svg():
     # Define Achievements logic
     # (Simplified for demo: In a real scenario, we'd fetch specific data)
     # Fetch real GitHub data
-    user_data = {}
+    user_data = None
     try:
         headers = {}
         if GITHUB_TOKEN:
@@ -36,7 +36,7 @@ def generate_achievements_svg():
     except Exception as e:
         print(f"Exception fetching user data: {e}")
 
-    if not user_data:
+    if user_data is None:
         svg = generate_fallback_svg(width, height, bg_color, text_color)
         output_path = os.path.join(os.path.dirname(__file__), '../../assets/matrix-achievements.svg')
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
