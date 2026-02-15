@@ -104,7 +104,7 @@ def fetch_data():
         **user_data,
         'repositories': {
             'nodes': repos,
-            'pageInfo': {'hasNextPage': False, 'endCursor': cursor}
+            'pageInfo': {'hasNextPage': False, 'endCursor': page_info['endCursor']}
         }
     }
     return {'data': {'user': merged_user_data}}
