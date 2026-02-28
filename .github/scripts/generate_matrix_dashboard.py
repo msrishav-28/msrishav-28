@@ -26,54 +26,88 @@ IGNORED_LANGUAGES = {'Shell', 'HTML', 'CSS', 'Makefile', 'Jupyter Notebook', 'Do
 
 def run_graphql_query(query):
     """Executes a GraphQL query against GitHub API."""
-    headers = {'Authorization': f'Bearer {GITHUB_TOKEN}'}
+    headers = {}
+    if GITHUB_TOKEN:
+        headers['Authorization'] = f'Bearer {GITHUB_TOKEN}'
     request = requests.post('https://api.github.com/graphql', json={'query': query}, headers=headers)
     if request.status_code == 200:
-        return request.json()
+        payload = request.json()
+        if payload.get('errors'):
+            raise Exception(f"GraphQL errors: {payload['errors']}")
+        return payload
     else:
-        raise Exception(f"Query failed to run by returning code of {request.status_code}. {query}")
+        raise Exception(f"Query failed with {request.status_code}: {request.text}")
 
 def fetch_data():
     """Fetches all necessary data using GraphQL."""
     print(f"🔌 Connecting to Matrix (GitHub GraphQL)...")
-    
-    query = f"""
-    {{
-      user(login: "{USERNAME}") {{
-        name
-        createdAt
-        followers {{ totalCount }}
-        repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {{field: STARGAZERS, direction: DESC}}) {{
-          nodes {{
+
+    repos = []
+    cursor = None
+    user_data = None
+
+    while True:
+        after = f', after: "{cursor}"' if cursor else ''
+        query = f"""
+        {{
+          user(login: "{USERNAME}") {{
             name
-            stargazerCount
-            forkCount
-            languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
-              edges {{
-                size
-                node {{
-                  name
-                  color
+            createdAt
+            followers {{ totalCount }}
+            repositories(first: 100{after}, ownerAffiliations: OWNER, isFork: false, orderBy: {{field: STARGAZERS, direction: DESC}}) {{
+              pageInfo {{
+                hasNextPage
+                endCursor
+              }}
+              nodes {{
+                name
+                stargazerCount
+                forkCount
+                languages(first: 10, orderBy: {{field: SIZE, direction: DESC}}) {{
+                  edges {{
+                    size
+                    node {{
+                      name
+                      color
+                    }}
+                  }}
+                }}
+              }}
+            }}
+            contributionsCollection {{
+              contributionCalendar {{
+                totalContributions
+                weeks {{
+                  contributionDays {{
+                    date
+                    contributionCount
+                  }}
                 }}
               }}
             }}
           }}
         }}
-        contributionsCollection {{
-          contributionCalendar {{
-            totalContributions
-            weeks {{
-              contributionDays {{
-                date
-                contributionCount
-              }}
-            }}
-          }}
-        }}
-      }}
-    }}
-    """
-    return run_graphql_query(query)
+        """
+        response = run_graphql_query(query)
+        user = response['data']['user']
+        if user is None:
+            raise Exception(f"User '{USERNAME}' not found or inaccessible")
+        if user_data is None:
+            user_data = user
+        repos.extend(user['repositories']['nodes'])
+        page_info = user['repositories']['pageInfo']
+        if not page_info['hasNextPage']:
+            break
+        cursor = page_info['endCursor']
+
+    merged_user_data = {
+        **user_data,
+        'repositories': {
+            'nodes': repos,
+            'pageInfo': {'hasNextPage': False, 'endCursor': page_info['endCursor']}
+        }
+    }
+    return {'data': {'user': merged_user_data}}
 
 def calculate_streak(calendar):
     """Calculates current and longest streak."""
