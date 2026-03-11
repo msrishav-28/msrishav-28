@@ -15,31 +15,31 @@
     
         <text x="50" y="80" class="label">PYTHON</text>
         <rect x="150" y="70" width="200" height="14" fill="#003300"/>
-        <rect x="150" y="70" width="127.5882842445042" height="14" fill="#00ff41"/>
+        <rect x="150" y="70" width="127.57660801987114" height="14" fill="#00ff41"/>
         <text x="360" y="80" class="text value">51.0%</text>
         
         <text x="50" y="120" class="label">TYPESCRIPT</text>
         <rect x="150" y="110" width="200" height="14" fill="#003300"/>
-        <rect x="150" y="110" width="67.91513115699884" height="14" fill="#00ff41"/>
+        <rect x="150" y="110" width="67.931794629225" height="14" fill="#00ff41"/>
         <text x="360" y="120" class="text value">27.2%</text>
         
         <text x="50" y="160" class="label">DART</text>
         <rect x="150" y="150" width="200" height="14" fill="#003300"/>
-        <rect x="150" y="150" width="32.45764545015015" height="14" fill="#00ff41"/>
+        <rect x="150" y="150" width="32.45467509310225" height="14" fill="#00ff41"/>
         <text x="360" y="160" class="text value">13.0%</text>
         
         <text x="420" y="80" class="label">JAVASCRIPT</text>
         <rect x="520" y="70" width="200" height="14" fill="#003300"/>
-        <rect x="520" y="70" width="15.963639814625532" height="14" fill="#00ff41"/>
+        <rect x="520" y="70" width="15.962178904279877" height="14" fill="#00ff41"/>
         <text x="730" y="80" class="text value">6.4%</text>
         
         <text x="420" y="120" class="label">KOTLIN</text>
         <rect x="520" y="110" width="200" height="14" fill="#003300"/>
-        <rect x="520" y="110" width="4.488097871493331" height="14" fill="#00ff41"/>
+        <rect x="520" y="110" width="4.48768714382164" height="14" fill="#00ff41"/>
         <text x="730" y="120" class="text value">1.8%</text>
         
         <text x="420" y="160" class="label">PLPGSQL</text>
         <rect x="520" y="150" width="200" height="14" fill="#003300"/>
-        <rect x="520" y="150" width="1.0086271869233736" height="14" fill="#00ff41"/>
+        <rect x="520" y="150" width="1.0085348825423306" height="14" fill="#00ff41"/>
         <text x="730" y="160" class="text value">0.4%</text>
         </svg>
