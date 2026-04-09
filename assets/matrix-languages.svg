@@ -15,31 +15,31 @@
     
         <text x="50" y="80" class="label">PYTHON</text>
         <rect x="150" y="70" width="200" height="14" fill="#003300"/>
-        <rect x="150" y="70" width="126.89069604291377" height="14" fill="#00ff41"/>
-        <text x="360" y="80" class="text value">50.8%</text>
+        <rect x="150" y="70" width="126.58180124483076" height="14" fill="#00ff41"/>
+        <text x="360" y="80" class="text value">50.6%</text>
         
         <text x="50" y="120" class="label">TYPESCRIPT</text>
         <rect x="150" y="110" width="200" height="14" fill="#003300"/>
-        <rect x="150" y="110" width="68.19108461659846" height="14" fill="#00ff41"/>
-        <text x="360" y="120" class="text value">27.3%</text>
+        <rect x="150" y="110" width="67.94044680712022" height="14" fill="#00ff41"/>
+        <text x="360" y="120" class="text value">27.2%</text>
         
         <text x="50" y="160" class="label">DART</text>
         <rect x="150" y="150" width="200" height="14" fill="#003300"/>
-        <rect x="150" y="150" width="32.310296527020114" height="14" fill="#00ff41"/>
+        <rect x="150" y="150" width="32.191539331843416" height="14" fill="#00ff41"/>
         <text x="360" y="160" class="text value">12.9%</text>
         
         <text x="420" y="80" class="label">JAVASCRIPT</text>
         <rect x="520" y="70" width="200" height="14" fill="#003300"/>
-        <rect x="520" y="70" width="16.56020369396402" height="14" fill="#00ff41"/>
-        <text x="730" y="80" class="text value">6.6%</text>
+        <rect x="520" y="70" width="17.260722019403673" height="14" fill="#00ff41"/>
+        <text x="730" y="80" class="text value">6.9%</text>
         
         <text x="420" y="120" class="label">KOTLIN</text>
         <rect x="520" y="110" width="200" height="14" fill="#003300"/>
-        <rect x="520" y="110" width="4.467723122213305" height="14" fill="#00ff41"/>
+        <rect x="520" y="110" width="4.451301909044417" height="14" fill="#00ff41"/>
         <text x="730" y="120" class="text value">1.8%</text>
         
         <text x="420" y="160" class="label">PLPGSQL</text>
         <rect x="520" y="150" width="200" height="14" fill="#003300"/>
-        <rect x="520" y="150" width="1.0040482925589904" height="14" fill="#00ff41"/>
+        <rect x="520" y="150" width="1.000357891298001" height="14" fill="#00ff41"/>
         <text x="730" y="160" class="text value">0.4%</text>
         </svg>
