@@ -234,7 +234,7 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 ## > RECENT MATRIX ACTIVITY LOG
 
 <!--START_SECTION:activity-->
-- 💤 No recent public activity available right now.
+1. 🎉 Merged PR [#1](https://github.com/msrishav-28/career-os/pull/1) in [msrishav-28/career-os](https://github.com/msrishav-28/career-os)
 <!--END_SECTION:activity-->
 
 ---
