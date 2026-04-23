@@ -231,6 +231,14 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 
 ---
 
+## > RECENT MATRIX ACTIVITY LOG
+
+<!--START_SECTION:activity-->
+- 💤 No recent public activity available right now.
+<!--END_SECTION:activity-->
+
+---
+
 ![System Shutdown](https://raw.githubusercontent.com/msrishav-28/msrishav-28/main/assets/matrix-footer.svg)
 
 <div align="center">
