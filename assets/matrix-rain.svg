@@ -32,164 +32,164 @@
     
     <rect width="100%" height="100%" class="matrix-bg"/>
 
-    <text x="5.0" y="0" class="rain-drop" style="animation: fall 7.474338614398151s linear infinite; animation-delay: -3.5253991309770134s;">
-        ﾈｳﾜｵﾜﾈ6ﾀﾇﾏﾂ25ｼﾇ6ﾜｰｾ
+    <text x="5.0" y="0" class="rain-drop" style="animation: fall 4.250770439859819s linear infinite; animation-delay: -2.6045358203354456s;">
+        ｰｵｳｷﾎﾎﾜﾇｾﾗﾒﾂ6ﾃｾﾏｴｳﾜ9ﾎﾆﾇｱ
     </text>
 
-    <text x="26.25" y="0" class="rain-drop" style="animation: fall 5.2560768211978655s linear infinite; animation-delay: -0.19902252501318218s;">
-        0ﾃｷｰｵｵｽｵﾘﾀ2ﾕ
+    <text x="26.25" y="0" class="rain-drop" style="animation: fall 5.055331363370339s linear infinite; animation-delay: -1.061076523365988s;">
+        ﾆﾍｳ9ﾋﾜｹﾅﾗﾀｹﾜﾋﾎｴ9
     </text>
 
-    <text x="47.5" y="0" class="rain-drop" style="animation: fall 7.1390497549709035s linear infinite; animation-delay: -2.252062874377299s;">
-        17ｹ0ｱﾇｶｼﾃ2ｽ9ﾀ3ｼｶﾈﾈﾎﾜﾀｵ
+    <text x="47.5" y="0" class="rain-drop" style="animation: fall 3.2433065437563946s linear infinite; animation-delay: -2.3681249623763634s;">
+        ﾋｷ1ﾘ95ｴ3ﾃｷｻｻ8ﾀﾓﾑｼｶﾘ1ｱ
     </text>
 
-    <text x="68.75" y="0" class="rain-drop" style="animation: fall 5.695173354993553s linear infinite; animation-delay: -0.03515363950462813s;">
-        ﾆ7ｻ6ﾗｳﾅﾐｵﾓﾀｷｹｰﾒ9ｴｽｶﾇｶ3ﾗﾀ
+    <text x="68.75" y="0" class="rain-drop" style="animation: fall 6.553201720406739s linear infinite; animation-delay: -3.4547963677403777s;">
+        ｹﾒｷﾜﾅｱ3ﾑﾕﾒｷﾂ2ｰﾂﾀﾑﾀｹﾅﾑｼ0
     </text>
 
-    <text x="90.0" y="0" class="rain-drop" style="animation: fall 6.412696454227154s linear infinite; animation-delay: -4.395528202741316s;">
-        3ｹﾆﾍ5ﾆﾋﾇﾊｷｻｾｳﾍﾋﾀｷﾐﾑｽ0ﾊ
+    <text x="90.0" y="0" class="rain-drop" style="animation: fall 6.78696280511637s linear infinite; animation-delay: -4.294429373703494s;">
+        ｻﾋﾍﾅｱ5ﾗｵ2ﾇｼ2ｽ06ﾑﾃﾀ8
     </text>
 
-    <text x="111.25" y="0" class="rain-drop" style="animation: fall 6.846165052329156s linear infinite; animation-delay: -1.2234290385032798s;">
-        47ﾑ3ﾑｻｼﾐ7ｼﾅｼ0ﾘﾂﾊ7ｰﾋ
+    <text x="111.25" y="0" class="rain-drop" style="animation: fall 7.393796935931057s linear infinite; animation-delay: -2.8291024863323715s;">
+        81ﾓｽﾎ4ﾅｾﾍ6ﾅﾀﾜ
     </text>
 
-    <text x="132.5" y="0" class="rain-drop" style="animation: fall 4.366997619435863s linear infinite; animation-delay: -3.007944210669065s;">
-        ｾ174ｹ5ｷｶﾍﾒｾﾓﾑ5ﾊ8ｳｼｾﾅﾈｾｽｴﾕ
+    <text x="132.5" y="0" class="rain-drop" style="animation: fall 3.016930601468495s linear infinite; animation-delay: -4.154604107976305s;">
+        ﾍﾗﾑ3ﾂｾ1ﾋｱﾗﾊﾑﾋｻ6ﾓﾏﾊﾅ1ﾐ
     </text>
 
-    <text x="153.75" y="0" class="rain-drop" style="animation: fall 4.179942044084868s linear infinite; animation-delay: -3.5016644828638226s;">
-        ｹ1ﾏ7ｰｳｶ620ｰﾏﾆﾅｰﾃﾂﾒﾊ
+    <text x="153.75" y="0" class="rain-drop" style="animation: fall 3.2686215568378385s linear infinite; animation-delay: -0.36270597305960217s;">
+        ﾗ11ﾋﾇｳﾐﾂ9ｻ9ﾃ511ﾕﾗｶｹﾜｹｷｱｼ3
     </text>
 
-    <text x="175.0" y="0" class="rain-drop" style="animation: fall 6.875907390161382s linear infinite; animation-delay: -3.411092526564416s;">
-        ﾆｼﾏﾀｵ4ﾏ2ﾒﾀ5ﾗｴｽ0ﾍｰﾆｱ32ﾇﾒ
+    <text x="175.0" y="0" class="rain-drop" style="animation: fall 7.044533452805197s linear infinite; animation-delay: -3.359532919117637s;">
+        3ｹ2ﾘ0ﾑﾊ1ﾎ7ﾗｽﾀｰﾀ
     </text>
 
-    <text x="196.25" y="0" class="rain-drop" style="animation: fall 3.1540032215339977s linear infinite; animation-delay: -2.5972328039870582s;">
-        ﾎｳﾗ8ﾒ7ﾅ93ﾋ622ｶ2ﾐﾘｹ
+    <text x="196.25" y="0" class="rain-drop" style="animation: fall 5.245504640977069s linear infinite; animation-delay: -1.5411052315209728s;">
+        ﾒｻｹﾓｳ4ｽﾐﾇﾒ5ｶ9ﾋｽ2
     </text>
 
-    <text x="217.5" y="0" class="rain-drop" style="animation: fall 3.5293938414141817s linear infinite; animation-delay: -1.9857340386242706s;">
-        ﾈｰﾜ8ｵﾕﾅｶﾜ7ﾓﾐｵｴﾓｼｳ8ｼﾏｵｰﾜｼﾃ
+    <text x="217.5" y="0" class="rain-drop" style="animation: fall 5.236750893465555s linear infinite; animation-delay: -0.786828209391045s;">
+        ｷｾｵﾗﾕｱ1ﾕｾ9ｳﾜｾ0ｷﾘ03ﾘ
     </text>
 
-    <text x="238.75" y="0" class="rain-drop" style="animation: fall 4.238236448426956s linear infinite; animation-delay: -1.8789946313169819s;">
-        ｾ1ｾﾃﾒﾋﾒﾕﾘｻ25ｻﾘｴ1ﾀﾗｳ
+    <text x="238.75" y="0" class="rain-drop" style="animation: fall 3.849125914378757s linear infinite; animation-delay: -2.703995562534863s;">
+        2ﾎ48ﾈｼ76ｼｹﾜｴﾀﾏｹ9ﾃﾊﾆ3
     </text>
 
-    <text x="260.0" y="0" class="rain-drop" style="animation: fall 4.95326724379317s linear infinite; animation-delay: -2.3781466611039614s;">
-        ﾏﾕｹﾜﾍ0ｴﾃ5ﾋﾈ1ｳ
+    <text x="260.0" y="0" class="rain-drop" style="animation: fall 4.991362966623193s linear infinite; animation-delay: -3.021954335436864s;">
+        6ﾍﾜﾊﾕｴｼｵﾕ6ﾕ4ｱ
     </text>
 
-    <text x="281.25" y="0" class="rain-drop" style="animation: fall 7.762863771668911s linear infinite; animation-delay: -3.731308179292529s;">
-        ｱﾍﾑﾈｽｵﾘｻﾀﾑ7ｱﾏ5076ﾒｽﾒﾗ8ﾍﾓｴ
+    <text x="281.25" y="0" class="rain-drop" style="animation: fall 3.1356609556797084s linear infinite; animation-delay: -3.288765745774745s;">
+        ﾜ7ﾀｹｱﾅﾋﾐｴ3ｵﾍｹ3ﾏﾅｱﾎﾈｻﾜ0
     </text>
 
-    <text x="302.5" y="0" class="rain-drop" style="animation: fall 5.399902286148832s linear infinite; animation-delay: -0.2593945231462341s;">
-        ﾗﾕ9ﾕﾈｾ76ﾇ5ｰﾃｵﾂｵﾂﾐﾃ2ﾈ
+    <text x="302.5" y="0" class="rain-drop" style="animation: fall 3.586924729997853s linear infinite; animation-delay: -3.7444229149954413s;">
+        ﾜﾓ3ﾆﾈｾｾ6ｴｶﾜ46ﾃｷﾜﾏﾓ
     </text>
 
-    <text x="323.75" y="0" class="rain-drop" style="animation: fall 5.733742165218413s linear infinite; animation-delay: -4.2906662247189615s;">
-        ｶ2ｻｻﾑｻ2ｰｾﾕｽｻ0ﾓ4ﾊﾍﾘ
+    <text x="323.75" y="0" class="rain-drop" style="animation: fall 7.422439734523299s linear infinite; animation-delay: -2.213450965320814s;">
+        ﾍｰﾏｳｴｶﾏ76ﾅ1ﾂﾋ8ﾍ5ﾜ
     </text>
 
-    <text x="345.0" y="0" class="rain-drop" style="animation: fall 5.308391421541266s linear infinite; animation-delay: -0.6703400409287791s;">
-        8754ｵｼﾐﾕ2ﾅﾃｻｽｻ66ﾐｷﾅﾘﾍ7ﾗｶｰ
+    <text x="345.0" y="0" class="rain-drop" style="animation: fall 7.460519776004582s linear infinite; animation-delay: -3.8502154929084327s;">
+        ﾘ2ﾅｷ4ﾊﾓﾒﾜﾇ1ﾐｴ6ﾀｾﾘﾐﾊﾆﾜ2
     </text>
 
-    <text x="366.25" y="0" class="rain-drop" style="animation: fall 5.737762443009334s linear infinite; animation-delay: -2.1793455045489947s;">
-        ｽﾅﾈﾋﾈｻﾕｹﾆｼ1ｾﾈﾈﾆﾀｳ0ｻﾓ
+    <text x="366.25" y="0" class="rain-drop" style="animation: fall 4.562707099043942s linear infinite; animation-delay: -1.7379005083899424s;">
+        ﾏﾀﾃﾏｰ3ﾎﾈｹｱﾗ
     </text>
 
-    <text x="387.5" y="0" class="rain-drop" style="animation: fall 5.463699372203205s linear infinite; animation-delay: -2.6189181637119785s;">
-        ﾎｱｶ4ﾘ36ﾋﾇﾂﾗ8
+    <text x="387.5" y="0" class="rain-drop" style="animation: fall 4.013430623775752s linear infinite; animation-delay: -4.169222642661615s;">
+        ﾀｴ1ｰ2ﾃﾐﾇｹﾊﾃｷﾗﾏ85ﾏ
     </text>
 
-    <text x="408.75" y="0" class="rain-drop" style="animation: fall 6.547745954500845s linear infinite; animation-delay: -4.3541385899867215s;">
-        ﾈﾜｴｳ0ｰﾐﾃｻﾐｶﾘｴﾒｼ523710ﾗﾀ
+    <text x="408.75" y="0" class="rain-drop" style="animation: fall 6.6074163064114995s linear infinite; animation-delay: -4.8727529747973914s;">
+        ﾗﾃｶｽﾆｼ2ﾐﾍﾈｾ5ﾇ
     </text>
 
-    <text x="430.0" y="0" class="rain-drop" style="animation: fall 3.0195004653194495s linear infinite; animation-delay: -3.1465566750551255s;">
-        1ﾆﾅﾇｰﾅ9ﾅｱﾎｷ
+    <text x="430.0" y="0" class="rain-drop" style="animation: fall 7.202090884976501s linear infinite; animation-delay: -4.544867873868515s;">
+        ｹｴﾎ4ﾊﾐﾀ9ﾈ6ｰﾓ
     </text>
 
-    <text x="451.25" y="0" class="rain-drop" style="animation: fall 6.859930268280538s linear infinite; animation-delay: -1.2013053231847004s;">
-        5ﾇﾐ2ｶ75ﾜﾜﾂﾆ0
+    <text x="451.25" y="0" class="rain-drop" style="animation: fall 6.521659008948122s linear infinite; animation-delay: -4.17163972564431s;">
+        6ｹﾇｶｳ7ﾋｳﾀﾕﾋﾃｵｼｴ16ｴﾏ
     </text>
 
-    <text x="472.5" y="0" class="rain-drop" style="animation: fall 4.753347943872316s linear infinite; animation-delay: -1.0642960484124897s;">
-        ﾊ0ｵﾆｷｽﾂｹﾇﾋｷﾐﾃﾀ9ｵｶ
+    <text x="472.5" y="0" class="rain-drop" style="animation: fall 6.7295422412127275s linear infinite; animation-delay: -4.110409524954368s;">
+        ｽﾃﾆｷ9ｷｴﾍﾈｴﾓﾕﾏ6
     </text>
 
-    <text x="493.75" y="0" class="rain-drop" style="animation: fall 4.947859076658981s linear infinite; animation-delay: -1.745078906413799s;">
-        ﾓ4ﾘﾈ1ﾂﾘﾀｱ5ﾂｼﾆ
+    <text x="493.75" y="0" class="rain-drop" style="animation: fall 3.8182590891277153s linear infinite; animation-delay: -1.8611345164801962s;">
+        ﾎﾍｻﾜ2ﾐｵ6ｹﾕｴ6ｷ0ｹﾃﾒﾀｷｷﾈ
     </text>
 
-    <text x="515.0" y="0" class="rain-drop" style="animation: fall 3.2345230709158996s linear infinite; animation-delay: -1.7490027323485136s;">
-        5ｷ0ﾜｻﾗﾐｼﾈｻｶ85
+    <text x="515.0" y="0" class="rain-drop" style="animation: fall 4.022361692035583s linear infinite; animation-delay: -3.037823313937263s;">
+        ﾑﾀﾕ8ﾐｼｼﾘ3ﾇ
     </text>
 
-    <text x="536.25" y="0" class="rain-drop" style="animation: fall 5.087166525103216s linear infinite; animation-delay: -1.4508626542886316s;">
-        0ﾇﾂﾕｱﾐﾎｶｰﾊﾑ0ﾃｵｴ16ﾐ2
+    <text x="536.25" y="0" class="rain-drop" style="animation: fall 7.386680597831605s linear infinite; animation-delay: -1.0703626093221725s;">
+        1ﾑ77ｼﾇﾊ4ﾘｷﾗｻ4ｳﾓ
     </text>
 
-    <text x="557.5" y="0" class="rain-drop" style="animation: fall 7.48170225859077s linear infinite; animation-delay: -3.041083177426915s;">
-        ｳﾎｻｽﾊｾﾗﾅ19ｶﾈﾍｱﾕ7ｶｷﾐﾏ2
+    <text x="557.5" y="0" class="rain-drop" style="animation: fall 5.19556699545376s linear infinite; animation-delay: -2.26309369487208s;">
+        ﾑﾗｷﾇｱｳﾎ393ｷﾒｽｳｷ6ﾘﾅ2ﾑ
     </text>
 
-    <text x="578.75" y="0" class="rain-drop" style="animation: fall 7.175523931930661s linear infinite; animation-delay: -2.7344774398532112s;">
-        ﾂ0ｰｼｴﾎｱ5ﾍ0ｽﾐﾜ1ｽｷﾅ
+    <text x="578.75" y="0" class="rain-drop" style="animation: fall 3.3457252404835005s linear infinite; animation-delay: -4.8198267928893115s;">
+        8ﾕﾇﾏﾓｹﾆｽ27369ﾎｾｷｻ
     </text>
 
-    <text x="600.0" y="0" class="rain-drop" style="animation: fall 6.130376101446152s linear infinite; animation-delay: -4.249596807675199s;">
-        ﾕﾑﾍｹｵﾎﾃ38ｼｹﾃｰﾅｰ
+    <text x="600.0" y="0" class="rain-drop" style="animation: fall 3.850322934613864s linear infinite; animation-delay: -4.782699622370977s;">
+        ﾊ5ｴｷｰ7ｹﾊﾒｷﾅﾑﾀﾃﾘ
     </text>
 
-    <text x="621.25" y="0" class="rain-drop" style="animation: fall 5.42052878017838s linear infinite; animation-delay: -2.898062447776515s;">
-        ｱ0ｾﾇｱｴｻﾎﾅﾈﾗｾﾋﾏｾﾓﾎ
+    <text x="621.25" y="0" class="rain-drop" style="animation: fall 4.797523937119681s linear infinite; animation-delay: -1.9050425812377014s;">
+        3ｴﾅ3ｷ7ｰﾂ0ﾇｻ81ﾏｷｾｱ1ﾘｹ56ﾆﾅ8
     </text>
 
-    <text x="642.5" y="0" class="rain-drop" style="animation: fall 7.274526555705109s linear infinite; animation-delay: -1.4638160587752695s;">
-        ﾜﾓ4ﾗｰ4ﾃｴｳﾒ7ﾇﾘﾑﾂｼ2ｶﾏﾅ6ﾀ
+    <text x="642.5" y="0" class="rain-drop" style="animation: fall 3.705322816762725s linear infinite; animation-delay: -0.6191534074879684s;">
+        ｹﾅﾑﾇﾋ87ｴｻ8116ｱﾓﾀｾ147ﾐｹ
     </text>
 
-    <text x="663.75" y="0" class="rain-drop" style="animation: fall 4.913749629723339s linear infinite; animation-delay: -1.0556236600463205s;">
-        ﾕﾐ6ﾂ9ﾃｾｽﾓﾗ
+    <text x="663.75" y="0" class="rain-drop" style="animation: fall 3.231505284020767s linear infinite; animation-delay: -1.0598123040607392s;">
+        ﾆｴ0ﾋｴｴｵ7ﾇｳﾇﾐｳ8ﾈﾒ03ﾐ2ﾕ7ｻﾜﾊ
     </text>
 
-    <text x="685.0" y="0" class="rain-drop" style="animation: fall 7.398834487685769s linear infinite; animation-delay: -1.9926825079645387s;">
-        7ﾍ6ｽｷ7ﾆｴﾃﾕﾇｻ7ﾃﾅﾗｴ
+    <text x="685.0" y="0" class="rain-drop" style="animation: fall 3.3785065077781367s linear infinite; animation-delay: -4.3463821926030874s;">
+        ﾃｳﾒﾑｼ25ﾒﾅﾂｶﾃﾅ2ﾅﾅｾ4ﾊｶ7ﾂ0
     </text>
 
-    <text x="706.25" y="0" class="rain-drop" style="animation: fall 7.954525517273928s linear infinite; animation-delay: -3.133935100853238s;">
-        ｱｶﾆﾀﾎｰﾏｷ771ﾃﾊﾜﾜ5ﾏﾏ62
+    <text x="706.25" y="0" class="rain-drop" style="animation: fall 6.536514836959128s linear infinite; animation-delay: -2.6938832194939097s;">
+        ﾇﾏﾊﾑｶ0ﾒﾗｻﾘﾏ
     </text>
 
-    <text x="727.5" y="0" class="rain-drop" style="animation: fall 4.8283544963040885s linear infinite; animation-delay: -3.4294940672937653s;">
-        ﾐｼ3ﾀｳｽﾘﾒﾊｶｱﾓﾎﾕ13ｳﾏ
+    <text x="727.5" y="0" class="rain-drop" style="animation: fall 5.685325715495223s linear infinite; animation-delay: -0.03386285813087975s;">
+        ﾎﾓｰﾗﾒﾎﾀ4ﾀﾅﾇﾎ76
     </text>
 
-    <text x="748.75" y="0" class="rain-drop" style="animation: fall 5.172391052128033s linear infinite; animation-delay: -1.3805335866885582s;">
-        5ﾎﾈﾐｼ4ｼｷｵｻﾑ
+    <text x="748.75" y="0" class="rain-drop" style="animation: fall 6.5743290660629405s linear infinite; animation-delay: -1.8610170952863625s;">
+        ｹ7ﾑﾊ9ﾑｵﾘﾇﾂ1ﾋﾃﾐﾓ
     </text>
 
-    <text x="770.0" y="0" class="rain-drop" style="animation: fall 6.715643092666408s linear infinite; animation-delay: -1.2280039748995297s;">
-        8ﾕ5ﾏ43ﾎﾒｳﾈ3ﾋﾊﾎﾎ9
+    <text x="770.0" y="0" class="rain-drop" style="animation: fall 3.3451395785715734s linear infinite; animation-delay: -0.8005158931366763s;">
+        ﾂﾊﾜﾎﾐ48ﾅﾋｴｹﾒ8ﾏﾊｻﾑﾋﾕｹ3ﾍﾂﾂｾ
     </text>
 
-    <text x="791.25" y="0" class="rain-drop" style="animation: fall 4.42590638914569s linear infinite; animation-delay: -2.065922189580869s;">
-        ﾐ7ﾗﾊﾓｾﾒｴ8ｱﾑ95ﾘ3ﾒｳﾎｰｽ8ｴ4ﾂ
+    <text x="791.25" y="0" class="rain-drop" style="animation: fall 4.201691916839946s linear infinite; animation-delay: -0.20281437534721614s;">
+        ｴ6ﾊｾﾗ1ﾂ0ｹｴﾏﾍﾐ9ﾈﾊﾇ
     </text>
 
-    <text x="812.5" y="0" class="rain-drop" style="animation: fall 3.1130619443199814s linear infinite; animation-delay: -0.6025256873556861s;">
-        ﾂﾇﾑ7ﾏﾎｻﾘｹｶﾋｴ4ｵﾀ
+    <text x="812.5" y="0" class="rain-drop" style="animation: fall 4.122442450618472s linear infinite; animation-delay: -3.6337270435613576s;">
+        ｹ9ﾋｳ7ｻﾑｻ7ｼｰﾎ78
     </text>
 
-    <text x="833.75" y="0" class="rain-drop" style="animation: fall 3.043319522992162s linear infinite; animation-delay: -1.4748410842718573s;">
-        ｹ2ｴﾗｼﾜﾈ5ﾐﾍ
+    <text x="833.75" y="0" class="rain-drop" style="animation: fall 3.6238210635309005s linear infinite; animation-delay: -1.1229641763499676s;">
+        ﾀ4ﾇ1ｶﾎﾂ4ﾏﾂｽｻﾏｼ5ﾋﾏﾜﾘﾐ0ﾃﾘﾕ
     </text>
 
     <text x="10" y="290" font-family="Courier Prime" font-size="10" fill="#009929" opacity="0.8">
