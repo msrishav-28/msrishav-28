@@ -48,8 +48,8 @@
     
     <text x="350" y="145" class="label">FOLLOWERS</text>
     <rect x="420" y="135" width="100" height="12" fill="#003300"/>
-    <rect x="420" y="135" width="18" height="12" fill="#00ff41"/>
-    <text x="530" y="145" class="text value">9</text>
+    <rect x="420" y="135" width="16" height="12" fill="#00ff41"/>
+    <text x="530" y="145" class="text value">8</text>
 
      <!-- Col 3: Stats Text -->
     <text x="600" y="115" class="label">CONTRIBUTIONS</text>
@@ -60,7 +60,7 @@
     <rect x="20" y="210" width="760" height="90" class="panel" rx="4"/>
     <text x="35" y="235" class="text header">&gt; SYSTEM_LOG</text>
     
-    <text x="35" y="260" class="text value">User: msrishav-28 | Init: 2024 | Time: 2026-04-27 08:32:38</text>
+    <text x="35" y="260" class="text value">User: msrishav-28 | Init: 2024 | Time: 2026-04-27 14:05:05</text>
     <text x="35" y="280" class="text value">Current Streak: 0 Days | Longest Streak: 11 Days</text>
     
     <text x="650" y="270" class="text header glitch" font-size="20">THE ONE</text>
