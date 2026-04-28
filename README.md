@@ -234,7 +234,7 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 ## > RECENT MATRIX ACTIVITY LOG
 
 <!--START_SECTION:activity-->
-1. ❌ Closed PR [#1](https://github.com/enigmaticsoul-28/Crucix/pull/1) in [enigmaticsoul-28/Crucix](https://github.com/enigmaticsoul-28/Crucix)
+1. 💪 Opened PR [#1](https://github.com/msrishav-28/seva-ai/pull/1) in [msrishav-28/seva-ai](https://github.com/msrishav-28/seva-ai)
 <!--END_SECTION:activity-->
 
 ---
