@@ -234,7 +234,7 @@ If the animation doesn't appear, check GitHub Actions workflow status.
 ## > RECENT MATRIX ACTIVITY LOG
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/msrishav-28/ai-satellite-monitor/pull/2) in [msrishav-28/ai-satellite-monitor](https://github.com/msrishav-28/ai-satellite-monitor)
+1. 🎉 Merged PR [#1](https://github.com/john-silvister/lab-dashboard/pull/1) in [john-silvister/lab-dashboard](https://github.com/john-silvister/lab-dashboard)
 <!--END_SECTION:activity-->
 
 ---
