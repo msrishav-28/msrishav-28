@@ -94,30 +94,6 @@ public evidence, not exaggerated production claims.
 
 ---
 
-## > language.matrix ![weekly data](https://img.shields.io/badge/weekly-data-39FF14?style=flat-square&labelColor=0D1117&color=39FF14)
-
-<p align="center">
-  <img src="./assets/matrix-languages.svg" alt="Matrix green language distribution pie chart" width="100%" />
-</p>
-
----
-
-## > proof.signals ![public evidence](https://img.shields.io/badge/public-evidence-00FF41?style=flat-square&labelColor=0D1117&color=00FF41)
-
-<p align="center">
-  <img src="./assets/matrix-achievements.svg" alt="Matrix-inspired proof signals for public repositories, languages, live links, and weekly updates" width="100%" />
-</p>
-
----
-
-## > matrix.backdrop ![visual pulse](https://img.shields.io/badge/visual-pulse-39FF14?style=flat-square&labelColor=0D1117&color=39FF14)
-
-<p align="center">
-  <img src="./assets/matrix-rain.svg" alt="Subtle Matrix rain backdrop for the profile dashboard" width="100%" />
-</p>
-
----
-
 ## > contribution.stream ![weekly refresh](https://img.shields.io/badge/weekly-refresh-39FF14?style=flat-square&labelColor=0D1117&color=39FF14)
 
 <p align="center">
