@@ -126,3 +126,4 @@ and serious builder conversations.
 <p align="center">
   <code>learning in public | building applied systems | shipping better each iteration</code>
 </p>
+<img width="500" height="206" alt="1_sn3QAzo0G-oRoXtMCqjJOg" src="https://github.com/user-attachments/assets/b5d56bc1-945b-4bf7-9f7e-c5368770af50" />
